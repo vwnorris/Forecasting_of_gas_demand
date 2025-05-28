@@ -1,0 +1,1136 @@
+[
+    {
+        "model": "petformer",
+        "targets24": {
+            "Volumrate_Easington_hourly": {
+                "performance": 3.700517416000366,
+                "R2": 0.9122984409332275,
+                "MSE": 34.53303146362305,
+                "RMSE": 5.8764812144363265,
+                "SMAPE": 16.51830291748047,
+                "epochs": 500,
+                "completed_epochs": 28,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 1.251754879951477,
+                "R2": 0.8146145343780518,
+                "MSE": 4.862414836883545,
+                "RMSE": 2.205088396614418,
+                "SMAPE": 44.139991760253906,
+                "epochs": 500,
+                "completed_epochs": 5,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.34362804889678955,
+                "R2": 0.27716344594955444,
+                "MSE": 0.3555620014667511,
+                "RMSE": 0.5962901990363006,
+                "SMAPE": 0.8061248660087585,
+                "epochs": 500,
+                "completed_epochs": 13,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 1.1928335428237915,
+                "R2": 0.8855969905853271,
+                "MSE": 6.874466896057129,
+                "RMSE": 2.621920459521442,
+                "SMAPE": 5.945333003997803,
+                "epochs": 500,
+                "completed_epochs": 28,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 2.1088979244232178,
+                "R2": 0.7148770093917847,
+                "MSE": 24.15372657775879,
+                "RMSE": 4.914644094719249,
+                "SMAPE": 1.8541027307510376,
+                "epochs": 500,
+                "completed_epochs": 28,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            }
+        },
+        "targets48": {
+            "Volumrate_Easington_hourly": {
+                "performance": 5.823076248168945,
+                "R2": 0.7909082174301147,
+                "MSE": 82.83324432373047,
+                "RMSE": 9.101277071034069,
+                "SMAPE": 21.53348731994629,
+                "epochs": 500,
+                "completed_epochs": 6,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 1.6847184896469116,
+                "R2": 0.5599852204322815,
+                "MSE": 10.458032608032227,
+                "RMSE": 3.2338881563888733,
+                "SMAPE": 56.4913444519043,
+                "epochs": 500,
+                "completed_epochs": 21,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.4144585132598877,
+                "R2": -0.009688735008239746,
+                "MSE": 0.5001877546310425,
+                "RMSE": 0.7072395312983024,
+                "SMAPE": 0.9705318212509155,
+                "epochs": 500,
+                "completed_epochs": 11,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 1.8999757766723633,
+                "R2": 0.5998393297195435,
+                "MSE": 24.06147003173828,
+                "RMSE": 4.90524923237732,
+                "SMAPE": 7.144646167755127,
+                "epochs": 500,
+                "completed_epochs": 11,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 3.2876386642456055,
+                "R2": 0.3373180627822876,
+                "MSE": 56.23585891723633,
+                "RMSE": 7.499057201891204,
+                "SMAPE": 2.7859835624694824,
+                "epochs": 500,
+                "completed_epochs": 6,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            }
+        },
+        "targets72": {
+            "Volumrate_Easington_hourly": {
+                "performance": 7.677952289581299,
+                "R2": 0.6800087690353394,
+                "MSE": 127.4418716430664,
+                "RMSE": 11.289015530287235,
+                "SMAPE": 24.35530662536621,
+                "epochs": 500,
+                "completed_epochs": 11,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 2.1137149333953857,
+                "R2": 0.2014736533164978,
+                "MSE": 16.92559051513672,
+                "RMSE": 4.114072254486632,
+                "SMAPE": 68.19987487792969,
+                "epochs": 500,
+                "completed_epochs": 7,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.5933634042739868,
+                "R2": -0.7000126838684082,
+                "MSE": 0.8453591465950012,
+                "RMSE": 0.9194341447841717,
+                "SMAPE": 1.3850793838500977,
+                "epochs": 500,
+                "completed_epochs": 6,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 2.6508312225341797,
+                "R2": 0.35808175802230835,
+                "MSE": 38.598392486572266,
+                "RMSE": 6.212760456236202,
+                "SMAPE": 8.420506477355957,
+                "epochs": 500,
+                "completed_epochs": 6,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 4.168754577636719,
+                "R2": 0.18136024475097656,
+                "MSE": 69.51921081542969,
+                "RMSE": 8.33781810879979,
+                "SMAPE": 3.4437246322631836,
+                "epochs": 500,
+                "completed_epochs": 11,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            }
+        }
+    },
+    {
+        "model": "rnn",
+        "targets24": {
+            "Volumrate_Easington_hourly": {
+                "performance": 4.31220006942749,
+                "R2": 0.8947902917861938,
+                "MSE": 41.42697525024414,
+                "RMSE": 6.436379048055214,
+                "SMAPE": 18.61126708984375,
+                "epochs": 500,
+                "completed_epochs": 33,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 1.421223759651184,
+                "R2": 0.787431538105011,
+                "MSE": 5.5753889083862305,
+                "RMSE": 2.361226145117454,
+                "SMAPE": 59.29608154296875,
+                "epochs": 500,
+                "completed_epochs": 33,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.4986940026283264,
+                "R2": -0.2250349521636963,
+                "MSE": 0.6025925278663635,
+                "RMSE": 0.776268334963087,
+                "SMAPE": 1.1678262948989868,
+                "epochs": 500,
+                "completed_epochs": 33,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 1.5565301179885864,
+                "R2": 0.828445553779602,
+                "MSE": 10.308691024780273,
+                "RMSE": 3.2107150332566534,
+                "SMAPE": 6.63771390914917,
+                "epochs": 500,
+                "completed_epochs": 39,
+                "batch_size": 32,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 2.7186567783355713,
+                "R2": 0.6281432509422302,
+                "MSE": 31.501237869262695,
+                "RMSE": 5.612596357236345,
+                "SMAPE": 2.3072609901428223,
+                "epochs": 500,
+                "completed_epochs": 39,
+                "batch_size": 32,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            }
+        },
+        "targets48": {
+            "Volumrate_Easington_hourly": {
+                "performance": 6.2476725578308105,
+                "R2": 0.7764866948127747,
+                "MSE": 88.54644012451172,
+                "RMSE": 9.40991180216434,
+                "SMAPE": 21.003986358642578,
+                "epochs": 500,
+                "completed_epochs": 9,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 1.8995696306228638,
+                "R2": 0.4641539454460144,
+                "MSE": 12.735698699951172,
+                "RMSE": 3.568711069833361,
+                "SMAPE": 62.122684478759766,
+                "epochs": 500,
+                "completed_epochs": 22,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.6128160357475281,
+                "R2": -1.4902403354644775,
+                "MSE": 1.233635425567627,
+                "RMSE": 1.1106914177968725,
+                "SMAPE": 1.4406163692474365,
+                "epochs": 500,
+                "completed_epochs": 7,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 2.20103120803833,
+                "R2": 0.5097662210464478,
+                "MSE": 29.47752571105957,
+                "RMSE": 5.4293209254067465,
+                "SMAPE": 7.788895130157471,
+                "epochs": 500,
+                "completed_epochs": 22,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 3.8987278938293457,
+                "R2": 0.2504783272743225,
+                "MSE": 63.605167388916016,
+                "RMSE": 7.975284784188965,
+                "SMAPE": 3.211165189743042,
+                "epochs": 500,
+                "completed_epochs": 17,
+                "batch_size": 32,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            }
+        },
+        "targets72": {
+            "Volumrate_Easington_hourly": {
+                "performance": 7.951213359832764,
+                "R2": 0.6539530754089355,
+                "MSE": 137.81895446777344,
+                "RMSE": 11.739631785868475,
+                "SMAPE": 24.821609497070312,
+                "epochs": 500,
+                "completed_epochs": 14,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 1.9977182149887085,
+                "R2": 0.23444539308547974,
+                "MSE": 16.226720809936523,
+                "RMSE": 4.0282404111394,
+                "SMAPE": 55.2433967590332,
+                "epochs": 500,
+                "completed_epochs": 15,
+                "batch_size": 32,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.8458344340324402,
+                "R2": -1.9910688400268555,
+                "MSE": 1.4873579740524292,
+                "RMSE": 1.2195728654133091,
+                "SMAPE": 1.958581805229187,
+                "epochs": 500,
+                "completed_epochs": 14,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 2.9585647583007812,
+                "R2": 0.2422158122062683,
+                "MSE": 45.56538772583008,
+                "RMSE": 6.750213902227846,
+                "SMAPE": 9.24257755279541,
+                "epochs": 500,
+                "completed_epochs": 14,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 4.808770179748535,
+                "R2": 0.09096026420593262,
+                "MSE": 77.19600677490234,
+                "RMSE": 8.786125811465617,
+                "SMAPE": 3.9217307567596436,
+                "epochs": 500,
+                "completed_epochs": 14,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            }
+        }
+    },
+    {
+        "model": "segrnn",
+        "targets24": {
+            "Volumrate_Easington_hourly": {
+                "performance": 3.6772327423095703,
+                "R2": 0.9147962331771851,
+                "MSE": 33.549530029296875,
+                "RMSE": 5.7921956138667205,
+                "SMAPE": 16.45033073425293,
+                "epochs": 500,
+                "completed_epochs": 25,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 1.2420967817306519,
+                "R2": 0.8141559958457947,
+                "MSE": 4.874442100524902,
+                "RMSE": 2.2078138736145543,
+                "SMAPE": 43.543312072753906,
+                "epochs": 500,
+                "completed_epochs": 1,
+                "batch_size": 16,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.33231356739997864,
+                "R2": 0.31700730323791504,
+                "MSE": 0.3359628915786743,
+                "RMSE": 0.5796230599093469,
+                "SMAPE": 0.7771268486976624,
+                "epochs": 500,
+                "completed_epochs": 11,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 1.3089056015014648,
+                "R2": 0.8682884573936462,
+                "MSE": 7.914531707763672,
+                "RMSE": 2.813277751620638,
+                "SMAPE": 6.138614654541016,
+                "epochs": 500,
+                "completed_epochs": 6,
+                "batch_size": 32,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 1.98512864112854,
+                "R2": 0.7682021856307983,
+                "MSE": 19.63637351989746,
+                "RMSE": 4.431294790453176,
+                "SMAPE": 1.711711049079895,
+                "epochs": 500,
+                "completed_epochs": 8,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            }
+        },
+        "targets48": {
+            "Volumrate_Easington_hourly": {
+                "performance": 5.918242931365967,
+                "R2": 0.79060298204422,
+                "MSE": 82.95417022705078,
+                "RMSE": 9.107917996284923,
+                "SMAPE": 20.9162654876709,
+                "epochs": 500,
+                "completed_epochs": 19,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 1.62443208694458,
+                "R2": 0.5749168395996094,
+                "MSE": 10.103145599365234,
+                "RMSE": 3.178544572499375,
+                "SMAPE": 47.8748664855957,
+                "epochs": 500,
+                "completed_epochs": 4,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.5511996746063232,
+                "R2": -0.450872540473938,
+                "MSE": 0.7187449932098389,
+                "RMSE": 0.8477882950417744,
+                "SMAPE": 1.28542160987854,
+                "epochs": 500,
+                "completed_epochs": 30,
+                "batch_size": 32,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 1.9720669984817505,
+                "R2": 0.5979946851730347,
+                "MSE": 24.172388076782227,
+                "RMSE": 4.91654228872103,
+                "SMAPE": 7.310795783996582,
+                "epochs": 500,
+                "completed_epochs": 19,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 3.1133816242218018,
+                "R2": 0.39097750186920166,
+                "MSE": 51.68226623535156,
+                "RMSE": 7.189037921401692,
+                "SMAPE": 2.6216015815734863,
+                "epochs": 500,
+                "completed_epochs": 20,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            }
+        },
+        "targets72": {
+            "Volumrate_Easington_hourly": {
+                "performance": 7.7525553703308105,
+                "R2": 0.6641643047332764,
+                "MSE": 133.75218200683594,
+                "RMSE": 11.565127842217565,
+                "SMAPE": 24.709577560424805,
+                "epochs": 500,
+                "completed_epochs": 23,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 1.9575740098953247,
+                "R2": 0.24884039163589478,
+                "MSE": 15.921603202819824,
+                "RMSE": 3.990188366834306,
+                "SMAPE": 53.159366607666016,
+                "epochs": 500,
+                "completed_epochs": 2,
+                "batch_size": 32,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.6458606123924255,
+                "R2": -0.9829169511795044,
+                "MSE": 0.9860379099845886,
+                "RMSE": 0.9929944158879186,
+                "SMAPE": 1.5037463903427124,
+                "epochs": 500,
+                "completed_epochs": 26,
+                "batch_size": 32,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 3.0444817543029785,
+                "R2": 0.3125203847885132,
+                "MSE": 41.33798599243164,
+                "RMSE": 6.42946234085181,
+                "SMAPE": 9.423394203186035,
+                "epochs": 500,
+                "completed_epochs": 23,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 3.957852363586426,
+                "R2": 0.250397264957428,
+                "MSE": 63.65655517578125,
+                "RMSE": 7.978505823509892,
+                "SMAPE": 3.2566006183624268,
+                "epochs": 500,
+                "completed_epochs": 25,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            }
+        }
+    },
+    {
+        "model": "cnn",
+        "targets24": {
+            "Volumrate_Easington_hourly": {
+                "performance": 4.415166854858398,
+                "R2": 0.8838538527488708,
+                "MSE": 45.73326873779297,
+                "RMSE": 6.762637705643632,
+                "SMAPE": 18.82237434387207,
+                "epochs": 500,
+                "completed_epochs": 7,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 1.4395461082458496,
+                "R2": 0.7133240699768066,
+                "MSE": 7.519130229949951,
+                "RMSE": 2.7421032493234003,
+                "SMAPE": 44.26873779296875,
+                "epochs": 500,
+                "completed_epochs": 18,
+                "batch_size": 16,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.87959223985672,
+                "R2": -1.9070026874542236,
+                "MSE": 1.429949402809143,
+                "RMSE": 1.1958049183747084,
+                "SMAPE": 2.030780076980591,
+                "epochs": 500,
+                "completed_epochs": 7,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 1.7621526718139648,
+                "R2": 0.8207942247390747,
+                "MSE": 10.76845645904541,
+                "RMSE": 3.2815326387292587,
+                "SMAPE": 7.19767427444458,
+                "epochs": 500,
+                "completed_epochs": 7,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 3.3639767169952393,
+                "R2": 0.6741847395896912,
+                "MSE": 27.600908279418945,
+                "RMSE": 5.25365665793064,
+                "SMAPE": 2.7054877281188965,
+                "epochs": 500,
+                "completed_epochs": 13,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            }
+        },
+        "targets48": {
+            "Volumrate_Easington_hourly": {
+                "performance": 6.6930766105651855,
+                "R2": 0.748193621635437,
+                "MSE": 99.75493621826172,
+                "RMSE": 9.987739294668325,
+                "SMAPE": 23.48389434814453,
+                "epochs": 500,
+                "completed_epochs": 7,
+                "batch_size": 16,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 1.661169171333313,
+                "R2": 0.48396575450897217,
+                "MSE": 12.264822006225586,
+                "RMSE": 3.502116789346921,
+                "SMAPE": 48.12211990356445,
+                "epochs": 500,
+                "completed_epochs": 7,
+                "batch_size": 16,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.8270837664604187,
+                "R2": -3.5222702026367188,
+                "MSE": 2.240278720855713,
+                "RMSE": 1.4967560659157901,
+                "SMAPE": 1.9682410955429077,
+                "epochs": 500,
+                "completed_epochs": 7,
+                "batch_size": 16,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 2.5666980743408203,
+                "R2": 0.4889664649963379,
+                "MSE": 30.72820281982422,
+                "RMSE": 5.543302519241054,
+                "SMAPE": 8.584501266479492,
+                "epochs": 500,
+                "completed_epochs": 7,
+                "batch_size": 16,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 5.784730434417725,
+                "R2": -0.014495253562927246,
+                "MSE": 86.0910873413086,
+                "RMSE": 9.278528296088156,
+                "SMAPE": 4.583332538604736,
+                "epochs": 500,
+                "completed_epochs": 4,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            }
+        },
+        "targets72": {
+            "Volumrate_Easington_hourly": {
+                "performance": 8.997419357299805,
+                "R2": 0.6078219413757324,
+                "MSE": 156.1914825439453,
+                "RMSE": 12.497659082562034,
+                "SMAPE": 26.68674659729004,
+                "epochs": 500,
+                "completed_epochs": 3,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 2.448246479034424,
+                "R2": 0.11561542749404907,
+                "MSE": 18.745445251464844,
+                "RMSE": 4.329601049919593,
+                "SMAPE": 86.60765075683594,
+                "epochs": 500,
+                "completed_epochs": 4,
+                "batch_size": 32,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 1.0870442390441895,
+                "R2": -3.5157313346862793,
+                "MSE": 2.245521306991577,
+                "RMSE": 1.498506358675724,
+                "SMAPE": 2.5593090057373047,
+                "epochs": 500,
+                "completed_epochs": 2,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 3.7924885749816895,
+                "R2": 0.3068609833717346,
+                "MSE": 41.678287506103516,
+                "RMSE": 6.4558723272771985,
+                "SMAPE": 11.503157615661621,
+                "epochs": 500,
+                "completed_epochs": 3,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 6.619078159332275,
+                "R2": -0.3011213541030884,
+                "MSE": 110.49172973632812,
+                "RMSE": 10.51150463712632,
+                "SMAPE": 5.230668067932129,
+                "epochs": 500,
+                "completed_epochs": 4,
+                "batch_size": 32,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            }
+        }
+    },
+    {
+        "model": "kanad",
+        "targets24": {
+            "Volumrate_Easington_hourly": {
+                "performance": 4.300388813018799,
+                "R2": 0.8950070738792419,
+                "MSE": 41.341617584228516,
+                "RMSE": 6.429744752649868,
+                "SMAPE": 17.2164249420166,
+                "epochs": 500,
+                "completed_epochs": 7,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 1.5146064758300781,
+                "R2": 0.7101771235466003,
+                "MSE": 7.6016693115234375,
+                "RMSE": 2.7571124952608366,
+                "SMAPE": 53.92047882080078,
+                "epochs": 500,
+                "completed_epochs": 41,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.4595066010951996,
+                "R2": -0.12191438674926758,
+                "MSE": 0.551867663860321,
+                "RMSE": 0.7428779602736381,
+                "SMAPE": 1.0722877979278564,
+                "epochs": 500,
+                "completed_epochs": 41,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 1.7388415336608887,
+                "R2": 0.7370970845222473,
+                "MSE": 15.797809600830078,
+                "RMSE": 3.9746458459628924,
+                "SMAPE": 7.237311363220215,
+                "epochs": 500,
+                "completed_epochs": 41,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 2.481719493865967,
+                "R2": 0.606256365776062,
+                "MSE": 33.355350494384766,
+                "RMSE": 5.775409119221319,
+                "SMAPE": 2.133293867111206,
+                "epochs": 500,
+                "completed_epochs": 13,
+                "batch_size": 16,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            }
+        },
+        "targets48": {
+            "Volumrate_Easington_hourly": {
+                "performance": 6.387580394744873,
+                "R2": 0.7653430700302124,
+                "MSE": 92.9610595703125,
+                "RMSE": 9.641631582378187,
+                "SMAPE": 22.329387664794922,
+                "epochs": 500,
+                "completed_epochs": 15,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 1.8047312498092651,
+                "R2": 0.5052109956741333,
+                "MSE": 11.759876251220703,
+                "RMSE": 3.4292675969105564,
+                "SMAPE": 56.927364349365234,
+                "epochs": 500,
+                "completed_epochs": 1,
+                "batch_size": 16,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.5852368474006653,
+                "R2": -0.6402572393417358,
+                "MSE": 0.8125638961791992,
+                "RMSE": 0.901423261392338,
+                "SMAPE": 1.3638076782226562,
+                "epochs": 500,
+                "completed_epochs": 38,
+                "batch_size": 32,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 2.397406816482544,
+                "R2": 0.49177104234695435,
+                "MSE": 30.559568405151367,
+                "RMSE": 5.528070947912243,
+                "SMAPE": 8.253606796264648,
+                "epochs": 500,
+                "completed_epochs": 2,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 3.478140115737915,
+                "R2": 0.2742428183555603,
+                "MSE": 61.5884895324707,
+                "RMSE": 7.847833429200106,
+                "SMAPE": 2.9321177005767822,
+                "epochs": 500,
+                "completed_epochs": 38,
+                "batch_size": 32,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            }
+        },
+        "targets72": {
+            "Volumrate_Easington_hourly": {
+                "performance": 8.110780715942383,
+                "R2": 0.6495382785797119,
+                "MSE": 139.57725524902344,
+                "RMSE": 11.814281833823985,
+                "SMAPE": 25.56499481201172,
+                "epochs": 500,
+                "completed_epochs": 24,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 2.0819880962371826,
+                "R2": 0.21565496921539307,
+                "MSE": 16.625003814697266,
+                "RMSE": 4.077377075363188,
+                "SMAPE": 62.57925796508789,
+                "epochs": 500,
+                "completed_epochs": 7,
+                "batch_size": 16,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 0.6657451391220093,
+                "R2": -0.9946911334991455,
+                "MSE": 0.9918928146362305,
+                "RMSE": 0.9959381580380533,
+                "SMAPE": 1.5502558946609497,
+                "epochs": 500,
+                "completed_epochs": 24,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 3.0998997688293457,
+                "R2": 0.18638217449188232,
+                "MSE": 48.92264938354492,
+                "RMSE": 6.994472773808253,
+                "SMAPE": 9.690346717834473,
+                "epochs": 500,
+                "completed_epochs": 7,
+                "batch_size": 16,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 4.41748571395874,
+                "R2": 0.09702295064926147,
+                "MSE": 76.68115997314453,
+                "RMSE": 8.756777944720566,
+                "SMAPE": 3.6560258865356445,
+                "epochs": 500,
+                "completed_epochs": 24,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            }
+        }
+    },
+    {
+        "model": "moderntcn",
+        "targets24": {
+            "Volumrate_Easington_hourly": {
+                "performance": 16.525466918945312,
+                "R2": 0.009756982326507568,
+                "MSE": 389.9144287109375,
+                "RMSE": 19.746251003948508,
+                "SMAPE": 45.134971618652344,
+                "epochs": 500,
+                "completed_epochs": 11,
+                "batch_size": 32,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 5.007382392883301,
+                "R2": -0.7550497055053711,
+                "MSE": 46.03262710571289,
+                "RMSE": 6.784734858910324,
+                "SMAPE": 125.63352966308594,
+                "epochs": 500,
+                "completed_epochs": 11,
+                "batch_size": 32,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 3.46577787399292,
+                "R2": -35.461856842041016,
+                "MSE": 17.935522079467773,
+                "RMSE": 4.235035074172087,
+                "SMAPE": 8.10605239868164,
+                "epochs": 500,
+                "completed_epochs": 28,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 6.205296039581299,
+                "R2": -0.5233309268951416,
+                "MSE": 91.53680419921875,
+                "RMSE": 9.56748682775256,
+                "SMAPE": 14.831514358520508,
+                "epochs": 500,
+                "completed_epochs": 13,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 12.376444816589355,
+                "R2": -2.1085567474365234,
+                "MSE": 263.3363037109375,
+                "RMSE": 16.227640115276696,
+                "SMAPE": 9.161857604980469,
+                "epochs": 500,
+                "completed_epochs": 28,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            }
+        },
+        "targets48": {
+            "Volumrate_Easington_hourly": {
+                "performance": 17.614913940429688,
+                "R2": -0.1230018138885498,
+                "MSE": 444.88543701171875,
+                "RMSE": 21.09230753169787,
+                "SMAPE": 45.06297302246094,
+                "epochs": 500,
+                "completed_epochs": 14,
+                "batch_size": 16,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 5.17098331451416,
+                "R2": -1.0276472568511963,
+                "MSE": 48.192020416259766,
+                "RMSE": 6.94204727845178,
+                "SMAPE": 141.5754852294922,
+                "epochs": 500,
+                "completed_epochs": 35,
+                "batch_size": 32,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 3.128131151199341,
+                "R2": -28.544084548950195,
+                "MSE": 14.635787963867188,
+                "RMSE": 3.825674837707354,
+                "SMAPE": 7.189342975616455,
+                "epochs": 500,
+                "completed_epochs": 15,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 6.402525424957275,
+                "R2": -0.6693977117538452,
+                "MSE": 100.38009643554688,
+                "RMSE": 10.018986796854604,
+                "SMAPE": 15.83094596862793,
+                "epochs": 500,
+                "completed_epochs": 15,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 13.241462707519531,
+                "R2": -2.812432050704956,
+                "MSE": 323.5268249511719,
+                "RMSE": 17.98685144629743,
+                "SMAPE": 9.793752670288086,
+                "epochs": 500,
+                "completed_epochs": 14,
+                "batch_size": 16,
+                "learning_rate": 0.01,
+                "dataset": "complete_noms.csv"
+            }
+        },
+        "targets72": {
+            "Volumrate_Easington_hourly": {
+                "performance": 19.176589965820312,
+                "R2": -0.3034754991531372,
+                "MSE": 519.1309204101562,
+                "RMSE": 22.78444470269478,
+                "SMAPE": 50.105201721191406,
+                "epochs": 500,
+                "completed_epochs": 18,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_St_Fergus_hourly": {
+                "performance": 5.242933750152588,
+                "R2": -1.4649944305419922,
+                "MSE": 52.248104095458984,
+                "RMSE": 7.228285003751512,
+                "SMAPE": 142.30712890625,
+                "epochs": 500,
+                "completed_epochs": 18,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Belgia_hourly": {
+                "performance": 2.9482150077819824,
+                "R2": -26.35219383239746,
+                "MSE": 13.601325988769531,
+                "RMSE": 3.687997558129551,
+                "SMAPE": 6.877534866333008,
+                "epochs": 500,
+                "completed_epochs": 18,
+                "batch_size": 16,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Frankrike_hourly": {
+                "performance": 6.158686637878418,
+                "R2": -0.6377792358398438,
+                "MSE": 98.47927856445312,
+                "RMSE": 9.92367263488942,
+                "SMAPE": 15.151238441467285,
+                "epochs": 500,
+                "completed_epochs": 18,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "dataset": "complete_noms.csv"
+            },
+            "Volumrate_Tyskland_hourly": {
+                "performance": 11.970345497131348,
+                "R2": -1.873755693435669,
+                "MSE": 244.0404510498047,
+                "RMSE": 15.621794104705282,
+                "SMAPE": 9.043651580810547,
+                "epochs": 500,
+                "completed_epochs": 28,
+                "batch_size": 16,
+                "learning_rate": 0.0001,
+                "dataset": "complete_noms.csv"
+            }
+        }
+    }
+]

@@ -1,0 +1,467 @@
+Starting experiments...
+🔄 Running experiment with pred_len=24, learning_rate=0.001, batch_size=16, model=cnn
+Epoch 1/500, Train Loss: 0.004423, Val Loss: 0.001822
+Epoch 2/500, Train Loss: 0.002234, Val Loss: 0.001959
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 3/500, Train Loss: 0.001992, Val Loss: 0.001640
+Epoch 4/500, Train Loss: 0.001817, Val Loss: 0.001994
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 5/500, Train Loss: 0.001673, Val Loss: 0.001599
+Epoch 6/500, Train Loss: 0.001572, Val Loss: 0.001445
+Epoch 7/500, Train Loss: 0.001454, Val Loss: 0.001576
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 8/500, Train Loss: 0.001374, Val Loss: 0.001598
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 9/500, Train Loss: 0.001300, Val Loss: 0.001748
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 10/500, Train Loss: 0.001250, Val Loss: 0.001761
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 11/500, Train Loss: 0.001199, Val Loss: 0.001720
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+➕ Adding cnn for Easington at 24h
+➕ Adding cnn for St_Fergus at 24h
+➕ Adding cnn for Belgia at 24h
+➕ Adding cnn for Frankrike at 24h
+➕ Adding cnn for Tyskland at 24h
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 24          0.001          16 40.232841 4.201998 6.342936 0.140356  0.897823  18.436197 16.667305 19.843294  45.191738
+Volumrate_St_Fergus_hourly     500                 24          0.001          16  5.864376 1.538067 2.421647 0.645764  0.776414  95.189941 69.030724  5.121394   3.750051
+   Volumrate_Belgia_hourly     500                 24          0.001          16  1.683064 0.843715 1.297330 0.030019 -2.421569   1.972336  1.976744  0.701355  43.217545
+Volumrate_Frankrike_hourly     500                 24          0.001          16  9.307439 1.683305 3.050810 0.064130  0.845108 211.807724  6.867673  7.751767  47.572330
+ Volumrate_Tyskland_hourly     500                 24          0.001          16 24.875345 3.058012 4.987519 0.038069  0.706359   2.576102  2.473890  9.203987 131.013763
+💾 Model weights saved to ../models/weights/cnn_500_normalized_weights.pt
+🌶️ No improvement for cnn on Volumrate_Easington_hourly (Current best MAE: 3.9645)
+🌶️ No improvement for cnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.3662)
+🌶️ No improvement for cnn on Volumrate_Belgia_hourly (Current best MAE: 0.5711)
+🌶️ No improvement for cnn on Volumrate_Frankrike_hourly (Current best MAE: 1.5963)
+🌶️ No improvement for cnn on Volumrate_Tyskland_hourly (Current best MAE: 2.5364)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 3.22 minutes
+🔄 Running experiment with pred_len=24, learning_rate=0.001, batch_size=32, model=cnn
+Epoch 1/500, Train Loss: 0.005188, Val Loss: 0.001629
+Epoch 2/500, Train Loss: 0.002102, Val Loss: 0.001849
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 3/500, Train Loss: 0.001914, Val Loss: 0.001608
+Epoch 4/500, Train Loss: 0.001800, Val Loss: 0.001515
+Epoch 5/500, Train Loss: 0.001708, Val Loss: 0.001528
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 6/500, Train Loss: 0.001614, Val Loss: 0.002074
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 7/500, Train Loss: 0.001521, Val Loss: 0.001789
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 8/500, Train Loss: 0.001465, Val Loss: 0.001650
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 9/500, Train Loss: 0.001367, Val Loss: 0.001885
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting cnn for St_Fergus at 24h (MAE improved from 1.5381 to 1.4492)
+🔁 Overwriting cnn for Belgia at 24h (MAE improved from 0.8437 to 0.8007)
+🔁 Overwriting cnn for Tyskland at 24h (MAE improved from 3.0580 to 2.7927)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 24          0.001          32 37.692211 4.230348 6.139398 0.135852  0.904275  17.639519 15.872725 19.843294  45.191738
+Volumrate_St_Fergus_hourly     500                 24          0.001          32  5.729244 1.449221 2.393584 0.638280  0.781566 104.539894 58.893921  5.121394   3.750051
+   Volumrate_Belgia_hourly     500                 24          0.001          32  1.229442 0.800721 1.108802 0.025656 -1.499382   1.870628  1.848011  0.701355  43.217545
+Volumrate_Frankrike_hourly     500                 24          0.001          32 10.792154 1.834750 3.285141 0.069056  0.820400 262.305603  7.306509  7.751767  47.572330
+ Volumrate_Tyskland_hourly     500                 24          0.001          32 21.800060 2.792703 4.669053 0.035638  0.742661   2.376189  2.274407  9.203987 131.013763
+💾 Model weights saved to ../models/weights/cnn_500_normalized_weights.pt
+🌶️ No improvement for cnn on Volumrate_Easington_hourly (Current best MAE: 3.9645)
+🌶️ No improvement for cnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.3662)
+🌶️ No improvement for cnn on Volumrate_Belgia_hourly (Current best MAE: 0.5711)
+🌶️ No improvement for cnn on Volumrate_Frankrike_hourly (Current best MAE: 1.5963)
+🌶️ No improvement for cnn on Volumrate_Tyskland_hourly (Current best MAE: 2.5364)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 1.50 minutes
+🔄 Running experiment with pred_len=24, learning_rate=0.0001, batch_size=16, model=cnn
+Epoch 1/500, Train Loss: 0.007083, Val Loss: 0.002040
+Epoch 2/500, Train Loss: 0.002269, Val Loss: 0.001627
+Epoch 3/500, Train Loss: 0.001970, Val Loss: 0.001628
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 4/500, Train Loss: 0.001842, Val Loss: 0.001592
+Epoch 5/500, Train Loss: 0.001749, Val Loss: 0.001581
+Epoch 6/500, Train Loss: 0.001670, Val Loss: 0.001691
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 7/500, Train Loss: 0.001601, Val Loss: 0.001639
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 8/500, Train Loss: 0.001539, Val Loss: 0.001539
+Epoch 9/500, Train Loss: 0.001482, Val Loss: 0.001552
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 10/500, Train Loss: 0.001437, Val Loss: 0.001639
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 11/500, Train Loss: 0.001382, Val Loss: 0.001585
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 12/500, Train Loss: 0.001342, Val Loss: 0.001640
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 13/500, Train Loss: 0.001297, Val Loss: 0.001608
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting cnn for Easington at 24h (MAE improved from 4.2020 to 4.2006)
+🔁 Overwriting cnn for St_Fergus at 24h (MAE improved from 1.4492 to 1.3733)
+🔁 Overwriting cnn for Belgia at 24h (MAE improved from 0.8007 to 0.7568)
+🔁 Overwriting cnn for Frankrike at 24h (MAE improved from 1.6833 to 1.5536)
+🔁 Overwriting cnn for Tyskland at 24h (MAE improved from 2.7927 to 2.6614)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 24         0.0001          16 36.670002 4.200587 6.055576 0.133997  0.906871  17.013458 16.721605 19.843294  45.191738
+Volumrate_St_Fergus_hourly     500                 24         0.0001          16  5.230421 1.373340 2.287011 0.609861  0.800584  97.209854 57.741886  5.121394   3.750051
+   Volumrate_Belgia_hourly     500                 24         0.0001          16  1.115633 0.756846 1.056235 0.024440 -1.268017   1.769181  1.745362  0.701355  43.217545
+Volumrate_Frankrike_hourly     500                 24         0.0001          16  9.520378 1.553564 3.085511 0.064859  0.841564 297.436981  6.592888  7.751767  47.572330
+ Volumrate_Tyskland_hourly     500                 24         0.0001          16 23.248472 2.661398 4.821667 0.036803  0.725563   2.345122  2.216732  9.203987 131.013763
+💾 Model weights saved to ../models/weights/cnn_500_normalized_weights.pt
+🌶️ No improvement for cnn on Volumrate_Easington_hourly (Current best MAE: 3.9645)
+🌶️ No improvement for cnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.3662)
+🌶️ No improvement for cnn on Volumrate_Belgia_hourly (Current best MAE: 0.5711)
+🎠 New best for cnn on Volumrate_Frankrike_hourly (MAE: 1.5536, prev: 1.5963)
+🥦 Saved new best weights to ../models/weights/best/cnn/best_cnn_Volumrate_Frankrike_hourly_econ_noms_24_normalized.pt
+🌶️ No improvement for cnn on Volumrate_Tyskland_hourly (Current best MAE: 2.5364)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 3.69 minutes
+🔄 Running experiment with pred_len=24, learning_rate=0.0001, batch_size=32, model=cnn
+Epoch 1/500, Train Loss: 0.010525, Val Loss: 0.002150
+Epoch 2/500, Train Loss: 0.002505, Val Loss: 0.001921
+Epoch 3/500, Train Loss: 0.002087, Val Loss: 0.001886
+Epoch 4/500, Train Loss: 0.001928, Val Loss: 0.001669
+Epoch 5/500, Train Loss: 0.001847, Val Loss: 0.001596
+Epoch 6/500, Train Loss: 0.001764, Val Loss: 0.001664
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 7/500, Train Loss: 0.001708, Val Loss: 0.001561
+Epoch 8/500, Train Loss: 0.001658, Val Loss: 0.001569
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 9/500, Train Loss: 0.001613, Val Loss: 0.001511
+Epoch 10/500, Train Loss: 0.001567, Val Loss: 0.001546
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 11/500, Train Loss: 0.001527, Val Loss: 0.001570
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 12/500, Train Loss: 0.001489, Val Loss: 0.001573
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 13/500, Train Loss: 0.001455, Val Loss: 0.001742
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 14/500, Train Loss: 0.001421, Val Loss: 0.001549
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting cnn for Easington at 24h (MAE improved from 4.2006 to 4.0226)
+🔁 Overwriting cnn for Belgia at 24h (MAE improved from 0.7568 to 0.6592)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 24         0.0001          32 38.371674 4.022625 6.194487 0.137071  0.902550  17.099268 17.211187 19.843294  45.191738
+Volumrate_St_Fergus_hourly     500                 24         0.0001          32  5.733771 1.553438 2.394529 0.638533  0.781393  97.824234 73.809532  5.121394   3.750051
+   Volumrate_Belgia_hourly     500                 24         0.0001          32  0.865098 0.659192 0.930107 0.021522 -0.758694   1.539845  1.542284  0.701355  43.217545
+Volumrate_Frankrike_hourly     500                 24         0.0001          32 10.868941 1.853931 3.296808 0.069301  0.819122 298.647217  7.122819  7.751767  47.572330
+ Volumrate_Tyskland_hourly     500                 24         0.0001          32 26.401005 2.686133 5.138191 0.039219  0.688349   2.419687  2.261094  9.203987 131.013763
+💾 Model weights saved to ../models/weights/cnn_500_normalized_weights.pt
+🌶️ No improvement for cnn on Volumrate_Easington_hourly (Current best MAE: 3.9645)
+🌶️ No improvement for cnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.3662)
+🌶️ No improvement for cnn on Volumrate_Belgia_hourly (Current best MAE: 0.5711)
+🌶️ No improvement for cnn on Volumrate_Frankrike_hourly (Current best MAE: 1.5536)
+🌶️ No improvement for cnn on Volumrate_Tyskland_hourly (Current best MAE: 2.5364)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 2.32 minutes
+🔄 Running experiment with pred_len=48, learning_rate=0.001, batch_size=16, model=cnn
+Epoch 1/500, Train Loss: 0.006174, Val Loss: 0.003553
+Epoch 2/500, Train Loss: 0.003840, Val Loss: 0.003432
+Epoch 3/500, Train Loss: 0.003453, Val Loss: 0.003406
+Epoch 4/500, Train Loss: 0.003122, Val Loss: 0.003607
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 5/500, Train Loss: 0.002832, Val Loss: 0.003442
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 6/500, Train Loss: 0.002598, Val Loss: 0.004261
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 7/500, Train Loss: 0.002360, Val Loss: 0.004732
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 8/500, Train Loss: 0.002172, Val Loss: 0.004192
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+➕ Adding cnn for Easington at 48h
+➕ Adding cnn for St_Fergus at 48h
+➕ Adding cnn for Belgia at 48h
+➕ Adding cnn for Frankrike at 48h
+➕ Adding cnn for Tyskland at 48h
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 48          0.001          16 95.575302 6.345125 9.776262 0.216054  0.758744  27.563801 22.214485 19.903702  45.249134
+Volumrate_St_Fergus_hourly     500                 48          0.001          16 13.084779 2.041467 3.617289 1.000347  0.449467 147.079163 75.119072  4.875188   3.616032
+   Volumrate_Belgia_hourly     500                 48          0.001          16  2.340652 1.152943 1.529919 0.035397 -3.724885   2.688618  2.666984  0.703838  43.221252
+Volumrate_Frankrike_hourly     500                 48          0.001          16 35.477245 3.029204 5.956278 0.125236  0.409986 671.283142  9.626371  7.754323  47.560345
+ Volumrate_Tyskland_hourly     500                 48          0.001          16 68.594795 4.637699 8.282197 0.063211  0.191681   4.090921  3.749197  9.212004 131.025604
+💾 Model weights saved to ../models/weights/cnn_500_normalized_weights.pt
+🌶️ No improvement for cnn on Volumrate_Easington_hourly (Current best MAE: 6.2900)
+🌶️ No improvement for cnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.8192)
+🌶️ No improvement for cnn on Volumrate_Belgia_hourly (Current best MAE: 0.7287)
+🌶️ No improvement for cnn on Volumrate_Frankrike_hourly (Current best MAE: 2.5798)
+🌶️ No improvement for cnn on Volumrate_Tyskland_hourly (Current best MAE: 3.6168)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 2.49 minutes
+🔄 Running experiment with pred_len=48, learning_rate=0.001, batch_size=32, model=cnn
+Epoch 1/500, Train Loss: 0.006905, Val Loss: 0.003883
+Epoch 2/500, Train Loss: 0.003781, Val Loss: 0.003969
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 3/500, Train Loss: 0.003399, Val Loss: 0.003503
+Epoch 4/500, Train Loss: 0.003104, Val Loss: 0.003576
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 5/500, Train Loss: 0.002851, Val Loss: 0.004174
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 6/500, Train Loss: 0.002611, Val Loss: 0.004038
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 7/500, Train Loss: 0.002384, Val Loss: 0.004739
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 8/500, Train Loss: 0.002208, Val Loss: 0.004778
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting cnn for Belgia at 48h (MAE improved from 1.1529 to 1.0156)
+🔁 Overwriting cnn for Tyskland at 48h (MAE improved from 4.6377 to 4.4332)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE      SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 48          0.001          32 99.717636 6.565961 9.985872 0.220686  0.748288  25.703598  24.534111 19.903702  45.249134
+Volumrate_St_Fergus_hourly     500                 48          0.001          32 17.069925 2.733574 4.131577 1.142572  0.281794 170.199432 121.731758  4.875188   3.616032
+   Volumrate_Belgia_hourly     500                 48          0.001          32  2.787573 1.015648 1.669603 0.038629 -4.627049   2.368954   2.402159  0.703838  43.221252
+Volumrate_Frankrike_hourly     500                 48          0.001          32 40.366703 3.180710 6.353480 0.133588  0.328671 648.269348  10.411013  7.754323  47.560345
+ Volumrate_Tyskland_hourly     500                 48          0.001          32 62.794804 4.433155 7.924317 0.060479  0.260028   3.937464   3.604698  9.212004 131.025604
+💾 Model weights saved to ../models/weights/cnn_500_normalized_weights.pt
+🌶️ No improvement for cnn on Volumrate_Easington_hourly (Current best MAE: 6.2900)
+🌶️ No improvement for cnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.8192)
+🌶️ No improvement for cnn on Volumrate_Belgia_hourly (Current best MAE: 0.7287)
+🌶️ No improvement for cnn on Volumrate_Frankrike_hourly (Current best MAE: 2.5798)
+🌶️ No improvement for cnn on Volumrate_Tyskland_hourly (Current best MAE: 3.6168)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 1.44 minutes
+🔄 Running experiment with pred_len=48, learning_rate=0.0001, batch_size=16, model=cnn
+Epoch 1/500, Train Loss: 0.009068, Val Loss: 0.004597
+Epoch 2/500, Train Loss: 0.004124, Val Loss: 0.004006
+Epoch 3/500, Train Loss: 0.003631, Val Loss: 0.003905
+Epoch 4/500, Train Loss: 0.003330, Val Loss: 0.004398
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 5/500, Train Loss: 0.003092, Val Loss: 0.004668
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 6/500, Train Loss: 0.002894, Val Loss: 0.004753
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 7/500, Train Loss: 0.002724, Val Loss: 0.004698
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 8/500, Train Loss: 0.002573, Val Loss: 0.005091
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting cnn for Belgia at 48h (MAE improved from 1.0156 to 0.9917)
+🔁 Overwriting cnn for Tyskland at 48h (MAE improved from 4.4332 to 4.2553)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 48         0.0001          16 92.728722 6.485186 9.629575 0.212812  0.765930  26.236031 22.860817 19.903702  45.249134
+Volumrate_St_Fergus_hourly     500                 48         0.0001          16 13.289828 2.207299 3.645522 1.008155  0.440839 167.512543 91.126472  4.875188   3.616032
+   Volumrate_Belgia_hourly     500                 48         0.0001          16  1.917135 0.991664 1.384606 0.032035 -2.869966   2.313400  2.320236  0.703838  43.221252
+Volumrate_Frankrike_hourly     500                 48         0.0001          16 34.518555 3.095325 5.875249 0.123533  0.425930 717.032837  9.665371  7.754323  47.560345
+ Volumrate_Tyskland_hourly     500                 48         0.0001          16 61.907589 4.255262 7.868138 0.060050  0.270482   3.844139  3.480795  9.212004 131.025604
+💾 Model weights saved to ../models/weights/cnn_500_normalized_weights.pt
+🌶️ No improvement for cnn on Volumrate_Easington_hourly (Current best MAE: 6.2900)
+🌶️ No improvement for cnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.8192)
+🌶️ No improvement for cnn on Volumrate_Belgia_hourly (Current best MAE: 0.7287)
+🌶️ No improvement for cnn on Volumrate_Frankrike_hourly (Current best MAE: 2.5798)
+🌶️ No improvement for cnn on Volumrate_Tyskland_hourly (Current best MAE: 3.6168)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 2.40 minutes
+🔄 Running experiment with pred_len=48, learning_rate=0.0001, batch_size=32, model=cnn
+Epoch 1/500, Train Loss: 0.011694, Val Loss: 0.005262
+Epoch 2/500, Train Loss: 0.004474, Val Loss: 0.003876
+Epoch 3/500, Train Loss: 0.003935, Val Loss: 0.003697
+Epoch 4/500, Train Loss: 0.003668, Val Loss: 0.004134
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 5/500, Train Loss: 0.003456, Val Loss: 0.004044
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 6/500, Train Loss: 0.003280, Val Loss: 0.004032
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 7/500, Train Loss: 0.003115, Val Loss: 0.004238
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 8/500, Train Loss: 0.002971, Val Loss: 0.003969
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting cnn for St_Fergus at 48h (MAE improved from 2.0415 to 1.8858)
+🔁 Overwriting cnn for Belgia at 48h (MAE improved from 0.9917 to 0.8779)
+🔁 Overwriting cnn for Tyskland at 48h (MAE improved from 4.2553 to 4.2173)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 48         0.0001          32 92.979446 6.503726 9.642585 0.213100  0.765297  26.639187 22.949944 19.903702  45.249134
+Volumrate_St_Fergus_hourly     500                 48         0.0001          32 11.524665 1.885751 3.394800 0.938819  0.515107 159.399460 64.323006  4.875188   3.616032
+   Volumrate_Belgia_hourly     500                 48         0.0001          32  1.658274 0.877919 1.287740 0.029794 -2.347424   2.051883  2.044300  0.703838  43.221252
+Volumrate_Frankrike_hourly     500                 48         0.0001          32 40.371174 3.728710 6.353831 0.133595  0.328597 706.401123 11.173952  7.754323  47.560345
+ Volumrate_Tyskland_hourly     500                 48         0.0001          32 65.648491 4.217294 8.102376 0.061838  0.226400   3.876507  3.451423  9.212004 131.025604
+💾 Model weights saved to ../models/weights/cnn_500_normalized_weights.pt
+🌶️ No improvement for cnn on Volumrate_Easington_hourly (Current best MAE: 6.2900)
+🌶️ No improvement for cnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.8192)
+🌶️ No improvement for cnn on Volumrate_Belgia_hourly (Current best MAE: 0.7287)
+🌶️ No improvement for cnn on Volumrate_Frankrike_hourly (Current best MAE: 2.5798)
+🌶️ No improvement for cnn on Volumrate_Tyskland_hourly (Current best MAE: 3.6168)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 1.48 minutes
+🔄 Running experiment with pred_len=72, learning_rate=0.001, batch_size=16, model=cnn
+Epoch 1/500, Train Loss: 0.007631, Val Loss: 0.005397
+Epoch 2/500, Train Loss: 0.004856, Val Loss: 0.005994
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 3/500, Train Loss: 0.004025, Val Loss: 0.006095
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 4/500, Train Loss: 0.003468, Val Loss: 0.006728
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 5/500, Train Loss: 0.003043, Val Loss: 0.007732
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 6/500, Train Loss: 0.002710, Val Loss: 0.007462
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+➕ Adding cnn for Easington at 72h
+➕ Adding cnn for St_Fergus at 72h
+➕ Adding cnn for Belgia at 72h
+➕ Adding cnn for Frankrike at 72h
+➕ Adding cnn for Tyskland at 72h
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size        MSE      MAE      RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72          0.001          16 149.805389 8.368648 12.239501 0.270168  0.623857  32.546719 26.528511 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72          0.001          16  18.915768 2.320261  4.349226 1.250014  0.107580 166.829163 77.476730  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72          0.001          16   3.848050 1.582790  1.961645 0.045380 -6.738408   3.686422  3.644431  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72          0.001          16  57.924595 3.904569  7.610821 0.160070  0.036674 956.033447 11.219674  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72          0.001          16  74.890724 5.038755  8.653943 0.066040  0.118107   4.496143  4.086840  9.215226 131.040314
+💾 Model weights saved to ../models/weights/cnn_500_normalized_weights.pt
+🌶️ No improvement for cnn on Volumrate_Easington_hourly (Current best MAE: 7.8266)
+🌶️ No improvement for cnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.9737)
+🌶️ No improvement for cnn on Volumrate_Belgia_hourly (Current best MAE: 0.7272)
+🌶️ No improvement for cnn on Volumrate_Frankrike_hourly (Current best MAE: 2.9342)
+🌶️ No improvement for cnn on Volumrate_Tyskland_hourly (Current best MAE: 4.1768)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 1.96 minutes
+🔄 Running experiment with pred_len=72, learning_rate=0.001, batch_size=32, model=cnn
+Epoch 1/500, Train Loss: 0.008334, Val Loss: 0.005867
+Epoch 2/500, Train Loss: 0.005016, Val Loss: 0.005770
+Epoch 3/500, Train Loss: 0.004226, Val Loss: 0.006346
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 4/500, Train Loss: 0.003605, Val Loss: 0.006835
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 5/500, Train Loss: 0.003233, Val Loss: 0.007623
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 6/500, Train Loss: 0.002921, Val Loss: 0.007515
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 7/500, Train Loss: 0.002601, Val Loss: 0.008154
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting cnn for Easington at 72h (MAE improved from 8.3686 to 8.0395)
+🔁 Overwriting cnn for Belgia at 72h (MAE improved from 1.5828 to 1.5018)
+🔁 Overwriting cnn for Frankrike at 72h (MAE improved from 3.9046 to 3.8182)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size        MSE      MAE      RMSE    nRMSE         R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72          0.001          32 133.571762 8.039477 11.557325 0.255110   0.664617  34.097172 24.955420 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72          0.001          32  20.904778 2.657694  4.572174 1.314091   0.013741 189.503616 95.383896  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72          0.001          32   5.606093 1.501841  2.367719 0.054774 -10.273825   3.499660  3.538675  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72          0.001          32  56.266674 3.818249  7.501112 0.157762   0.064246 869.991028 11.452225  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72          0.001          32  98.923836 6.185668  9.946046 0.075901  -0.164901   5.391484  5.041737  9.215226 131.040314
+💾 Model weights saved to ../models/weights/cnn_500_normalized_weights.pt
+🌶️ No improvement for cnn on Volumrate_Easington_hourly (Current best MAE: 7.8266)
+🌶️ No improvement for cnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.9737)
+🌶️ No improvement for cnn on Volumrate_Belgia_hourly (Current best MAE: 0.7272)
+🌶️ No improvement for cnn on Volumrate_Frankrike_hourly (Current best MAE: 2.9342)
+🌶️ No improvement for cnn on Volumrate_Tyskland_hourly (Current best MAE: 4.1768)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 1.32 minutes
+🔄 Running experiment with pred_len=72, learning_rate=0.0001, batch_size=16, model=cnn
+Epoch 1/500, Train Loss: 0.009811, Val Loss: 0.005622
+Epoch 2/500, Train Loss: 0.005317, Val Loss: 0.005990
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 3/500, Train Loss: 0.004655, Val Loss: 0.005420
+Epoch 4/500, Train Loss: 0.004133, Val Loss: 0.006201
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 5/500, Train Loss: 0.003725, Val Loss: 0.006534
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 6/500, Train Loss: 0.003356, Val Loss: 0.006597
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 7/500, Train Loss: 0.003072, Val Loss: 0.007024
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 8/500, Train Loss: 0.002833, Val Loss: 0.007051
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting cnn for Belgia at 72h (MAE improved from 1.5018 to 1.0968)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size        MSE      MAE      RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72         0.0001          16 150.720337 8.425433 12.276821 0.270992  0.621559  36.614822 26.605637 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72         0.0001          16  20.199213 2.559101  4.494353 1.291725  0.047029 189.465469 88.011116  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72         0.0001          16   2.918375 1.096765  1.708325 0.039520 -4.868836   2.555959  2.592175  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72         0.0001          16  60.910141 4.357272  7.804495 0.164143 -0.012978 938.105957 12.368163  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72         0.0001          16  93.769875 5.994912  9.683485 0.073897 -0.104209   5.249094  4.819115  9.215226 131.040314
+💾 Model weights saved to ../models/weights/cnn_500_normalized_weights.pt
+🌶️ No improvement for cnn on Volumrate_Easington_hourly (Current best MAE: 7.8266)
+🌶️ No improvement for cnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.9737)
+🌶️ No improvement for cnn on Volumrate_Belgia_hourly (Current best MAE: 0.7272)
+🌶️ No improvement for cnn on Volumrate_Frankrike_hourly (Current best MAE: 2.9342)
+🌶️ No improvement for cnn on Volumrate_Tyskland_hourly (Current best MAE: 4.1768)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 2.66 minutes
+🔄 Running experiment with pred_len=72, learning_rate=0.0001, batch_size=32, model=cnn
+Epoch 1/500, Train Loss: 0.012674, Val Loss: 0.006195
+Epoch 2/500, Train Loss: 0.005822, Val Loss: 0.005808
+Epoch 3/500, Train Loss: 0.005125, Val Loss: 0.006535
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 4/500, Train Loss: 0.004657, Val Loss: 0.007091
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 5/500, Train Loss: 0.004333, Val Loss: 0.007850
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 6/500, Train Loss: 0.004033, Val Loss: 0.007281
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 7/500, Train Loss: 0.003797, Val Loss: 0.007352
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size        MSE      MAE      RMSE    nRMSE         R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72         0.0001          32 150.772049 8.243393 12.278927 0.271039   0.621429  36.195889 25.043335 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72         0.0001          32  19.073921 2.359753  4.367370 1.255229   0.100118 158.455521 83.176224  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72         0.0001          32   5.844806 1.553911  2.417603 0.055928 -10.753874   3.607044  3.754954  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72         0.0001          32  66.553581 4.467579  8.158038 0.171579  -0.106833 960.019043 12.762844  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72         0.0001          32  93.915115 5.945977  9.690981 0.073954  -0.105919   5.206393  4.830487  9.215226 131.040314
+💾 Model weights saved to ../models/weights/cnn_500_normalized_weights.pt
+🌶️ No improvement for cnn on Volumrate_Easington_hourly (Current best MAE: 7.8266)
+🌶️ No improvement for cnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.9737)
+🌶️ No improvement for cnn on Volumrate_Belgia_hourly (Current best MAE: 0.7272)
+🌶️ No improvement for cnn on Volumrate_Frankrike_hourly (Current best MAE: 2.9342)
+🌶️ No improvement for cnn on Volumrate_Tyskland_hourly (Current best MAE: 4.1768)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 1.31 minutes

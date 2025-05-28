@@ -1,0 +1,135 @@
+Target,Rank,Feature,p-value
+Volumrate_Frankrike_hourly,1,Nominasjoner Frankrike [MSM3],0.0
+Volumrate_Frankrike_hourly,2,rain (mm)_easington_y,6.144462631440723e-96
+Volumrate_Frankrike_hourly,3,Nominasjoner Tyskland [MSM3],7.72487905193097e-83
+Volumrate_Frankrike_hourly,4,rain (mm)_germany,8.729203713990218e-33
+Volumrate_Frankrike_hourly,5,is_holiday,3.3168778299197295e-28
+Volumrate_Frankrike_hourly,6,Nominasjoner St. Fergus [MSM3],2.466012891610338e-18
+Volumrate_Frankrike_hourly,7,shortwave_radiation (W/m²)_dunkerque_y,9.60892726659759e-18
+Volumrate_Frankrike_hourly,8,direct_radiation (W/m²)_dunkerque_y,5.187564080384673e-13
+Volumrate_Frankrike_hourly,9,is_day ()_easington_x,6.9202382211470264e-12
+Volumrate_Frankrike_hourly,10,is_day ()_nybro,3.0817220873828624e-11
+Volumrate_Frankrike_hourly,11,Nominasjoner Belgia [MSM3],1.0392047447472305e-10
+Volumrate_Frankrike_hourly,12,hour_sin,5.20757844942861e-10
+Volumrate_Frankrike_hourly,13,direct_radiation (W/m²)_germany,1.863159001072118e-09
+Volumrate_Frankrike_hourly,14,shortwave_radiation (W/m²)_germany_y,2.0475574601210874e-09
+Volumrate_Frankrike_hourly,15,wind_direction_10m (°)_stfergus_x,3.0083065601257946e-09
+Volumrate_Frankrike_hourly,16,is_day ()_easington_y,3.204280322942351e-09
+Volumrate_Frankrike_hourly,17,is_day ()_stfergus_x,4.517907223443082e-09
+Volumrate_Frankrike_hourly,18,shortwave_radiation (W/m²)_germany_x,5.868019020500275e-09
+Volumrate_Frankrike_hourly,19,is_day ()_dunkerque_x,1.9165046373366913e-08
+Volumrate_Frankrike_hourly,20,hour_cos,2.225553706199545e-08
+Volumrate_Frankrike_hourly,21,pressure_msl (hPa)_germany,4.141433803952043e-08
+Volumrate_Frankrike_hourly,22,shortwave_radiation (W/m²)_germany,6.872641723048645e-08
+Volumrate_Frankrike_hourly,23,shortwave_radiation (W/m²)_easington_x,8.37930799230471e-08
+Volumrate_Frankrike_hourly,24,relative_humidity_2m (%)_dunkerque_y,9.449681226136027e-08
+Volumrate_Frankrike_hourly,25,temperature_2m (°C)_dunkerque_y,3.387215656095952e-07
+Volumrate_Frankrike_hourly,26,is_day ()_stfergus_y,4.337321144607298e-07
+Volumrate_Frankrike_hourly,27,temperature_2m (°C)_germany_x,5.114169785317068e-07
+Volumrate_Frankrike_hourly,28,shortwave_radiation (W/m²)_stfergus_x,1.1946059270579082e-06
+Volumrate_Frankrike_hourly,29,pressure_msl (hPa)_dunkerque_y,1.3290783902122526e-06
+Volumrate_Frankrike_hourly,30,is_day ()_dunkerque_y,1.3295787526591385e-06
+Volumrate_Frankrike_hourly,31,shortwave_radiation (W/m²)_zeebrugge_y,1.443257184268469e-06
+Volumrate_Frankrike_hourly,32,is_day ()_germany_x,1.453622663701103e-06
+Volumrate_Frankrike_hourly,33,is_day ()_germany,1.999427878792312e-06
+Volumrate_Frankrike_hourly,34,apparent_temperature (°C)_zeebrugge_y,2.139865440711242e-06
+Volumrate_Frankrike_hourly,35,apparent_temperature (°C)_dunkerque_y,2.170093085331788e-06
+Volumrate_Frankrike_hourly,36,is_day ()_zeebrugge_x,2.4150747262788805e-06
+Volumrate_Frankrike_hourly,37,is_day ()_germany_y,3.381875663251186e-06
+Volumrate_Frankrike_hourly,38,rain (mm)_zeebrugge_x,5.036393905912604e-06
+Volumrate_Frankrike_hourly,39,is_day ()_zeebrugge_y,5.165745739857254e-06
+Volumrate_Frankrike_hourly,40,pressure_msl (hPa)_easington_y,6.284266764028709e-06
+Volumrate_Frankrike_hourly,41,rain (mm)_stfergus_y,1.0586534705216919e-05
+Volumrate_Frankrike_hourly,42,apparent_temperature (°C)_germany_x,1.13045373814932e-05
+Volumrate_Frankrike_hourly,43,direct_radiation (W/m²)_germany_y,1.1759305271407816e-05
+Volumrate_Frankrike_hourly,44,direct_radiation (W/m²)_stfergus_y,1.2465328452062088e-05
+Volumrate_Frankrike_hourly,45,apparent_temperature (°C)_stfergus_y,1.4637205649381161e-05
+Volumrate_Frankrike_hourly,46,shortwave_radiation (W/m²)_stfergus_y,1.7199701382490097e-05
+Volumrate_Frankrike_hourly,47,Nominasjoner Easington [MSM3],2.8647097104053895e-05
+Volumrate_Frankrike_hourly,48,pressure_msl (hPa)_zeebrugge_y,2.947301152107289e-05
+Volumrate_Frankrike_hourly,49,temperature_2m (°C)_easington_x,3.4767297852436706e-05
+Volumrate_Frankrike_hourly,50,temperature_2m (°C)_zeebrugge_x,3.9941936083208915e-05
+Volumrate_Frankrike_hourly,51,temperature_2m (°C)_stfergus_y,5.270109683212263e-05
+Volumrate_Frankrike_hourly,52,pressure_msl (hPa)_easington_x,5.270367364712922e-05
+Volumrate_Frankrike_hourly,53,cloud_cover (%)_stfergus_x,5.7000930763417704e-05
+Volumrate_Frankrike_hourly,54,temperature_2m (°C)_germany_y,5.866624077115155e-05
+Volumrate_Frankrike_hourly,55,apparent_temperature (°C)_easington_x,6.749403430084386e-05
+Volumrate_Frankrike_hourly,56,direct_radiation (W/m²)_germany_x,6.90119221731771e-05
+Volumrate_Frankrike_hourly,57,Nominasjoner Danmark [MSM3],8.643833957967424e-05
+Volumrate_Frankrike_hourly,58,direct_radiation (W/m²)_stfergus_x,9.302166208494734e-05
+Volumrate_Frankrike_hourly,59,shortwave_radiation (W/m²)_easington_y,0.0001750177659413112
+Volumrate_Frankrike_hourly,60,apparent_temperature (°C)_zeebrugge_x,0.0001940946627956334
+Volumrate_Frankrike_hourly,61,rain (mm)_zeebrugge_y,0.0002002725122959896
+Volumrate_Frankrike_hourly,62,direct_radiation (W/m²)_zeebrugge_y,0.00022362787841332545
+Volumrate_Frankrike_hourly,63,shortwave_radiation (W/m²)_dunkerque_x,0.00023857410075933365
+Volumrate_Frankrike_hourly,64,pressure_msl (hPa)_stfergus_x,0.00024984083978203274
+Volumrate_Frankrike_hourly,65,wind_speed_10m (km/h)_dunkerque_x,0.00032684258270045016
+Volumrate_Frankrike_hourly,66,direct_radiation (W/m²)_easington_y,0.00033918999312837326
+Volumrate_Frankrike_hourly,67,apparent_temperature (°C)_germany_y,0.00039224745671794924
+Volumrate_Frankrike_hourly,68,shortwave_radiation (W/m²)_nybro,0.0005030920863778407
+Volumrate_Frankrike_hourly,69,UK_rel,0.0005283237721850658
+Volumrate_Frankrike_hourly,70,UK_rel_pct,0.0005284798875207242
+Volumrate_Frankrike_hourly,71,wind_speed_10m (km/h)_dunkerque_y,0.0005540902671450185
+Volumrate_Frankrike_hourly,72,temperature_2m (°C)_stfergus_x,0.0005554212477928814
+Volumrate_Frankrike_hourly,73,wind_direction_10m (°)_nybro,0.0006362903814445058
+Volumrate_Frankrike_hourly,74,temperature_2m (°C)_zeebrugge_y,0.0006779516127711897
+Volumrate_Frankrike_hourly,75,wind_speed_10m (km/h)_zeebrugge_x,0.0009229436239000752
+Volumrate_Frankrike_hourly,76,temperature_2m (°C)_easington_y,0.0009810321865692275
+Volumrate_Frankrike_hourly,77,wind_speed_10m (km/h)_stfergus_x,0.0011697161035031092
+Volumrate_Frankrike_hourly,78,wind_direction_10m (°)_easington_y,0.0012612286586498361
+Volumrate_Frankrike_hourly,79,pressure_msl (hPa)_germany_x,0.0012880797892326227
+Volumrate_Frankrike_hourly,80,rain (mm)_nybro,0.0013595023794976684
+Volumrate_Frankrike_hourly,81,direct_radiation (W/m²)_nybro,0.0016199166657784622
+Volumrate_Frankrike_hourly,82,wind_speed_10m (km/h)_zeebrugge_y,0.001691015164986604
+Volumrate_Frankrike_hourly,83,pressure_msl (hPa)_germany_y,0.001920831799348879
+Volumrate_Frankrike_hourly,84,direct_radiation (W/m²)_dunkerque_x,0.0022068391456652064
+Volumrate_Frankrike_hourly,85,shortwave_radiation (W/m²)_zeebrugge_x,0.0022826059979042185
+Volumrate_Frankrike_hourly,86,wind_direction_10m (°)_stfergus_y,0.0024087992146605494
+Volumrate_Frankrike_hourly,87,pressure_msl (hPa)_stfergus_y,0.0033484714637044685
+Volumrate_Frankrike_hourly,88,wind_speed_10m (km/h)_easington_y,0.0033548078821579266
+Volumrate_Frankrike_hourly,89,wind_direction_10m (°)_germany_y,0.004046516494874574
+Volumrate_Frankrike_hourly,90,pressure_msl (hPa)_zeebrugge_x,0.004121390178315489
+Volumrate_Frankrike_hourly,91,wind_direction_10m (°)_germany_x,0.004359548717075583
+Volumrate_Frankrike_hourly,92,wind_direction_10m (°)_zeebrugge_x,0.004695463620812041
+Volumrate_Frankrike_hourly,93,direct_radiation (W/m²)_easington_x,0.005456235839812525
+Volumrate_Frankrike_hourly,94,wind_speed_10m (km/h)_germany,0.005875982205652548
+Volumrate_Frankrike_hourly,95,relative_humidity_2m (%)_easington_x,0.005986703319659534
+Volumrate_Frankrike_hourly,96,pressure_msl (hPa)_dunkerque_x,0.00641750874842762
+Volumrate_Frankrike_hourly,97,dew_point_2m (°C)_dunkerque_y,0.006460782823925846
+Volumrate_Frankrike_hourly,98,relative_humidity_2m (%)_zeebrugge_y,0.006845820047472703
+Volumrate_Frankrike_hourly,99,dew_point_2m (°C)_easington_y,0.007999677937193783
+Volumrate_Frankrike_hourly,100,rain (mm)_easington_x,0.008404882863380956
+Volumrate_Frankrike_hourly,101,apparent_temperature (°C)_germany,0.010324875717828846
+Volumrate_Frankrike_hourly,102,apparent_temperature (°C)_easington_y,0.010514346296147628
+Volumrate_Frankrike_hourly,103,DE_rel_pct,0.010562242732779167
+Volumrate_Frankrike_hourly,104,DE_rel,0.010572470391144331
+Volumrate_Frankrike_hourly,105,apparent_temperature (°C)_stfergus_x,0.011201174257071428
+Volumrate_Frankrike_hourly,106,relative_humidity_2m (%)_dunkerque_x,0.01273621410165867
+Volumrate_Frankrike_hourly,107,relative_humidity_2m (%)_zeebrugge_x,0.014527079098060143
+Volumrate_Frankrike_hourly,108,DE_is_best,0.015095484728226758
+Volumrate_Frankrike_hourly,109,BE_rel,0.015702457020079687
+Volumrate_Frankrike_hourly,110,BE_rel_pct,0.01571637986993281
+Volumrate_Frankrike_hourly,111,temperature_2m (°C)_dunkerque_x,0.016336005139022416
+Volumrate_Frankrike_hourly,112,relative_humidity_2m (%)_germany,0.017114181084930704
+Volumrate_Frankrike_hourly,113,temperature_2m (°C)_germany,0.017440115795573516
+Volumrate_Frankrike_hourly,114,cloud_cover (%)_dunkerque_y,0.01860810322388909
+Volumrate_Frankrike_hourly,115,relative_humidity_2m (%)_stfergus_y,0.01912856536608724
+Volumrate_Frankrike_hourly,116,wind_speed_10m (km/h)_nybro,0.019805422577881183
+Volumrate_Frankrike_hourly,117,cloud_cover (%)_zeebrugge_y,0.020841960672622048
+Volumrate_Frankrike_hourly,118,apparent_temperature (°C)_nybro,0.02112708759636687
+Volumrate_Frankrike_hourly,119,wind_direction_10m (°)_dunkerque_x,0.021861209466987077
+Volumrate_Frankrike_hourly,120,dew_point_2m (°C)_stfergus_y,0.023990353475256562
+Volumrate_Frankrike_hourly,121,FR,0.024980421960683757
+Volumrate_Frankrike_hourly,122,FR_rel,0.032221302709408636
+Volumrate_Frankrike_hourly,123,FR_rel_pct,0.03222520252109757
+Volumrate_Frankrike_hourly,124,wind_speed_10m (km/h)_germany_y,0.03227313475533347
+Volumrate_Frankrike_hourly,125,relative_humidity_2m (%)_germany_y,0.03751263521108274
+Volumrate_Frankrike_hourly,126,DE,0.038071703183198476
+Volumrate_Frankrike_hourly,127,cloud_cover (%)_germany,0.039896230009895686
+Volumrate_Frankrike_hourly,128,temperature_2m (°C)_nybro,0.04164760032343891
+Volumrate_Frankrike_hourly,129,DK,0.04346565223481434
+Volumrate_Frankrike_hourly,130,relative_humidity_2m (%)_stfergus_x,0.04445635989301405
+Volumrate_Frankrike_hourly,131,pressure_msl (hPa)_nybro,0.046723316497473036
+Volumrate_Frankrike_hourly,132,dew_point_2m (°C)_zeebrugge_x,0.04712683284025875
+Volumrate_Frankrike_hourly,133,wind_speed_10m (km/h)_stfergus_y,0.04757297922165392
+Volumrate_Frankrike_hourly,134,wind_speed_10m (km/h)_germany_x,0.04930073723393931

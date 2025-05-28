@@ -1,0 +1,178 @@
+Starting experiments...
+🔄 Running experiment with pred_len=72, learning_rate=0.001, batch_size=16, model=moderntcn
+Epoch 1/500, Train Loss: 0.195468, Val Loss: 0.216849
+Epoch 2/500, Train Loss: 0.077465, Val Loss: 0.252505
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 3/500, Train Loss: 0.033354, Val Loss: 0.230106
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 4/500, Train Loss: 0.019613, Val Loss: 0.240644
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 5/500, Train Loss: 0.014274, Val Loss: 0.225613
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 6/500, Train Loss: 0.010317, Val Loss: 0.222230
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+➕ Adding moderntcn for Easington at 72h
+➕ Adding moderntcn for St_Fergus at 72h
+➕ Adding moderntcn for Belgia at 72h
+➕ Adding moderntcn for Frankrike at 72h
+➕ Adding moderntcn for Tyskland at 72h
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size         MSE       MAE      RMSE    nRMSE           R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72          0.001          16  846.172424 23.876286 29.089043 0.642096    -1.124637  57.759331 64.437073 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72          0.001          16   22.042107  2.923409  4.694902 1.349365    -0.039917 226.282852 73.282822  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72          0.001          16  629.995239 23.227713 25.099706 0.580646 -1265.917114  53.688145 78.232719  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72          0.001          16  817.017822 26.470818 28.583524 0.601165   -12.587578 808.901489 81.453598  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72          0.001          16 2613.229004 46.835918 51.119752 0.390107   -29.772694  35.915745 44.493275  9.215226 131.040314
+💾 Model weights saved to ../models/weights/moderntcn_500_normalized_weights.pt
+🌶️ No improvement for moderntcn on Volumrate_Easington_hourly (Current best MAE: 22.0184)
+🌶️ No improvement for moderntcn on Volumrate_St_Fergus_hourly (Current best MAE: 2.5052)
+🌶️ No improvement for moderntcn on Volumrate_Belgia_hourly (Current best MAE: 19.7234)
+🌶️ No improvement for moderntcn on Volumrate_Frankrike_hourly (Current best MAE: 23.4553)
+🌶️ No improvement for moderntcn on Volumrate_Tyskland_hourly (Current best MAE: 39.9203)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 9.03 minutes
+🔄 Running experiment with pred_len=72, learning_rate=0.001, batch_size=32, model=moderntcn
+Epoch 1/500, Train Loss: 0.216443, Val Loss: 0.267202
+Epoch 2/500, Train Loss: 0.096964, Val Loss: 0.240511
+Epoch 3/500, Train Loss: 0.050575, Val Loss: 0.242844
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 4/500, Train Loss: 0.031929, Val Loss: 0.221131
+Epoch 5/500, Train Loss: 0.022701, Val Loss: 0.218835
+Epoch 6/500, Train Loss: 0.018082, Val Loss: 0.223410
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 7/500, Train Loss: 0.014673, Val Loss: 0.210081
+Epoch 8/500, Train Loss: 0.012470, Val Loss: 0.240952
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 9/500, Train Loss: 0.010801, Val Loss: 0.234582
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 10/500, Train Loss: 0.009729, Val Loss: 0.218427
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 11/500, Train Loss: 0.009665, Val Loss: 0.222405
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 12/500, Train Loss: 0.007260, Val Loss: 0.217191
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting moderntcn for St_Fergus at 72h (MAE improved from 2.9234 to 2.6570)
+🔁 Overwriting moderntcn for Belgia at 72h (MAE improved from 23.2277 to 22.3709)
+🔁 Overwriting moderntcn for Tyskland at 72h (MAE improved from 46.8359 to 44.8429)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size         MSE       MAE      RMSE    nRMSE           R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72          0.001          32  847.944153 24.281176 29.119481 0.642768    -1.129086  58.315842 64.544502 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72          0.001          32   25.354614  2.657029  5.035337 1.447209    -0.196196 126.150345 83.986954  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72          0.001          32  566.811584 22.370916 23.807805 0.550760 -1138.855103  51.717461 73.718246  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72          0.001          32  903.911072 28.943525 30.065114 0.632325   -14.032673 823.781006 89.679077  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72          0.001          32 2341.346680 44.842873 48.387464 0.369256   -26.571079  34.407063 42.479008  9.215226 131.040314
+💾 Model weights saved to ../models/weights/moderntcn_500_normalized_weights.pt
+🌶️ No improvement for moderntcn on Volumrate_Easington_hourly (Current best MAE: 22.0184)
+🌶️ No improvement for moderntcn on Volumrate_St_Fergus_hourly (Current best MAE: 2.5052)
+🌶️ No improvement for moderntcn on Volumrate_Belgia_hourly (Current best MAE: 19.7234)
+🌶️ No improvement for moderntcn on Volumrate_Frankrike_hourly (Current best MAE: 23.4553)
+🌶️ No improvement for moderntcn on Volumrate_Tyskland_hourly (Current best MAE: 39.9203)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 10.83 minutes
+🔄 Running experiment with pred_len=72, learning_rate=0.0001, batch_size=16, model=moderntcn
+Epoch 1/500, Train Loss: 0.275597, Val Loss: 0.392566
+Epoch 2/500, Train Loss: 0.202538, Val Loss: 0.313186
+Epoch 3/500, Train Loss: 0.159491, Val Loss: 0.249302
+Epoch 4/500, Train Loss: 0.127768, Val Loss: 0.265099
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 5/500, Train Loss: 0.103193, Val Loss: 0.259548
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 6/500, Train Loss: 0.085444, Val Loss: 0.246444
+Epoch 7/500, Train Loss: 0.071371, Val Loss: 0.236454
+Epoch 8/500, Train Loss: 0.060535, Val Loss: 0.218725
+Epoch 9/500, Train Loss: 0.052482, Val Loss: 0.224659
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 10/500, Train Loss: 0.046170, Val Loss: 0.234528
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 11/500, Train Loss: 0.041254, Val Loss: 0.240481
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 12/500, Train Loss: 0.037356, Val Loss: 0.235515
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 13/500, Train Loss: 0.033760, Val Loss: 0.237007
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting moderntcn for St_Fergus at 72h (MAE improved from 2.6570 to 2.5220)
+🔁 Overwriting moderntcn for Belgia at 72h (MAE improved from 22.3709 to 21.4325)
+🔁 Overwriting moderntcn for Frankrike at 72h (MAE improved from 26.4708 to 25.1665)
+🔁 Overwriting moderntcn for Tyskland at 72h (MAE improved from 44.8429 to 41.2759)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size         MSE       MAE      RMSE    nRMSE           R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72         0.0001          16  816.246155 23.884504 28.570022 0.630640    -1.049496  58.695782 64.216461 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72         0.0001          16   21.743166  2.521992  4.662957 1.340183    -0.025813 145.530029 69.819023  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72         0.0001          16  533.787292 21.432529 23.103837 0.534475 -1072.443359  49.554546 70.296928  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72         0.0001          16  726.219971 25.166534 26.948469 0.566777   -11.077545 829.127991 75.602280  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72         0.0001          16 2129.535889 41.275887 46.146895 0.352158   -24.076849  31.644136 38.827682  9.215226 131.040314
+💾 Model weights saved to ../models/weights/moderntcn_500_normalized_weights.pt
+🌶️ No improvement for moderntcn on Volumrate_Easington_hourly (Current best MAE: 22.0184)
+🌶️ No improvement for moderntcn on Volumrate_St_Fergus_hourly (Current best MAE: 2.5052)
+🌶️ No improvement for moderntcn on Volumrate_Belgia_hourly (Current best MAE: 19.7234)
+🌶️ No improvement for moderntcn on Volumrate_Frankrike_hourly (Current best MAE: 23.4553)
+🌶️ No improvement for moderntcn on Volumrate_Tyskland_hourly (Current best MAE: 39.9203)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 31.71 minutes
+🔄 Running experiment with pred_len=72, learning_rate=0.0001, batch_size=32, model=moderntcn
+Epoch 1/500, Train Loss: 0.290022, Val Loss: 0.416235
+Epoch 2/500, Train Loss: 0.236443, Val Loss: 0.368207
+Epoch 3/500, Train Loss: 0.196979, Val Loss: 0.323506
+Epoch 4/500, Train Loss: 0.169864, Val Loss: 0.274211
+Epoch 5/500, Train Loss: 0.146821, Val Loss: 0.254589
+Epoch 6/500, Train Loss: 0.127133, Val Loss: 0.229267
+Epoch 7/500, Train Loss: 0.111278, Val Loss: 0.228782
+Epoch 8/500, Train Loss: 0.098092, Val Loss: 0.215458
+Epoch 9/500, Train Loss: 0.087258, Val Loss: 0.224567
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 10/500, Train Loss: 0.077702, Val Loss: 0.203830
+Epoch 11/500, Train Loss: 0.069457, Val Loss: 0.200823
+Epoch 12/500, Train Loss: 0.062542, Val Loss: 0.207947
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 13/500, Train Loss: 0.056855, Val Loss: 0.200758
+Epoch 14/500, Train Loss: 0.052128, Val Loss: 0.207097
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 15/500, Train Loss: 0.047974, Val Loss: 0.218659
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 16/500, Train Loss: 0.044169, Val Loss: 0.209038
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 17/500, Train Loss: 0.041003, Val Loss: 0.219155
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 18/500, Train Loss: 0.038160, Val Loss: 0.206202
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting moderntcn for Easington at 72h (MAE improved from 23.8763 to 22.6984)
+📤 Saved full predictions and actuals to ../predictions/predictions_72h_Easington_econ_noms.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_72h_St_Fergus_econ_noms.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_72h_Belgia_econ_noms.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_72h_Frankrike_econ_noms.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_72h_Tyskland_econ_noms.csv
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size         MSE       MAE      RMSE    nRMSE           R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72         0.0001          32  755.106812 22.698406 27.479207 0.606562    -0.895983  55.436699 60.688835 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72         0.0001          32   23.341677  2.794507  4.831322 1.388574    -0.101228 174.879593 73.608627  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72         0.0001          32  549.112000 21.912806 23.433139 0.542093 -1103.261353  50.688595 72.095726  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72         0.0001          32  738.638245 25.537861 27.177900 0.571602   -11.284070 829.408081 76.905861  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72         0.0001          32 2199.016846 42.487095 46.893676 0.357857   -24.895041  32.518318 39.952045  9.215226 131.040314
+💾 Model weights saved to ../models/weights/moderntcn_500_normalized_weights.pt
+🌶️ No improvement for moderntcn on Volumrate_Easington_hourly (Current best MAE: 22.0184)
+🌶️ No improvement for moderntcn on Volumrate_St_Fergus_hourly (Current best MAE: 2.5052)
+🌶️ No improvement for moderntcn on Volumrate_Belgia_hourly (Current best MAE: 19.7234)
+🌶️ No improvement for moderntcn on Volumrate_Frankrike_hourly (Current best MAE: 23.4553)
+🌶️ No improvement for moderntcn on Volumrate_Tyskland_hourly (Current best MAE: 39.9203)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 22.36 minutes

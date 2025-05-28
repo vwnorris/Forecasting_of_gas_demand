@@ -1,0 +1,141 @@
+Target,Rank,Feature,p-value
+Volumrate_Easington_hourly,1,Nominasjoner Easington [MSM3],0.0
+Volumrate_Easington_hourly,2,is_day ()_germany_y,1.3936976650010297e-24
+Volumrate_Easington_hourly,3,is_day ()_stfergus_x,1.523133883589279e-24
+Volumrate_Easington_hourly,4,is_day ()_germany_x,3.4602758484348095e-24
+Volumrate_Easington_hourly,5,is_day ()_germany,3.5225245736483855e-24
+Volumrate_Easington_hourly,6,is_day ()_nybro,4.012863084234575e-23
+Volumrate_Easington_hourly,7,UK_rel,6.606312433278774e-23
+Volumrate_Easington_hourly,8,UK_rel_pct,6.748783032750815e-23
+Volumrate_Easington_hourly,9,is_day ()_zeebrugge_y,7.14572900016332e-22
+Volumrate_Easington_hourly,10,is_day ()_easington_y,9.63803524929203e-22
+Volumrate_Easington_hourly,11,is_day ()_zeebrugge_x,1.183538303617508e-21
+Volumrate_Easington_hourly,12,is_day ()_dunkerque_y,1.6576563975901086e-21
+Volumrate_Easington_hourly,13,is_day ()_stfergus_y,2.163457134344884e-21
+Volumrate_Easington_hourly,14,is_day ()_dunkerque_x,6.158061060316074e-21
+Volumrate_Easington_hourly,15,is_day ()_easington_x,7.098116702981539e-21
+Volumrate_Easington_hourly,16,apparent_temperature (°C)_dunkerque_y,8.096620606859817e-20
+Volumrate_Easington_hourly,17,temperature_2m (°C)_dunkerque_y,9.131248173826344e-20
+Volumrate_Easington_hourly,18,apparent_temperature (°C)_zeebrugge_y,8.327398751016854e-19
+Volumrate_Easington_hourly,19,temperature_2m (°C)_nybro,2.998809987519506e-18
+Volumrate_Easington_hourly,20,apparent_temperature (°C)_zeebrugge_x,3.266180663065196e-18
+Volumrate_Easington_hourly,21,temperature_2m (°C)_easington_x,3.335625217246731e-18
+Volumrate_Easington_hourly,22,temperature_2m (°C)_zeebrugge_y,3.483290473879288e-18
+Volumrate_Easington_hourly,23,DK_rel,6.255662024394617e-18
+Volumrate_Easington_hourly,24,DK_rel_pct,6.61778744445251e-18
+Volumrate_Easington_hourly,25,apparent_temperature (°C)_dunkerque_x,8.051853228265988e-18
+Volumrate_Easington_hourly,26,apparent_temperature (°C)_easington_x,1.107306838782081e-17
+Volumrate_Easington_hourly,27,temperature_2m (°C)_zeebrugge_x,2.0205229956312305e-17
+Volumrate_Easington_hourly,28,apparent_temperature (°C)_nybro,2.1140876179270447e-17
+Volumrate_Easington_hourly,29,temperature_2m (°C)_dunkerque_x,2.5973790531963074e-17
+Volumrate_Easington_hourly,30,temperature_2m (°C)_easington_y,2.7336859934535323e-17
+Volumrate_Easington_hourly,31,month_cos,3.973603181075862e-17
+Volumrate_Easington_hourly,32,apparent_temperature (°C)_easington_y,4.7004753563600223e-17
+Volumrate_Easington_hourly,33,apparent_temperature (°C)_germany_y,1.6806455640968224e-16
+Volumrate_Easington_hourly,34,hour_sin,1.8387681565419493e-16
+Volumrate_Easington_hourly,35,temperature_2m (°C)_stfergus_x,1.9016160286061058e-16
+Volumrate_Easington_hourly,36,apparent_temperature (°C)_stfergus_y,3.4562826736844253e-16
+Volumrate_Easington_hourly,37,temperature_2m (°C)_germany,4.251621055422074e-16
+Volumrate_Easington_hourly,38,apparent_temperature (°C)_germany,5.647001575748264e-16
+Volumrate_Easington_hourly,39,temperature_2m (°C)_germany_y,6.113885910895468e-16
+Volumrate_Easington_hourly,40,temperature_2m (°C)_stfergus_y,7.305275327840969e-16
+Volumrate_Easington_hourly,41,apparent_temperature (°C)_germany_x,1.1333455308059458e-15
+Volumrate_Easington_hourly,42,shortwave_radiation (W/m²)_dunkerque_y,5.6873248401005555e-15
+Volumrate_Easington_hourly,43,temperature_2m (°C)_germany_x,9.98832632067536e-15
+Volumrate_Easington_hourly,44,apparent_temperature (°C)_stfergus_x,1.5228007893504217e-14
+Volumrate_Easington_hourly,45,relative_humidity_2m (%)_dunkerque_y,1.0091088640543692e-12
+Volumrate_Easington_hourly,46,shortwave_radiation (W/m²)_easington_y,1.2797485219898882e-12
+Volumrate_Easington_hourly,47,hour_cos,2.87655502767159e-12
+Volumrate_Easington_hourly,48,DE_rel,6.3924417575869e-12
+Volumrate_Easington_hourly,49,DE_rel_pct,6.405872479184901e-12
+Volumrate_Easington_hourly,50,shortwave_radiation (W/m²)_easington_x,6.851092209038121e-12
+Volumrate_Easington_hourly,51,Nominasjoner Belgia [MSM3],8.421337084904608e-12
+Volumrate_Easington_hourly,52,shortwave_radiation (W/m²)_germany_y,9.289779170765241e-12
+Volumrate_Easington_hourly,53,relative_humidity_2m (%)_easington_x,1.5632748180271282e-11
+Volumrate_Easington_hourly,54,shortwave_radiation (W/m²)_germany,2.046573013453147e-11
+Volumrate_Easington_hourly,55,dew_point_2m (°C)_stfergus_y,2.3562024782775114e-11
+Volumrate_Easington_hourly,56,shortwave_radiation (W/m²)_dunkerque_x,2.6846009902547988e-11
+Volumrate_Easington_hourly,57,shortwave_radiation (W/m²)_zeebrugge_y,2.89679657140684e-11
+Volumrate_Easington_hourly,58,dew_point_2m (°C)_easington_y,3.689815762859268e-11
+Volumrate_Easington_hourly,59,shortwave_radiation (W/m²)_zeebrugge_x,9.455595359611071e-11
+Volumrate_Easington_hourly,60,dew_point_2m (°C)_zeebrugge_x,1.0325887165093537e-10
+Volumrate_Easington_hourly,61,shortwave_radiation (W/m²)_germany_x,1.1498792481802539e-10
+Volumrate_Easington_hourly,62,shortwave_radiation (W/m²)_stfergus_y,1.3662159562913425e-10
+Volumrate_Easington_hourly,63,dew_point_2m (°C)_zeebrugge_y,3.3250286515525165e-10
+Volumrate_Easington_hourly,64,shortwave_radiation (W/m²)_nybro,3.6000318856025595e-10
+Volumrate_Easington_hourly,65,dew_point_2m (°C)_germany_x,4.059165206270481e-10
+Volumrate_Easington_hourly,66,relative_humidity_2m (%)_germany,5.208268557942503e-10
+Volumrate_Easington_hourly,67,dew_point_2m (°C)_nybro,6.435375072557589e-10
+Volumrate_Easington_hourly,68,dew_point_2m (°C)_dunkerque_x,6.74521096723938e-10
+Volumrate_Easington_hourly,69,dew_point_2m (°C)_germany_y,8.177454350216918e-10
+Volumrate_Easington_hourly,70,dew_point_2m (°C)_dunkerque_y,9.111451530755219e-10
+Volumrate_Easington_hourly,71,dew_point_2m (°C)_easington_x,1.054334312103291e-09
+Volumrate_Easington_hourly,72,dew_point_2m (°C)_stfergus_x,1.0711341807521622e-09
+Volumrate_Easington_hourly,73,direct_radiation (W/m²)_dunkerque_y,1.6467168932368798e-09
+Volumrate_Easington_hourly,74,direct_radiation (W/m²)_germany_y,3.822509251073541e-09
+Volumrate_Easington_hourly,75,shortwave_radiation (W/m²)_stfergus_x,4.2839445061394e-09
+Volumrate_Easington_hourly,76,direct_radiation (W/m²)_easington_y,9.904788463402063e-09
+Volumrate_Easington_hourly,77,is_holiday,1.2899670344561608e-08
+Volumrate_Easington_hourly,78,pressure_msl (hPa)_germany_y,4.098357874461812e-08
+Volumrate_Easington_hourly,79,dew_point_2m (°C)_germany,6.622311974843042e-08
+Volumrate_Easington_hourly,80,direct_radiation (W/m²)_germany,7.038384729027073e-08
+Volumrate_Easington_hourly,81,wind_speed_10m (km/h)_easington_x,7.276478112771182e-08
+Volumrate_Easington_hourly,82,direct_radiation (W/m²)_dunkerque_x,1.1178829722342245e-07
+Volumrate_Easington_hourly,83,relative_humidity_2m (%)_zeebrugge_y,1.2701933627219214e-07
+Volumrate_Easington_hourly,84,relative_humidity_2m (%)_stfergus_x,2.475335550479228e-07
+Volumrate_Easington_hourly,85,direct_radiation (W/m²)_zeebrugge_y,2.534535182816624e-07
+Volumrate_Easington_hourly,86,direct_radiation (W/m²)_zeebrugge_x,4.447642858395229e-07
+Volumrate_Easington_hourly,87,direct_radiation (W/m²)_easington_x,5.476542606655726e-07
+Volumrate_Easington_hourly,88,UK_is_best,8.10053908505103e-07
+Volumrate_Easington_hourly,89,relative_humidity_2m (%)_dunkerque_x,1.2332709752373668e-06
+Volumrate_Easington_hourly,90,relative_humidity_2m (%)_nybro,1.2713510256261527e-06
+Volumrate_Easington_hourly,91,direct_radiation (W/m²)_germany_x,1.3101776481753896e-06
+Volumrate_Easington_hourly,92,wind_speed_10m (km/h)_easington_y,1.9261911492530687e-06
+Volumrate_Easington_hourly,93,direct_radiation (W/m²)_stfergus_y,2.867511328757056e-06
+Volumrate_Easington_hourly,94,direct_radiation (W/m²)_nybro,4.037049248620398e-06
+Volumrate_Easington_hourly,95,relative_humidity_2m (%)_germany_y,9.869314560312922e-06
+Volumrate_Easington_hourly,96,relative_humidity_2m (%)_easington_y,1.0080173443320267e-05
+Volumrate_Easington_hourly,97,direct_radiation (W/m²)_stfergus_x,1.2975429791030722e-05
+Volumrate_Easington_hourly,98,pressure_msl (hPa)_germany,1.307906614561222e-05
+Volumrate_Easington_hourly,99,wind_speed_10m (km/h)_zeebrugge_y,1.5377174417676017e-05
+Volumrate_Easington_hourly,100,UK,1.7303590618626163e-05
+Volumrate_Easington_hourly,101,pressure_msl (hPa)_germany_x,1.828482386214108e-05
+Volumrate_Easington_hourly,102,Nominasjoner St. Fergus [MSM3],2.991624525477213e-05
+Volumrate_Easington_hourly,103,relative_humidity_2m (%)_zeebrugge_x,6.004570168962643e-05
+Volumrate_Easington_hourly,104,Nominasjoner Tyskland [MSM3],8.534673400899079e-05
+Volumrate_Easington_hourly,105,wind_speed_10m (km/h)_stfergus_x,0.00012685552236938052
+Volumrate_Easington_hourly,106,wind_direction_10m (°)_easington_y,0.0001993852893540894
+Volumrate_Easington_hourly,107,pressure_msl (hPa)_zeebrugge_x,0.0003632237227817129
+Volumrate_Easington_hourly,108,rain (mm)_stfergus_y,0.0003870570137076446
+Volumrate_Easington_hourly,109,Nominasjoner Frankrike [MSM3],0.00041462179288783606
+Volumrate_Easington_hourly,110,wind_speed_10m (km/h)_germany_y,0.00046275243253397064
+Volumrate_Easington_hourly,111,pressure_msl (hPa)_easington_x,0.0005436103341230962
+Volumrate_Easington_hourly,112,wind_speed_10m (km/h)_germany,0.0007242627575014091
+Volumrate_Easington_hourly,113,rain (mm)_dunkerque_x,0.0008482754300500763
+Volumrate_Easington_hourly,114,pressure_msl (hPa)_stfergus_y,0.001108634616515163
+Volumrate_Easington_hourly,115,wind_speed_10m (km/h)_dunkerque_y,0.0011156813105691805
+Volumrate_Easington_hourly,116,cloud_cover (%)_dunkerque_x,0.0021630309846643954
+Volumrate_Easington_hourly,117,wind_speed_10m (km/h)_germany_x,0.0025637843694505873
+Volumrate_Easington_hourly,118,pressure_msl (hPa)_dunkerque_x,0.0027602138113557453
+Volumrate_Easington_hourly,119,relative_humidity_2m (%)_germany_x,0.0033166508350883387
+Volumrate_Easington_hourly,120,cloud_cover (%)_stfergus_x,0.005267726544640607
+Volumrate_Easington_hourly,121,pressure_msl (hPa)_easington_y,0.00534555970381104
+Volumrate_Easington_hourly,122,wind_speed_10m (km/h)_zeebrugge_x,0.005760658112020572
+Volumrate_Easington_hourly,123,pressure_msl (hPa)_nybro,0.006254815717385476
+Volumrate_Easington_hourly,124,pressure_msl (hPa)_stfergus_x,0.007120350919079453
+Volumrate_Easington_hourly,125,pressure_msl (hPa)_zeebrugge_y,0.007475075196466594
+Volumrate_Easington_hourly,126,relative_humidity_2m (%)_stfergus_y,0.007761480495432585
+Volumrate_Easington_hourly,127,month_sin,0.008200401893743015
+Volumrate_Easington_hourly,128,cloud_cover (%)_dunkerque_y,0.011421946684646246
+Volumrate_Easington_hourly,129,wind_speed_10m (km/h)_dunkerque_x,0.011497943629906788
+Volumrate_Easington_hourly,130,wind_speed_10m (km/h)_stfergus_y,0.015352482655342873
+Volumrate_Easington_hourly,131,rain (mm)_zeebrugge_y,0.019435072160337314
+Volumrate_Easington_hourly,132,rain (mm)_easington_y,0.023415881180438858
+Volumrate_Easington_hourly,133,rain (mm)_zeebrugge_x,0.026023618289625128
+Volumrate_Easington_hourly,134,wind_direction_10m (°)_zeebrugge_x,0.03072601434957025
+Volumrate_Easington_hourly,135,cloud_cover (%)_germany_x,0.034242614446566816
+Volumrate_Easington_hourly,136,rain (mm)_germany_y,0.03494749105630642
+Volumrate_Easington_hourly,137,rain (mm)_germany_x,0.03628968864089194
+Volumrate_Easington_hourly,138,rain (mm)_dunkerque_y,0.037796500979719226
+Volumrate_Easington_hourly,139,cloud_cover (%)_germany,0.03798652149383996
+Volumrate_Easington_hourly,140,pressure_msl (hPa)_dunkerque_y,0.03949891962696025

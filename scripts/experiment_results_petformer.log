@@ -1,0 +1,157 @@
+Starting experiments...
+🔄 Running experiment with pred_len=48, learning_rate=0.0001, batch_size=16, model=petformer
+Epoch 1/500, Train Loss: 0.036945, Val Loss: 0.011092
+Epoch 2/500, Train Loss: 0.015417, Val Loss: 0.009185
+Epoch 3/500, Train Loss: 0.009458, Val Loss: 0.004580
+Epoch 4/500, Train Loss: 0.005731, Val Loss: 0.002809
+Epoch 5/500, Train Loss: 0.003986, Val Loss: 0.002261
+Epoch 6/500, Train Loss: 0.003197, Val Loss: 0.001948
+Epoch 7/500, Train Loss: 0.002782, Val Loss: 0.001645
+Epoch 8/500, Train Loss: 0.002525, Val Loss: 0.001593
+Epoch 9/500, Train Loss: 0.002349, Val Loss: 0.001529
+Epoch 10/500, Train Loss: 0.002228, Val Loss: 0.001494
+Epoch 11/500, Train Loss: 0.002135, Val Loss: 0.001449
+Epoch 12/500, Train Loss: 0.002063, Val Loss: 0.001452
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 13/500, Train Loss: 0.002012, Val Loss: 0.001410
+Epoch 14/500, Train Loss: 0.001971, Val Loss: 0.001428
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 15/500, Train Loss: 0.001933, Val Loss: 0.001402
+Epoch 16/500, Train Loss: 0.001912, Val Loss: 0.001399
+Epoch 17/500, Train Loss: 0.001884, Val Loss: 0.001384
+Epoch 18/500, Train Loss: 0.001870, Val Loss: 0.001402
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 19/500, Train Loss: 0.001853, Val Loss: 0.001363
+Epoch 20/500, Train Loss: 0.001838, Val Loss: 0.001351
+Epoch 21/500, Train Loss: 0.001828, Val Loss: 0.001361
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 22/500, Train Loss: 0.001818, Val Loss: 0.001359
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 23/500, Train Loss: 0.001806, Val Loss: 0.001342
+Epoch 24/500, Train Loss: 0.001796, Val Loss: 0.001330
+Epoch 25/500, Train Loss: 0.001792, Val Loss: 0.001351
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 26/500, Train Loss: 0.001782, Val Loss: 0.001341
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 27/500, Train Loss: 0.001774, Val Loss: 0.001341
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 28/500, Train Loss: 0.001769, Val Loss: 0.001335
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 29/500, Train Loss: 0.001763, Val Loss: 0.001344
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+📤 Saved full predictions and actuals to ../predictions/predictions_48h_Easington_weather_petformer_lr0.0001_bs16.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_48h_St_Fergus_weather_petformer_lr0.0001_bs16.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_48h_Belgia_weather_petformer_lr0.0001_bs16.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_48h_Frankrike_weather_petformer_lr0.0001_bs16.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_48h_Tyskland_weather_petformer_lr0.0001_bs16.csv
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE       R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 48         0.0001          16 36.908566 3.929083 6.075242 0.134262 0.906834  16.500135 18.035496 19.903702  45.249134
+Volumrate_St_Fergus_hourly     500                 48         0.0001          16  4.929102 1.347065 2.220158 0.613976 0.792611  99.632332 56.579758  4.875188   3.616032
+   Volumrate_Belgia_hourly     500                 48         0.0001          16  0.314979 0.302169 0.561230 0.012985 0.364178   0.713391  0.709025  0.703838  43.221252
+Volumrate_Frankrike_hourly     500                 48         0.0001          16  8.623255 1.485783 2.936538 0.061743 0.856589 308.252106  6.524139  7.754323  47.560345
+ Volumrate_Tyskland_hourly     500                 48         0.0001          16 27.222996 2.199189 5.217566 0.039821 0.679205   2.067321  1.935268  9.212004 131.025604
+💾 Model weights saved to ../models/weights/petformer_500_normalized_weights.pt
+🌶️ No improvement for petformer on Volumrate_Easington_hourly (Current best MAE: 3.8252)
+🌶️ No improvement for petformer on Volumrate_St_Fergus_hourly (Current best MAE: 1.2726)
+🌶️ No improvement for petformer on Volumrate_Belgia_hourly (Current best MAE: 0.2914)
+🌶️ No improvement for petformer on Volumrate_Frankrike_hourly (Current best MAE: 1.1917)
+🌶️ No improvement for petformer on Volumrate_Tyskland_hourly (Current best MAE: 2.0727)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 70.73 minutes
+🔄 Running experiment with pred_len=48, learning_rate=0.0001, batch_size=32, model=petformer
+Epoch 1/500, Train Loss: 0.075166, Val Loss: 0.011542
+Epoch 2/500, Train Loss: 0.020706, Val Loss: 0.011340
+Epoch 3/500, Train Loss: 0.016894, Val Loss: 0.009439
+Epoch 4/500, Train Loss: 0.013422, Val Loss: 0.007200
+Epoch 5/500, Train Loss: 0.010193, Val Loss: 0.005527
+Epoch 6/500, Train Loss: 0.007605, Val Loss: 0.004053
+Epoch 7/500, Train Loss: 0.005835, Val Loss: 0.003079
+Epoch 8/500, Train Loss: 0.004679, Val Loss: 0.002570
+Epoch 9/500, Train Loss: 0.003930, Val Loss: 0.002245
+Epoch 10/500, Train Loss: 0.003427, Val Loss: 0.002021
+Epoch 11/500, Train Loss: 0.003076, Val Loss: 0.001900
+Epoch 12/500, Train Loss: 0.002824, Val Loss: 0.001755
+Epoch 13/500, Train Loss: 0.002638, Val Loss: 0.001718
+Epoch 14/500, Train Loss: 0.002502, Val Loss: 0.001615
+Epoch 15/500, Train Loss: 0.002383, Val Loss: 0.001588
+Epoch 16/500, Train Loss: 0.002295, Val Loss: 0.001520
+Epoch 17/500, Train Loss: 0.002221, Val Loss: 0.001503
+Epoch 18/500, Train Loss: 0.002159, Val Loss: 0.001485
+Epoch 19/500, Train Loss: 0.002105, Val Loss: 0.001463
+Epoch 20/500, Train Loss: 0.002062, Val Loss: 0.001435
+Epoch 21/500, Train Loss: 0.002029, Val Loss: 0.001435
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 22/500, Train Loss: 0.001992, Val Loss: 0.001447
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 23/500, Train Loss: 0.001970, Val Loss: 0.001415
+Epoch 24/500, Train Loss: 0.001947, Val Loss: 0.001392
+Epoch 25/500, Train Loss: 0.001924, Val Loss: 0.001363
+Epoch 26/500, Train Loss: 0.001909, Val Loss: 0.001385
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 27/500, Train Loss: 0.001888, Val Loss: 0.001424
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 28/500, Train Loss: 0.001874, Val Loss: 0.001382
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 29/500, Train Loss: 0.001869, Val Loss: 0.001357
+Epoch 30/500, Train Loss: 0.001854, Val Loss: 0.001349
+Epoch 31/500, Train Loss: 0.001845, Val Loss: 0.001349
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 32/500, Train Loss: 0.001835, Val Loss: 0.001331
+Epoch 33/500, Train Loss: 0.001829, Val Loss: 0.001330
+Epoch 34/500, Train Loss: 0.001817, Val Loss: 0.001330
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 35/500, Train Loss: 0.001813, Val Loss: 0.001325
+Epoch 36/500, Train Loss: 0.001806, Val Loss: 0.001336
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 37/500, Train Loss: 0.001798, Val Loss: 0.001328
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 38/500, Train Loss: 0.001794, Val Loss: 0.001346
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 39/500, Train Loss: 0.001784, Val Loss: 0.001317
+Epoch 40/500, Train Loss: 0.001784, Val Loss: 0.001306
+Epoch 41/500, Train Loss: 0.001776, Val Loss: 0.001319
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 42/500, Train Loss: 0.001773, Val Loss: 0.001313
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 43/500, Train Loss: 0.001765, Val Loss: 0.001291
+Epoch 44/500, Train Loss: 0.001759, Val Loss: 0.001318
+[93mNo improvement in validation loss for 1/5 epochs.[0m
+Epoch 45/500, Train Loss: 0.001760, Val Loss: 0.001305
+[93mNo improvement in validation loss for 2/5 epochs.[0m
+Epoch 46/500, Train Loss: 0.001752, Val Loss: 0.001300
+[93mNo improvement in validation loss for 3/5 epochs.[0m
+Epoch 47/500, Train Loss: 0.001753, Val Loss: 0.001314
+[93mNo improvement in validation loss for 4/5 epochs.[0m
+Epoch 48/500, Train Loss: 0.001746, Val Loss: 0.001301
+[93mNo improvement in validation loss for 5/5 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+📤 Saved full predictions and actuals to ../predictions/predictions_48h_Easington_weather_petformer_lr0.0001_bs32.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_48h_St_Fergus_weather_petformer_lr0.0001_bs32.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_48h_Belgia_weather_petformer_lr0.0001_bs32.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_48h_Frankrike_weather_petformer_lr0.0001_bs32.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_48h_Tyskland_weather_petformer_lr0.0001_bs32.csv
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE       R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 48         0.0001          32 35.369789 3.884758 5.947251 0.131433 0.910718  16.616344 17.332150 19.903702  45.249134
+Volumrate_St_Fergus_hourly     500                 48         0.0001          32  4.742644 1.299523 2.177761 0.602252 0.800456  96.517174 52.822815  4.875188   3.616032
+   Volumrate_Belgia_hourly     500                 48         0.0001          32  0.308038 0.294645 0.555012 0.012841 0.378188   0.696036  0.691379  0.703838  43.221252
+Volumrate_Frankrike_hourly     500                 48         0.0001          32  8.285971 1.320328 2.878536 0.060524 0.862198 310.324921  6.098033  7.754323  47.560345
+ Volumrate_Tyskland_hourly     500                 48         0.0001          32 26.086182 2.132241 5.107463 0.038981 0.692601   2.014646  1.876141  9.212004 131.025604
+💾 Model weights saved to ../models/weights/petformer_500_normalized_weights.pt
+🌶️ No improvement for petformer on Volumrate_Easington_hourly (Current best MAE: 3.8252)
+🌶️ No improvement for petformer on Volumrate_St_Fergus_hourly (Current best MAE: 1.2726)
+🌶️ No improvement for petformer on Volumrate_Belgia_hourly (Current best MAE: 0.2914)
+🌶️ No improvement for petformer on Volumrate_Frankrike_hourly (Current best MAE: 1.1917)
+🌶️ No improvement for petformer on Volumrate_Tyskland_hourly (Current best MAE: 2.0727)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 90.18 minutes

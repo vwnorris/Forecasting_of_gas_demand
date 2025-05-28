@@ -1,0 +1,1001 @@
+Starting experiments...
+🔄 Running experiment with pred_len=24, learning_rate=0.01, batch_size=16, model=kanad
+Epoch 1/500, Train Loss: 0.008256, Val Loss: 0.002582
+Epoch 2/500, Train Loss: 0.004014, Val Loss: 0.004197
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 3/500, Train Loss: 0.004738, Val Loss: 0.004195
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 4/500, Train Loss: 0.004931, Val Loss: 0.003359
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 5/500, Train Loss: 0.964098, Val Loss: 0.003451
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 6/500, Train Loss: 0.003203, Val Loss: 0.002554
+Epoch 7/500, Train Loss: 0.003058, Val Loss: 0.002380
+Epoch 8/500, Train Loss: 0.002982, Val Loss: 0.002271
+Epoch 9/500, Train Loss: 0.002956, Val Loss: 0.002899
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 10/500, Train Loss: 3.289734, Val Loss: 0.003961
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 11/500, Train Loss: 0.003786, Val Loss: 0.002731
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 12/500, Train Loss: 0.002956, Val Loss: 0.002253
+Epoch 13/500, Train Loss: 0.002802, Val Loss: 0.002198
+Epoch 14/500, Train Loss: 0.002804, Val Loss: 0.002260
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 15/500, Train Loss: 0.002852, Val Loss: 0.002293
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 16/500, Train Loss: 0.003158, Val Loss: 0.002692
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 17/500, Train Loss: 0.004063, Val Loss: 0.006245
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 18/500, Train Loss: 0.004755, Val Loss: 0.008031
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 19/500, Train Loss: 0.004947, Val Loss: 0.003860
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 20/500, Train Loss: 4.579022, Val Loss: 0.011790
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+➕ Adding kanad for Easington at 24h
+➕ Adding kanad for St_Fergus at 24h
+➕ Adding kanad for Belgia at 24h
+➕ Adding kanad for Frankrike at 24h
+➕ Adding kanad for Tyskland at 24h
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 24           0.01          16 60.378452 4.911221 7.770357 0.171942  0.846660  21.316692 18.908852 19.843294  45.191738
+Volumrate_St_Fergus_hourly     500                 24           0.01          16  8.282365 1.823857 2.877910 0.767432  0.684225 113.567711 88.177727  5.121394   3.750051
+   Volumrate_Belgia_hourly     500                 24           0.01          16  0.655644 0.560177 0.809718 0.018736 -0.332885   1.315332  1.299277  0.701355  43.217545
+Volumrate_Frankrike_hourly     500                 24           0.01          16 16.483511 1.835749 4.059989 0.085343  0.725686 305.315979  7.488997  7.751767  47.572330
+ Volumrate_Tyskland_hourly     500                 24           0.01          16 33.355350 2.481719 5.775409 0.044082  0.606256   2.269003  2.133294  9.203987 131.013763
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🎠 New best for kanad on Volumrate_Easington_hourly (MAE: 4.9112)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Easington_hourly_complete_noms_24_normalized.pt
+🎠 New best for kanad on Volumrate_St_Fergus_hourly (MAE: 1.8239)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_St_Fergus_hourly_complete_noms_24_normalized.pt
+🎠 New best for kanad on Volumrate_Belgia_hourly (MAE: 0.5602)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Belgia_hourly_complete_noms_24_normalized.pt
+🎠 New best for kanad on Volumrate_Frankrike_hourly (MAE: 1.8357)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Frankrike_hourly_complete_noms_24_normalized.pt
+🎠 New best for kanad on Volumrate_Tyskland_hourly (MAE: 2.4817)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Tyskland_hourly_complete_noms_24_normalized.pt
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=24, learning_rate=0.01, batch_size=32, model=kanad
+Epoch 1/500, Train Loss: 0.012262, Val Loss: 0.002381
+Epoch 2/500, Train Loss: 0.003067, Val Loss: 0.002310
+Epoch 3/500, Train Loss: 0.003212, Val Loss: 0.002840
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 4/500, Train Loss: 0.003419, Val Loss: 0.002834
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 5/500, Train Loss: 0.003695, Val Loss: 0.003892
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 6/500, Train Loss: 0.003735, Val Loss: 0.002975
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 7/500, Train Loss: 0.003917, Val Loss: 0.003510
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 8/500, Train Loss: 0.003865, Val Loss: 0.002679
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 9/500, Train Loss: 0.003839, Val Loss: 0.004940
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 24           0.01          32 60.940136 5.120001 7.806416 0.172740  0.845234  21.140947 19.315308 19.843294  45.191738
+Volumrate_St_Fergus_hourly     500                 24           0.01          32  8.672130 1.863873 2.944848 0.785282  0.669365 122.449959 88.636635  5.121394   3.750051
+   Volumrate_Belgia_hourly     500                 24           0.01          32  0.737453 0.571883 0.858751 0.019870 -0.499199   1.340622  1.332376  0.701355  43.217545
+Volumrate_Frankrike_hourly     500                 24           0.01          32 17.662611 2.125849 4.202691 0.088343  0.706064 290.148132  8.150713  7.751767  47.572330
+ Volumrate_Tyskland_hourly     500                 24           0.01          32 38.630997 3.447295 6.215384 0.047441  0.543980   2.981807  2.885949  9.203987 131.013763
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🌶️ No improvement for kanad on Volumrate_Easington_hourly (Current best MAE: 4.9112)
+🌶️ No improvement for kanad on Volumrate_St_Fergus_hourly (Current best MAE: 1.8239)
+🌶️ No improvement for kanad on Volumrate_Belgia_hourly (Current best MAE: 0.5602)
+🌶️ No improvement for kanad on Volumrate_Frankrike_hourly (Current best MAE: 1.8357)
+🌶️ No improvement for kanad on Volumrate_Tyskland_hourly (Current best MAE: 2.4817)
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=24, learning_rate=0.001, batch_size=16, model=kanad
+Epoch 1/500, Train Loss: 0.012467, Val Loss: 0.004548
+Epoch 2/500, Train Loss: 0.003451, Val Loss: 0.003434
+Epoch 3/500, Train Loss: 0.002892, Val Loss: 0.002310
+Epoch 4/500, Train Loss: 0.002748, Val Loss: 0.002146
+Epoch 5/500, Train Loss: 0.002673, Val Loss: 0.002088
+Epoch 6/500, Train Loss: 0.002625, Val Loss: 0.002062
+Epoch 7/500, Train Loss: 0.002580, Val Loss: 0.002051
+Epoch 8/500, Train Loss: 0.002542, Val Loss: 0.002084
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 9/500, Train Loss: 0.002495, Val Loss: 0.002257
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 10/500, Train Loss: 0.002464, Val Loss: 0.002224
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 11/500, Train Loss: 0.002439, Val Loss: 0.002176
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 12/500, Train Loss: 0.002412, Val Loss: 0.002078
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 13/500, Train Loss: 0.002392, Val Loss: 0.002110
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 14/500, Train Loss: 0.002379, Val Loss: 0.002181
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting kanad for Easington at 24h (MAE improved from 4.9112 to 4.3004)
+🔁 Overwriting kanad for St_Fergus at 24h (MAE improved from 1.8239 to 1.7637)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 24          0.001          16 41.341618 4.300389 6.429745 0.142277  0.895007  17.012224 17.216425 19.843294  45.191738
+Volumrate_St_Fergus_hourly     500                 24          0.001          16  8.364625 1.763715 2.892166 0.771234  0.681089 123.060211 80.974510  5.121394   3.750051
+   Volumrate_Belgia_hourly     500                 24          0.001          16  0.755588 0.588755 0.869245 0.020113 -0.536065   1.375435  1.379524  0.701355  43.217545
+Volumrate_Frankrike_hourly     500                 24          0.001          16 15.639495 2.203123 3.954680 0.083130  0.739732 295.057404  7.952948  7.751767  47.572330
+ Volumrate_Tyskland_hourly     500                 24          0.001          16 33.174751 2.920634 5.759753 0.043963  0.608388   2.596942  2.474567  9.203987 131.013763
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🎠 New best for kanad on Volumrate_Easington_hourly (MAE: 4.3004, prev: 4.9112)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Easington_hourly_complete_noms_24_normalized.pt
+🎠 New best for kanad on Volumrate_St_Fergus_hourly (MAE: 1.7637, prev: 1.8239)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_St_Fergus_hourly_complete_noms_24_normalized.pt
+🌶️ No improvement for kanad on Volumrate_Belgia_hourly (Current best MAE: 0.5602)
+🌶️ No improvement for kanad on Volumrate_Frankrike_hourly (Current best MAE: 1.8357)
+🌶️ No improvement for kanad on Volumrate_Tyskland_hourly (Current best MAE: 2.4817)
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=24, learning_rate=0.001, batch_size=32, model=kanad
+Epoch 1/500, Train Loss: 0.014072, Val Loss: 0.005869
+Epoch 2/500, Train Loss: 0.004548, Val Loss: 0.003580
+Epoch 3/500, Train Loss: 0.003282, Val Loss: 0.002715
+Epoch 4/500, Train Loss: 0.002846, Val Loss: 0.002206
+Epoch 5/500, Train Loss: 0.002680, Val Loss: 0.002086
+Epoch 6/500, Train Loss: 0.002609, Val Loss: 0.002153
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 7/500, Train Loss: 0.002567, Val Loss: 0.002033
+Epoch 8/500, Train Loss: 0.002537, Val Loss: 0.002048
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 9/500, Train Loss: 0.002510, Val Loss: 0.002062
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 10/500, Train Loss: 0.002478, Val Loss: 0.002017
+Epoch 11/500, Train Loss: 0.002456, Val Loss: 0.002119
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 12/500, Train Loss: 0.002434, Val Loss: 0.002086
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 13/500, Train Loss: 0.002400, Val Loss: 0.002053
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 14/500, Train Loss: 0.002378, Val Loss: 0.002074
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 15/500, Train Loss: 0.002361, Val Loss: 0.002067
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 16/500, Train Loss: 0.002344, Val Loss: 0.002151
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 17/500, Train Loss: 0.002325, Val Loss: 0.002176
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting kanad for Belgia at 24h (MAE improved from 0.5602 to 0.4870)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 24          0.001          32 43.191292 4.542831 6.572008 0.145425  0.890310  18.769476 18.102797 19.843294  45.191738
+Volumrate_St_Fergus_hourly     500                 24          0.001          32  8.511207 1.839551 2.917397 0.777962  0.675500 110.285271 88.233696  5.121394   3.750051
+   Volumrate_Belgia_hourly     500                 24          0.001          32  0.578190 0.487018 0.760388 0.017594 -0.175427   1.144114  1.135051  0.701355  43.217545
+Volumrate_Frankrike_hourly     500                 24          0.001          32 15.982747 2.020393 3.997843 0.084037  0.734019 285.472534  7.835388  7.751767  47.572330
+ Volumrate_Tyskland_hourly     500                 24          0.001          32 33.321259 2.761041 5.772457 0.044060  0.606659   2.475466  2.349680  9.203987 131.013763
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🌶️ No improvement for kanad on Volumrate_Easington_hourly (Current best MAE: 4.3004)
+🌶️ No improvement for kanad on Volumrate_St_Fergus_hourly (Current best MAE: 1.7637)
+🎠 New best for kanad on Volumrate_Belgia_hourly (MAE: 0.4870, prev: 0.5602)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Belgia_hourly_complete_noms_24_normalized.pt
+🌶️ No improvement for kanad on Volumrate_Frankrike_hourly (Current best MAE: 1.8357)
+🌶️ No improvement for kanad on Volumrate_Tyskland_hourly (Current best MAE: 2.4817)
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=24, learning_rate=0.0001, batch_size=16, model=kanad
+Epoch 1/500, Train Loss: 0.050177, Val Loss: 0.014729
+Epoch 2/500, Train Loss: 0.013105, Val Loss: 0.010303
+Epoch 3/500, Train Loss: 0.008814, Val Loss: 0.008076
+Epoch 4/500, Train Loss: 0.006484, Val Loss: 0.006724
+Epoch 5/500, Train Loss: 0.005146, Val Loss: 0.005683
+Epoch 6/500, Train Loss: 0.004336, Val Loss: 0.005378
+Epoch 7/500, Train Loss: 0.003822, Val Loss: 0.004221
+Epoch 8/500, Train Loss: 0.003481, Val Loss: 0.004227
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 9/500, Train Loss: 0.003254, Val Loss: 0.003468
+Epoch 10/500, Train Loss: 0.003077, Val Loss: 0.003124
+Epoch 11/500, Train Loss: 0.002958, Val Loss: 0.003109
+Epoch 12/500, Train Loss: 0.002860, Val Loss: 0.002858
+Epoch 13/500, Train Loss: 0.002783, Val Loss: 0.002624
+Epoch 14/500, Train Loss: 0.002721, Val Loss: 0.002484
+Epoch 15/500, Train Loss: 0.002670, Val Loss: 0.002420
+Epoch 16/500, Train Loss: 0.002628, Val Loss: 0.002372
+Epoch 17/500, Train Loss: 0.002591, Val Loss: 0.002278
+Epoch 18/500, Train Loss: 0.002556, Val Loss: 0.002223
+Epoch 19/500, Train Loss: 0.002521, Val Loss: 0.002152
+Epoch 20/500, Train Loss: 0.002491, Val Loss: 0.002187
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 21/500, Train Loss: 0.002462, Val Loss: 0.002140
+Epoch 22/500, Train Loss: 0.002436, Val Loss: 0.002159
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 23/500, Train Loss: 0.002411, Val Loss: 0.002082
+Epoch 24/500, Train Loss: 0.002388, Val Loss: 0.002092
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 25/500, Train Loss: 0.002367, Val Loss: 0.002063
+Epoch 26/500, Train Loss: 0.002350, Val Loss: 0.002009
+Epoch 27/500, Train Loss: 0.002333, Val Loss: 0.002087
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 28/500, Train Loss: 0.002313, Val Loss: 0.002008
+Epoch 29/500, Train Loss: 0.002303, Val Loss: 0.002023
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 30/500, Train Loss: 0.002289, Val Loss: 0.002007
+Epoch 31/500, Train Loss: 0.002276, Val Loss: 0.002033
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 32/500, Train Loss: 0.002267, Val Loss: 0.002028
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 33/500, Train Loss: 0.002256, Val Loss: 0.002001
+Epoch 34/500, Train Loss: 0.002248, Val Loss: 0.001993
+Epoch 35/500, Train Loss: 0.002239, Val Loss: 0.002023
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 36/500, Train Loss: 0.002232, Val Loss: 0.001982
+Epoch 37/500, Train Loss: 0.002225, Val Loss: 0.001982
+Epoch 38/500, Train Loss: 0.002220, Val Loss: 0.002007
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 39/500, Train Loss: 0.002215, Val Loss: 0.002037
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 40/500, Train Loss: 0.002206, Val Loss: 0.001976
+Epoch 41/500, Train Loss: 0.002200, Val Loss: 0.001966
+Epoch 42/500, Train Loss: 0.002195, Val Loss: 0.002016
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 43/500, Train Loss: 0.002191, Val Loss: 0.001990
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 44/500, Train Loss: 0.002189, Val Loss: 0.002000
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 45/500, Train Loss: 0.002180, Val Loss: 0.002019
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 46/500, Train Loss: 0.002178, Val Loss: 0.001985
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 47/500, Train Loss: 0.002174, Val Loss: 0.002000
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 48/500, Train Loss: 0.002171, Val Loss: 0.002028
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting kanad for St_Fergus at 24h (MAE improved from 1.7637 to 1.5146)
+🔁 Overwriting kanad for Belgia at 24h (MAE improved from 0.4870 to 0.4595)
+🔁 Overwriting kanad for Frankrike at 24h (MAE improved from 1.8357 to 1.7388)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 24         0.0001          16 43.294121 4.707456 6.579827 0.145598  0.890048  19.752405 18.012732 19.843294  45.191738
+Volumrate_St_Fergus_hourly     500                 24         0.0001          16  7.601669 1.514606 2.757112 0.735220  0.710177 114.714012 53.920479  5.121394   3.750051
+   Volumrate_Belgia_hourly     500                 24         0.0001          16  0.551868 0.459507 0.742878 0.017189 -0.121914   1.080880  1.072288  0.701355  43.217545
+Volumrate_Frankrike_hourly     500                 24         0.0001          16 15.797810 1.738842 3.974646 0.083550  0.737097 306.499634  7.237311  7.751767  47.572330
+ Volumrate_Tyskland_hourly     500                 24         0.0001          16 33.593002 2.738899 5.795947 0.044239  0.603451   2.479502  2.329387  9.203987 131.013763
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🌶️ No improvement for kanad on Volumrate_Easington_hourly (Current best MAE: 4.3004)
+🎠 New best for kanad on Volumrate_St_Fergus_hourly (MAE: 1.5146, prev: 1.7637)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_St_Fergus_hourly_complete_noms_24_normalized.pt
+🎠 New best for kanad on Volumrate_Belgia_hourly (MAE: 0.4595, prev: 0.4870)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Belgia_hourly_complete_noms_24_normalized.pt
+🎠 New best for kanad on Volumrate_Frankrike_hourly (MAE: 1.7388, prev: 1.8357)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Frankrike_hourly_complete_noms_24_normalized.pt
+🌶️ No improvement for kanad on Volumrate_Tyskland_hourly (Current best MAE: 2.4817)
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=24, learning_rate=0.0001, batch_size=32, model=kanad
+Epoch 1/500, Train Loss: 0.040278, Val Loss: 0.016273
+Epoch 2/500, Train Loss: 0.017307, Val Loss: 0.013102
+Epoch 3/500, Train Loss: 0.012787, Val Loss: 0.010950
+Epoch 4/500, Train Loss: 0.010041, Val Loss: 0.008954
+Epoch 5/500, Train Loss: 0.008134, Val Loss: 0.007422
+Epoch 6/500, Train Loss: 0.006767, Val Loss: 0.005959
+Epoch 7/500, Train Loss: 0.005793, Val Loss: 0.005073
+Epoch 8/500, Train Loss: 0.005106, Val Loss: 0.004886
+Epoch 9/500, Train Loss: 0.004587, Val Loss: 0.004165
+Epoch 10/500, Train Loss: 0.004219, Val Loss: 0.004002
+Epoch 11/500, Train Loss: 0.003911, Val Loss: 0.003578
+Epoch 12/500, Train Loss: 0.003666, Val Loss: 0.003477
+Epoch 13/500, Train Loss: 0.003480, Val Loss: 0.003318
+Epoch 14/500, Train Loss: 0.003307, Val Loss: 0.003298
+Epoch 15/500, Train Loss: 0.003174, Val Loss: 0.003038
+Epoch 16/500, Train Loss: 0.003066, Val Loss: 0.003073
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 17/500, Train Loss: 0.002965, Val Loss: 0.002797
+Epoch 18/500, Train Loss: 0.002879, Val Loss: 0.002605
+Epoch 19/500, Train Loss: 0.002809, Val Loss: 0.002547
+Epoch 20/500, Train Loss: 0.002751, Val Loss: 0.002557
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 21/500, Train Loss: 0.002698, Val Loss: 0.002295
+Epoch 22/500, Train Loss: 0.002654, Val Loss: 0.002456
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 23/500, Train Loss: 0.002616, Val Loss: 0.002341
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 24/500, Train Loss: 0.002579, Val Loss: 0.002274
+Epoch 25/500, Train Loss: 0.002548, Val Loss: 0.002239
+Epoch 26/500, Train Loss: 0.002520, Val Loss: 0.002218
+Epoch 27/500, Train Loss: 0.002497, Val Loss: 0.002368
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 28/500, Train Loss: 0.002472, Val Loss: 0.002131
+Epoch 29/500, Train Loss: 0.002446, Val Loss: 0.002142
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 30/500, Train Loss: 0.002425, Val Loss: 0.002094
+Epoch 31/500, Train Loss: 0.002407, Val Loss: 0.002095
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 32/500, Train Loss: 0.002391, Val Loss: 0.002112
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 33/500, Train Loss: 0.002370, Val Loss: 0.002141
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 34/500, Train Loss: 0.002357, Val Loss: 0.002096
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 35/500, Train Loss: 0.002341, Val Loss: 0.002104
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 36/500, Train Loss: 0.002329, Val Loss: 0.002110
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 37/500, Train Loss: 0.002318, Val Loss: 0.002104
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 24         0.0001          32 46.512569 4.751362 6.820012 0.150913  0.881875  20.778866 17.845518 19.843294  45.191738
+Volumrate_St_Fergus_hourly     500                 24         0.0001          32  8.010716 1.587924 2.830321 0.754742  0.694582 123.232063 58.435432  5.121394   3.750051
+   Volumrate_Belgia_hourly     500                 24         0.0001          32  1.138097 0.766580 1.066816 0.024685 -1.313684   1.796522  1.771511  0.701355  43.217545
+Volumrate_Frankrike_hourly     500                 24         0.0001          32 15.362989 1.740572 3.919565 0.082392  0.744333 301.338593  7.199633  7.751767  47.572330
+ Volumrate_Tyskland_hourly     500                 24         0.0001          32 35.259804 3.165928 5.937997 0.045323  0.583775   2.846137  2.648749  9.203987 131.013763
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🌶️ No improvement for kanad on Volumrate_Easington_hourly (Current best MAE: 4.3004)
+🌶️ No improvement for kanad on Volumrate_St_Fergus_hourly (Current best MAE: 1.5146)
+🌶️ No improvement for kanad on Volumrate_Belgia_hourly (Current best MAE: 0.4595)
+🌶️ No improvement for kanad on Volumrate_Frankrike_hourly (Current best MAE: 1.7388)
+🌶️ No improvement for kanad on Volumrate_Tyskland_hourly (Current best MAE: 2.4817)
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=48, learning_rate=0.01, batch_size=16, model=kanad
+Epoch 1/500, Train Loss: 0.008796, Val Loss: 0.003861
+Epoch 2/500, Train Loss: 0.005999, Val Loss: 0.004384
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 3/500, Train Loss: 0.006555, Val Loss: 0.004398
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 4/500, Train Loss: 0.006726, Val Loss: 0.006811
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 5/500, Train Loss: 0.006842, Val Loss: 0.008676
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 6/500, Train Loss: 2.877839, Val Loss: 0.008948
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 7/500, Train Loss: 0.007492, Val Loss: 0.005327
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 8/500, Train Loss: 0.005124, Val Loss: 0.004931
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+➕ Adding kanad for Easington at 48h
+➕ Adding kanad for St_Fergus at 48h
+➕ Adding kanad for Belgia at 48h
+➕ Adding kanad for Frankrike at 48h
+➕ Adding kanad for Tyskland at 48h
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 48           0.01          16 98.256142 6.619150 9.912424 0.219063  0.751977  28.239405 23.562756 19.903702  45.249134
+Volumrate_St_Fergus_hourly     500                 48           0.01          16 11.759876 1.804731 3.429268 0.948351  0.505211 162.249283 56.927364  4.875188   3.616032
+   Volumrate_Belgia_hourly     500                 48           0.01          16  1.403191 0.890273 1.184564 0.027407 -1.832509   2.078958  2.051257  0.703838  43.221252
+Volumrate_Frankrike_hourly     500                 48           0.01          16 35.323578 3.261675 5.943364 0.124965  0.412542 648.486084 10.251956  7.754323  47.560345
+ Volumrate_Tyskland_hourly     500                 48           0.01          16 71.870781 4.964971 8.477664 0.064702  0.153077   4.311920  4.093502  9.212004 131.025604
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🎠 New best for kanad on Volumrate_Easington_hourly (MAE: 6.6192)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Easington_hourly_complete_noms_48_normalized.pt
+🎠 New best for kanad on Volumrate_St_Fergus_hourly (MAE: 1.8047)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_St_Fergus_hourly_complete_noms_48_normalized.pt
+🎠 New best for kanad on Volumrate_Belgia_hourly (MAE: 0.8903)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Belgia_hourly_complete_noms_48_normalized.pt
+🎠 New best for kanad on Volumrate_Frankrike_hourly (MAE: 3.2617)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Frankrike_hourly_complete_noms_48_normalized.pt
+🎠 New best for kanad on Volumrate_Tyskland_hourly (MAE: 4.9650)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Tyskland_hourly_complete_noms_48_normalized.pt
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=48, learning_rate=0.01, batch_size=32, model=kanad
+Epoch 1/500, Train Loss: 0.010385, Val Loss: 0.004017
+Epoch 2/500, Train Loss: 0.004982, Val Loss: 0.003832
+Epoch 3/500, Train Loss: 0.005373, Val Loss: 0.005114
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 4/500, Train Loss: 0.005405, Val Loss: 0.003826
+Epoch 5/500, Train Loss: 0.005579, Val Loss: 0.004400
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 6/500, Train Loss: 0.005570, Val Loss: 0.003885
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 7/500, Train Loss: 0.005783, Val Loss: 0.004557
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 8/500, Train Loss: 0.005546, Val Loss: 0.004122
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 9/500, Train Loss: 0.005709, Val Loss: 0.004314
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 10/500, Train Loss: 0.005590, Val Loss: 0.005657
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 11/500, Train Loss: 3.686727, Val Loss: 0.006360
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting kanad for Belgia at 48h (MAE improved from 0.8903 to 0.8143)
+🔁 Overwriting kanad for Frankrike at 48h (MAE improved from 3.2617 to 2.8502)
+🔁 Overwriting kanad for Tyskland at 48h (MAE improved from 4.9650 to 4.2322)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size        MSE      MAE      RMSE    nRMSE        R2       MAPE      SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 48           0.01          32 111.024803 7.650422 10.536831 0.232863  0.719746  27.301260  26.671387 19.903702  45.249134
+Volumrate_St_Fergus_hourly     500                 48           0.01          32  14.780114 2.421513  3.844491 1.063180  0.378137 158.249130 117.055038  4.875188   3.616032
+   Volumrate_Belgia_hourly     500                 48           0.01          32   1.252040 0.814254  1.118946 0.025889 -1.527392   1.901166   1.892122  0.703838  43.221252
+Volumrate_Frankrike_hourly     500                 48           0.01          32  33.295311 2.850184  5.770209 0.121324  0.446274 661.171326   9.308408  7.754323  47.560345
+ Volumrate_Tyskland_hourly     500                 48           0.01          32  68.525284 4.232226  8.278000 0.063178  0.192500   3.815171   3.506089  9.212004 131.025604
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🌶️ No improvement for kanad on Volumrate_Easington_hourly (Current best MAE: 6.6192)
+🌶️ No improvement for kanad on Volumrate_St_Fergus_hourly (Current best MAE: 1.8047)
+🎠 New best for kanad on Volumrate_Belgia_hourly (MAE: 0.8143, prev: 0.8903)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Belgia_hourly_complete_noms_48_normalized.pt
+🎠 New best for kanad on Volumrate_Frankrike_hourly (MAE: 2.8502, prev: 3.2617)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Frankrike_hourly_complete_noms_48_normalized.pt
+🎠 New best for kanad on Volumrate_Tyskland_hourly (MAE: 4.2322, prev: 4.9650)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Tyskland_hourly_complete_noms_48_normalized.pt
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=48, learning_rate=0.001, batch_size=16, model=kanad
+Epoch 1/500, Train Loss: 0.012645, Val Loss: 0.004057
+Epoch 2/500, Train Loss: 0.004807, Val Loss: 0.003445
+Epoch 3/500, Train Loss: 0.004440, Val Loss: 0.003648
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 4/500, Train Loss: 0.004297, Val Loss: 0.003480
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 5/500, Train Loss: 0.004146, Val Loss: 0.003582
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 6/500, Train Loss: 0.004045, Val Loss: 0.003538
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 7/500, Train Loss: 0.003983, Val Loss: 0.003917
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 8/500, Train Loss: 0.003936, Val Loss: 0.003572
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 9/500, Train Loss: 0.003899, Val Loss: 0.003480
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting kanad for Easington at 48h (MAE improved from 6.6192 to 6.5491)
+🔁 Overwriting kanad for Belgia at 48h (MAE improved from 0.8143 to 0.7246)
+🔁 Overwriting kanad for Frankrike at 48h (MAE improved from 2.8502 to 2.3974)
+🔁 Overwriting kanad for Tyskland at 48h (MAE improved from 4.2322 to 3.8746)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 48          0.001          16 88.375885 6.549101 9.400845 0.207757  0.776917  28.342360 21.735605 19.903702  45.249134
+Volumrate_St_Fergus_hourly     500                 48          0.001          16 12.099602 1.901797 3.478448 0.961952  0.490917 159.760773 65.950928  4.875188   3.616032
+   Volumrate_Belgia_hourly     500                 48          0.001          16  1.167885 0.724629 1.080687 0.025004 -1.357515   1.695380  1.692558  0.703838  43.221252
+Volumrate_Frankrike_hourly     500                 48          0.001          16 30.559568 2.397407 5.528071 0.116233  0.491771 703.499817  8.253607  7.754323  47.560345
+ Volumrate_Tyskland_hourly     500                 48          0.001          16 62.754986 3.874597 7.921804 0.060460  0.260497   3.533093  3.238548  9.212004 131.025604
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🎠 New best for kanad on Volumrate_Easington_hourly (MAE: 6.5491, prev: 6.6192)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Easington_hourly_complete_noms_48_normalized.pt
+🌶️ No improvement for kanad on Volumrate_St_Fergus_hourly (Current best MAE: 1.8047)
+🎠 New best for kanad on Volumrate_Belgia_hourly (MAE: 0.7246, prev: 0.8143)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Belgia_hourly_complete_noms_48_normalized.pt
+🎠 New best for kanad on Volumrate_Frankrike_hourly (MAE: 2.3974, prev: 2.8502)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Frankrike_hourly_complete_noms_48_normalized.pt
+🎠 New best for kanad on Volumrate_Tyskland_hourly (MAE: 3.8746, prev: 4.2322)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Tyskland_hourly_complete_noms_48_normalized.pt
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=48, learning_rate=0.001, batch_size=32, model=kanad
+Epoch 1/500, Train Loss: 0.018229, Val Loss: 0.007731
+Epoch 2/500, Train Loss: 0.006341, Val Loss: 0.004492
+Epoch 3/500, Train Loss: 0.004994, Val Loss: 0.003967
+Epoch 4/500, Train Loss: 0.004539, Val Loss: 0.003839
+Epoch 5/500, Train Loss: 0.004320, Val Loss: 0.003730
+Epoch 6/500, Train Loss: 0.004171, Val Loss: 0.003948
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 7/500, Train Loss: 0.004055, Val Loss: 0.003942
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 8/500, Train Loss: 0.003947, Val Loss: 0.003609
+Epoch 9/500, Train Loss: 0.003867, Val Loss: 0.003623
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 10/500, Train Loss: 0.003823, Val Loss: 0.003852
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 11/500, Train Loss: 0.003777, Val Loss: 0.003675
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 12/500, Train Loss: 0.003747, Val Loss: 0.003541
+Epoch 13/500, Train Loss: 0.003707, Val Loss: 0.003628
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 14/500, Train Loss: 0.003688, Val Loss: 0.003604
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 15/500, Train Loss: 0.003664, Val Loss: 0.003526
+Epoch 16/500, Train Loss: 0.003651, Val Loss: 0.003562
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 17/500, Train Loss: 0.003639, Val Loss: 0.003567
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 18/500, Train Loss: 0.003617, Val Loss: 0.003594
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 19/500, Train Loss: 0.003605, Val Loss: 0.003583
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 20/500, Train Loss: 0.003595, Val Loss: 0.003578
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 21/500, Train Loss: 0.003581, Val Loss: 0.003687
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 22/500, Train Loss: 0.003575, Val Loss: 0.003656
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting kanad for Easington at 48h (MAE improved from 6.5491 to 6.3876)
+🔁 Overwriting kanad for Belgia at 48h (MAE improved from 0.7246 to 0.6058)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 48          0.001          32 92.961060 6.387580 9.641632 0.213079  0.765343  27.139763 22.329388 19.903702  45.249134
+Volumrate_St_Fergus_hourly     500                 48          0.001          32 12.765343 2.118990 3.572862 0.988061  0.462907 179.632858 82.365570  4.875188   3.616032
+   Volumrate_Belgia_hourly     500                 48          0.001          32  0.844040 0.605842 0.918716 0.021256 -0.703795   1.420341  1.411031  0.703838  43.221252
+Volumrate_Frankrike_hourly     500                 48          0.001          32 34.228642 3.053838 5.850525 0.123013  0.430752 634.794495  9.729729  7.754323  47.560345
+ Volumrate_Tyskland_hourly     500                 48          0.001          32 71.219582 4.537648 8.439169 0.064409  0.160750   4.059475  3.709165  9.212004 131.025604
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🎠 New best for kanad on Volumrate_Easington_hourly (MAE: 6.3876, prev: 6.5491)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Easington_hourly_complete_noms_48_normalized.pt
+🌶️ No improvement for kanad on Volumrate_St_Fergus_hourly (Current best MAE: 1.8047)
+🎠 New best for kanad on Volumrate_Belgia_hourly (MAE: 0.6058, prev: 0.7246)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Belgia_hourly_complete_noms_48_normalized.pt
+🌶️ No improvement for kanad on Volumrate_Frankrike_hourly (Current best MAE: 2.3974)
+🌶️ No improvement for kanad on Volumrate_Tyskland_hourly (Current best MAE: 3.8746)
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=48, learning_rate=0.0001, batch_size=16, model=kanad
+Epoch 1/500, Train Loss: 0.033462, Val Loss: 0.016404
+Epoch 2/500, Train Loss: 0.014559, Val Loss: 0.011820
+Epoch 3/500, Train Loss: 0.010432, Val Loss: 0.008922
+Epoch 4/500, Train Loss: 0.008140, Val Loss: 0.007155
+Epoch 5/500, Train Loss: 0.006764, Val Loss: 0.005699
+Epoch 6/500, Train Loss: 0.005930, Val Loss: 0.005796
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 7/500, Train Loss: 0.005396, Val Loss: 0.005955
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 8/500, Train Loss: 0.005027, Val Loss: 0.004521
+Epoch 9/500, Train Loss: 0.004787, Val Loss: 0.004875
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 10/500, Train Loss: 0.004603, Val Loss: 0.004160
+Epoch 11/500, Train Loss: 0.004476, Val Loss: 0.004137
+Epoch 12/500, Train Loss: 0.004366, Val Loss: 0.003815
+Epoch 13/500, Train Loss: 0.004284, Val Loss: 0.003819
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 14/500, Train Loss: 0.004200, Val Loss: 0.003740
+Epoch 15/500, Train Loss: 0.004133, Val Loss: 0.003791
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 16/500, Train Loss: 0.004058, Val Loss: 0.003619
+Epoch 17/500, Train Loss: 0.003989, Val Loss: 0.003715
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 18/500, Train Loss: 0.003935, Val Loss: 0.003647
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 19/500, Train Loss: 0.003884, Val Loss: 0.003820
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 20/500, Train Loss: 0.003847, Val Loss: 0.003805
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 21/500, Train Loss: 0.003812, Val Loss: 0.003791
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 22/500, Train Loss: 0.003781, Val Loss: 0.003741
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 23/500, Train Loss: 0.003756, Val Loss: 0.003790
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size        MSE      MAE      RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 48         0.0001          16 101.340218 7.029728 10.066788 0.222475  0.744192  32.069984 22.682098 19.903702  45.249134
+Volumrate_St_Fergus_hourly     500                 48         0.0001          16  12.459932 1.918161  3.529863 0.976170  0.475757 147.516785 69.288940  4.875188   3.616032
+   Volumrate_Belgia_hourly     500                 48         0.0001          16   1.786202 0.984443  1.336489 0.030922 -2.605663   2.302410  2.268725  0.703838  43.221252
+Volumrate_Frankrike_hourly     500                 48         0.0001          16  31.850018 2.886877  5.643582 0.118662  0.470310 665.440613  9.341125  7.754323  47.560345
+ Volumrate_Tyskland_hourly     500                 48         0.0001          16  66.199623 4.400696  8.136315 0.062097  0.219905   3.998833  3.594616  9.212004 131.025604
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🌶️ No improvement for kanad on Volumrate_Easington_hourly (Current best MAE: 6.3876)
+🌶️ No improvement for kanad on Volumrate_St_Fergus_hourly (Current best MAE: 1.8047)
+🌶️ No improvement for kanad on Volumrate_Belgia_hourly (Current best MAE: 0.6058)
+🌶️ No improvement for kanad on Volumrate_Frankrike_hourly (Current best MAE: 2.3974)
+🌶️ No improvement for kanad on Volumrate_Tyskland_hourly (Current best MAE: 3.8746)
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=48, learning_rate=0.0001, batch_size=32, model=kanad
+Epoch 1/500, Train Loss: 0.049036, Val Loss: 0.019863
+Epoch 2/500, Train Loss: 0.018977, Val Loss: 0.014861
+Epoch 3/500, Train Loss: 0.014425, Val Loss: 0.012757
+Epoch 4/500, Train Loss: 0.011799, Val Loss: 0.011653
+Epoch 5/500, Train Loss: 0.009969, Val Loss: 0.011127
+Epoch 6/500, Train Loss: 0.008606, Val Loss: 0.009227
+Epoch 7/500, Train Loss: 0.007612, Val Loss: 0.008662
+Epoch 8/500, Train Loss: 0.006829, Val Loss: 0.006856
+Epoch 9/500, Train Loss: 0.006259, Val Loss: 0.007431
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 10/500, Train Loss: 0.005807, Val Loss: 0.006270
+Epoch 11/500, Train Loss: 0.005481, Val Loss: 0.005856
+Epoch 12/500, Train Loss: 0.005223, Val Loss: 0.005558
+Epoch 13/500, Train Loss: 0.005012, Val Loss: 0.005525
+Epoch 14/500, Train Loss: 0.004837, Val Loss: 0.005472
+Epoch 15/500, Train Loss: 0.004694, Val Loss: 0.005371
+Epoch 16/500, Train Loss: 0.004580, Val Loss: 0.005030
+Epoch 17/500, Train Loss: 0.004485, Val Loss: 0.004880
+Epoch 18/500, Train Loss: 0.004399, Val Loss: 0.004767
+Epoch 19/500, Train Loss: 0.004311, Val Loss: 0.004632
+Epoch 20/500, Train Loss: 0.004245, Val Loss: 0.004529
+Epoch 21/500, Train Loss: 0.004185, Val Loss: 0.004395
+Epoch 22/500, Train Loss: 0.004127, Val Loss: 0.004218
+Epoch 23/500, Train Loss: 0.004066, Val Loss: 0.004113
+Epoch 24/500, Train Loss: 0.004016, Val Loss: 0.004108
+Epoch 25/500, Train Loss: 0.003970, Val Loss: 0.004254
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 26/500, Train Loss: 0.003920, Val Loss: 0.004270
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 27/500, Train Loss: 0.003884, Val Loss: 0.004144
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 28/500, Train Loss: 0.003847, Val Loss: 0.004086
+Epoch 29/500, Train Loss: 0.003812, Val Loss: 0.004037
+Epoch 30/500, Train Loss: 0.003784, Val Loss: 0.004038
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 31/500, Train Loss: 0.003753, Val Loss: 0.004069
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 32/500, Train Loss: 0.003731, Val Loss: 0.004054
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 33/500, Train Loss: 0.003709, Val Loss: 0.003986
+Epoch 34/500, Train Loss: 0.003689, Val Loss: 0.004013
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 35/500, Train Loss: 0.003669, Val Loss: 0.003908
+Epoch 36/500, Train Loss: 0.003652, Val Loss: 0.004016
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 37/500, Train Loss: 0.003640, Val Loss: 0.003894
+Epoch 38/500, Train Loss: 0.003628, Val Loss: 0.003835
+Epoch 39/500, Train Loss: 0.003609, Val Loss: 0.003925
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 40/500, Train Loss: 0.003602, Val Loss: 0.003899
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 41/500, Train Loss: 0.003588, Val Loss: 0.003887
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 42/500, Train Loss: 0.003579, Val Loss: 0.003870
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 43/500, Train Loss: 0.003569, Val Loss: 0.003842
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 44/500, Train Loss: 0.003561, Val Loss: 0.003867
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 45/500, Train Loss: 0.003550, Val Loss: 0.003898
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting kanad for Belgia at 48h (MAE improved from 0.6058 to 0.5852)
+🔁 Overwriting kanad for Tyskland at 48h (MAE improved from 3.8746 to 3.4781)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size        MSE      MAE      RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 48         0.0001          32 119.720230 7.969675 10.941674 0.241810  0.697796  34.123482 25.357250 19.903702  45.249134
+Volumrate_St_Fergus_hourly     500                 48         0.0001          32  12.963129 2.105188  3.600435 0.995687  0.454585 148.500748 88.650406  4.875188   3.616032
+   Volumrate_Belgia_hourly     500                 48         0.0001          32   0.812564 0.585237  0.901423 0.020856 -0.640257   1.374617  1.363808  0.703838  43.221252
+Volumrate_Frankrike_hourly     500                 48         0.0001          32  31.129650 2.478225  5.579395 0.117312  0.482290 654.269958  8.542477  7.754323  47.560345
+ Volumrate_Tyskland_hourly     500                 48         0.0001          32  61.588490 3.478140  7.847833 0.059895  0.274243   3.236050  2.932118  9.212004 131.025604
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🌶️ No improvement for kanad on Volumrate_Easington_hourly (Current best MAE: 6.3876)
+🌶️ No improvement for kanad on Volumrate_St_Fergus_hourly (Current best MAE: 1.8047)
+🎠 New best for kanad on Volumrate_Belgia_hourly (MAE: 0.5852, prev: 0.6058)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Belgia_hourly_complete_noms_48_normalized.pt
+🌶️ No improvement for kanad on Volumrate_Frankrike_hourly (Current best MAE: 2.3974)
+🎠 New best for kanad on Volumrate_Tyskland_hourly (MAE: 3.4781, prev: 3.8746)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Tyskland_hourly_complete_noms_48_normalized.pt
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=72, learning_rate=0.01, batch_size=16, model=kanad
+Epoch 1/500, Train Loss: 0.010337, Val Loss: 0.006221
+Epoch 2/500, Train Loss: 0.008350, Val Loss: 0.008401
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 3/500, Train Loss: 0.008903, Val Loss: 0.012977
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 4/500, Train Loss: 0.008894, Val Loss: 0.010326
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 5/500, Train Loss: 0.669343, Val Loss: 0.005555
+Epoch 6/500, Train Loss: 0.006369, Val Loss: 0.005281
+Epoch 7/500, Train Loss: 0.006093, Val Loss: 0.005035
+Epoch 8/500, Train Loss: 0.006352, Val Loss: 0.006358
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 9/500, Train Loss: 0.007444, Val Loss: 0.009791
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 10/500, Train Loss: 0.008368, Val Loss: 0.008876
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 11/500, Train Loss: 0.008799, Val Loss: 0.010083
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 12/500, Train Loss: 0.009007, Val Loss: 0.009005
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 13/500, Train Loss: 0.009010, Val Loss: 0.011502
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 14/500, Train Loss: 29.590342, Val Loss: 0.032942
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+➕ Adding kanad for Easington at 72h
+➕ Adding kanad for St_Fergus at 72h
+➕ Adding kanad for Belgia at 72h
+➕ Adding kanad for Frankrike at 72h
+➕ Adding kanad for Tyskland at 72h
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size        MSE      MAE      RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72           0.01          16 144.619400 8.588582 12.025781 0.265451  0.636878  33.313408 27.012163 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72           0.01          16  16.625004 2.081988  4.077377 1.171881  0.215655 173.569458 62.579258  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72           0.01          16   1.265769 0.833064  1.125064 0.026027 -1.545454   1.949542  1.926236  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72           0.01          16  48.922649 3.099900  6.994473 0.147107  0.186382 884.413147  9.690347  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72           0.01          16  80.341560 4.527303  8.963345 0.068401  0.053919   4.142299  3.728576  9.215226 131.040314
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🎠 New best for kanad on Volumrate_Easington_hourly (MAE: 8.5886)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Easington_hourly_complete_noms_72_normalized.pt
+🎠 New best for kanad on Volumrate_St_Fergus_hourly (MAE: 2.0820)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_St_Fergus_hourly_complete_noms_72_normalized.pt
+🎠 New best for kanad on Volumrate_Belgia_hourly (MAE: 0.8331)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Belgia_hourly_complete_noms_72_normalized.pt
+🎠 New best for kanad on Volumrate_Frankrike_hourly (MAE: 3.0999)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Frankrike_hourly_complete_noms_72_normalized.pt
+🎠 New best for kanad on Volumrate_Tyskland_hourly (MAE: 4.5273)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Tyskland_hourly_complete_noms_72_normalized.pt
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=72, learning_rate=0.01, batch_size=32, model=kanad
+Epoch 1/500, Train Loss: 0.019124, Val Loss: 0.005658
+Epoch 2/500, Train Loss: 0.006434, Val Loss: 0.005454
+Epoch 3/500, Train Loss: 0.006452, Val Loss: 0.006497
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 4/500, Train Loss: 0.006761, Val Loss: 0.006219
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 5/500, Train Loss: 0.006921, Val Loss: 0.006032
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 6/500, Train Loss: 0.006978, Val Loss: 0.006219
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 7/500, Train Loss: 0.006948, Val Loss: 0.006464
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 8/500, Train Loss: 0.006964, Val Loss: 0.005602
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 9/500, Train Loss: 0.006913, Val Loss: 0.006386
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting kanad for Tyskland at 72h (MAE improved from 4.5273 to 4.5244)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size        MSE      MAE      RMSE    nRMSE        R2       MAPE      SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72           0.01          32 143.905136 8.739859 11.996047 0.264794  0.638671  33.971603  26.780149 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72           0.01          32  20.848091 2.857693  4.565971 1.312309  0.016415 169.408554 136.112137  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72           0.01          32   1.707607 0.920553  1.306754 0.030230 -2.433989   2.147234   2.150241  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72           0.01          32  53.616920 4.319903  7.322358 0.154003  0.108313 834.946716  12.425740  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72           0.01          32  74.823334 4.524380  8.650048 0.066011  0.118900   4.069815   3.748942  9.215226 131.040314
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🌶️ No improvement for kanad on Volumrate_Easington_hourly (Current best MAE: 8.5886)
+🌶️ No improvement for kanad on Volumrate_St_Fergus_hourly (Current best MAE: 2.0820)
+🌶️ No improvement for kanad on Volumrate_Belgia_hourly (Current best MAE: 0.8331)
+🌶️ No improvement for kanad on Volumrate_Frankrike_hourly (Current best MAE: 3.0999)
+🎠 New best for kanad on Volumrate_Tyskland_hourly (MAE: 4.5244, prev: 4.5273)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Tyskland_hourly_complete_noms_72_normalized.pt
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=72, learning_rate=0.001, batch_size=16, model=kanad
+Epoch 1/500, Train Loss: 0.012949, Val Loss: 0.006236
+Epoch 2/500, Train Loss: 0.006454, Val Loss: 0.005997
+Epoch 3/500, Train Loss: 0.005880, Val Loss: 0.005862
+Epoch 4/500, Train Loss: 0.005610, Val Loss: 0.006134
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 5/500, Train Loss: 0.005461, Val Loss: 0.005669
+Epoch 6/500, Train Loss: 0.005361, Val Loss: 0.006537
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 7/500, Train Loss: 0.005289, Val Loss: 0.005888
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 8/500, Train Loss: 0.005219, Val Loss: 0.005690
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 9/500, Train Loss: 0.005180, Val Loss: 0.005412
+Epoch 10/500, Train Loss: 0.005142, Val Loss: 0.005651
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 11/500, Train Loss: 0.005095, Val Loss: 0.006255
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 12/500, Train Loss: 0.005071, Val Loss: 0.005362
+Epoch 13/500, Train Loss: 0.005052, Val Loss: 0.005552
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 14/500, Train Loss: 0.005013, Val Loss: 0.005667
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 15/500, Train Loss: 0.005018, Val Loss: 0.005639
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 16/500, Train Loss: 0.004985, Val Loss: 0.005546
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 17/500, Train Loss: 0.004973, Val Loss: 0.005604
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 18/500, Train Loss: 0.004956, Val Loss: 0.005452
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 19/500, Train Loss: 0.004943, Val Loss: 0.005384
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting kanad for Belgia at 72h (MAE improved from 0.8331 to 0.7817)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size        MSE      MAE      RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72          0.001          16 144.395630 8.634993 12.016473 0.265245  0.637440  33.294342 27.449566 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72          0.001          16  17.468283 2.445832  4.179507 1.201235  0.175870 187.836731 91.256943  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72          0.001          16   1.245731 0.781713  1.116123 0.025820 -1.505159   1.830138  1.812946  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72          0.001          16  50.642017 3.277505  7.116320 0.149669  0.157788 894.522217  9.998946  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72          0.001          16  80.141106 4.816900  8.952156 0.068316  0.056280   4.290709  3.976789  9.215226 131.040314
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🌶️ No improvement for kanad on Volumrate_Easington_hourly (Current best MAE: 8.5886)
+🌶️ No improvement for kanad on Volumrate_St_Fergus_hourly (Current best MAE: 2.0820)
+🎠 New best for kanad on Volumrate_Belgia_hourly (MAE: 0.7817, prev: 0.8331)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Belgia_hourly_complete_noms_72_normalized.pt
+🌶️ No improvement for kanad on Volumrate_Frankrike_hourly (Current best MAE: 3.0999)
+🌶️ No improvement for kanad on Volumrate_Tyskland_hourly (Current best MAE: 4.5244)
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=72, learning_rate=0.001, batch_size=32, model=kanad
+Epoch 1/500, Train Loss: 0.015096, Val Loss: 0.007236
+Epoch 2/500, Train Loss: 0.007078, Val Loss: 0.006148
+Epoch 3/500, Train Loss: 0.006266, Val Loss: 0.006107
+Epoch 4/500, Train Loss: 0.005976, Val Loss: 0.005857
+Epoch 5/500, Train Loss: 0.005700, Val Loss: 0.005785
+Epoch 6/500, Train Loss: 0.005466, Val Loss: 0.006007
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 7/500, Train Loss: 0.005307, Val Loss: 0.005758
+Epoch 8/500, Train Loss: 0.005219, Val Loss: 0.006398
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 9/500, Train Loss: 0.005147, Val Loss: 0.005923
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 10/500, Train Loss: 0.005098, Val Loss: 0.005811
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 11/500, Train Loss: 0.005068, Val Loss: 0.005615
+Epoch 12/500, Train Loss: 0.005032, Val Loss: 0.005635
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 13/500, Train Loss: 0.004992, Val Loss: 0.005730
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 14/500, Train Loss: 0.004970, Val Loss: 0.005603
+Epoch 15/500, Train Loss: 0.004948, Val Loss: 0.005711
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 16/500, Train Loss: 0.004932, Val Loss: 0.005831
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 17/500, Train Loss: 0.004906, Val Loss: 0.005621
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 18/500, Train Loss: 0.004881, Val Loss: 0.005785
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 19/500, Train Loss: 0.004883, Val Loss: 0.005596
+Epoch 20/500, Train Loss: 0.004862, Val Loss: 0.005490
+Epoch 21/500, Train Loss: 0.004846, Val Loss: 0.005555
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 22/500, Train Loss: 0.004831, Val Loss: 0.005437
+Epoch 23/500, Train Loss: 0.004824, Val Loss: 0.005441
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 24/500, Train Loss: 0.004805, Val Loss: 0.005292
+Epoch 25/500, Train Loss: 0.004809, Val Loss: 0.005453
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 26/500, Train Loss: 0.004803, Val Loss: 0.005500
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 27/500, Train Loss: 0.004794, Val Loss: 0.005383
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 28/500, Train Loss: 0.004778, Val Loss: 0.005620
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 29/500, Train Loss: 0.004772, Val Loss: 0.005596
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 30/500, Train Loss: 0.004756, Val Loss: 0.005359
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 31/500, Train Loss: 0.004740, Val Loss: 0.005417
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🔁 Overwriting kanad for Easington at 72h (MAE improved from 8.5886 to 8.1108)
+🔁 Overwriting kanad for Belgia at 72h (MAE improved from 0.7817 to 0.6657)
+🔁 Overwriting kanad for Tyskland at 72h (MAE improved from 4.5244 to 4.4175)
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size        MSE      MAE      RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72          0.001          32 139.577255 8.110781 11.814282 0.260782  0.649538  34.507175 25.564995 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72          0.001          32  17.519567 2.401474  4.185638 1.202997  0.173451 192.036469 85.856995  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72          0.001          32   0.991893 0.665745  0.995938 0.023040 -0.994691   1.559287  1.550256  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72          0.001          32  51.674187 3.740045  7.188476 0.151187  0.140622 845.554443 11.133053  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72          0.001          32  76.681160 4.417486  8.756778 0.066825  0.097023   4.020140  3.656026  9.215226 131.040314
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🎠 New best for kanad on Volumrate_Easington_hourly (MAE: 8.1108, prev: 8.5886)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Easington_hourly_complete_noms_72_normalized.pt
+🌶️ No improvement for kanad on Volumrate_St_Fergus_hourly (Current best MAE: 2.0820)
+🎠 New best for kanad on Volumrate_Belgia_hourly (MAE: 0.6657, prev: 0.7817)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Belgia_hourly_complete_noms_72_normalized.pt
+🌶️ No improvement for kanad on Volumrate_Frankrike_hourly (Current best MAE: 3.0999)
+🎠 New best for kanad on Volumrate_Tyskland_hourly (MAE: 4.4175, prev: 4.5244)
+🥦 Saved new best weights to ../models/weights/best/kanad/best_kanad_Volumrate_Tyskland_hourly_complete_noms_72_normalized.pt
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=72, learning_rate=0.0001, batch_size=16, model=kanad
+Epoch 1/500, Train Loss: 0.037397, Val Loss: 0.013025
+Epoch 2/500, Train Loss: 0.015939, Val Loss: 0.012073
+Epoch 3/500, Train Loss: 0.011952, Val Loss: 0.009970
+Epoch 4/500, Train Loss: 0.009664, Val Loss: 0.007866
+Epoch 5/500, Train Loss: 0.008237, Val Loss: 0.007778
+Epoch 6/500, Train Loss: 0.007342, Val Loss: 0.007211
+Epoch 7/500, Train Loss: 0.006798, Val Loss: 0.006925
+Epoch 8/500, Train Loss: 0.006425, Val Loss: 0.006782
+Epoch 9/500, Train Loss: 0.006161, Val Loss: 0.006552
+Epoch 10/500, Train Loss: 0.005956, Val Loss: 0.006288
+Epoch 11/500, Train Loss: 0.005780, Val Loss: 0.006025
+Epoch 12/500, Train Loss: 0.005628, Val Loss: 0.005962
+Epoch 13/500, Train Loss: 0.005512, Val Loss: 0.005763
+Epoch 14/500, Train Loss: 0.005422, Val Loss: 0.005956
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 15/500, Train Loss: 0.005354, Val Loss: 0.005687
+Epoch 16/500, Train Loss: 0.005295, Val Loss: 0.005508
+Epoch 17/500, Train Loss: 0.005249, Val Loss: 0.005569
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 18/500, Train Loss: 0.005210, Val Loss: 0.005592
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 19/500, Train Loss: 0.005174, Val Loss: 0.005578
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 20/500, Train Loss: 0.005148, Val Loss: 0.005463
+Epoch 21/500, Train Loss: 0.005119, Val Loss: 0.005641
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 22/500, Train Loss: 0.005094, Val Loss: 0.005663
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 23/500, Train Loss: 0.005074, Val Loss: 0.005617
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 24/500, Train Loss: 0.005056, Val Loss: 0.005754
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 25/500, Train Loss: 0.005037, Val Loss: 0.005691
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 26/500, Train Loss: 0.005016, Val Loss: 0.005612
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 27/500, Train Loss: 0.005007, Val Loss: 0.005653
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size        MSE      MAE      RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72         0.0001          16 151.293732 8.929781 12.300152 0.271507  0.620120  37.085400 28.042120 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72         0.0001          16  16.680796 2.106736  4.084213 1.173846  0.213023 163.393829 68.132126  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72         0.0001          16   1.215876 0.730130  1.102667 0.025509 -1.445119   1.709152  1.703402  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72         0.0001          16  52.067322 3.572652  7.215769 0.151761  0.134084 900.723938 10.712136  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72         0.0001          16  76.479767 4.473549  8.745271 0.066737  0.099395   4.089831  3.683922  9.215226 131.040314
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🌶️ No improvement for kanad on Volumrate_Easington_hourly (Current best MAE: 8.1108)
+🌶️ No improvement for kanad on Volumrate_St_Fergus_hourly (Current best MAE: 2.0820)
+🌶️ No improvement for kanad on Volumrate_Belgia_hourly (Current best MAE: 0.6657)
+🌶️ No improvement for kanad on Volumrate_Frankrike_hourly (Current best MAE: 3.0999)
+🌶️ No improvement for kanad on Volumrate_Tyskland_hourly (Current best MAE: 4.4175)
+📄 Updated best parameters json file
+🔄 Running experiment with pred_len=72, learning_rate=0.0001, batch_size=32, model=kanad
+Epoch 1/500, Train Loss: 0.052574, Val Loss: 0.016733
+Epoch 2/500, Train Loss: 0.018291, Val Loss: 0.016207
+Epoch 3/500, Train Loss: 0.013893, Val Loss: 0.013715
+Epoch 4/500, Train Loss: 0.011601, Val Loss: 0.012641
+Epoch 5/500, Train Loss: 0.010097, Val Loss: 0.010557
+Epoch 6/500, Train Loss: 0.009003, Val Loss: 0.010406
+Epoch 7/500, Train Loss: 0.008222, Val Loss: 0.010207
+Epoch 8/500, Train Loss: 0.007617, Val Loss: 0.008924
+Epoch 9/500, Train Loss: 0.007205, Val Loss: 0.007867
+Epoch 10/500, Train Loss: 0.006862, Val Loss: 0.008016
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 11/500, Train Loss: 0.006624, Val Loss: 0.008001
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 12/500, Train Loss: 0.006402, Val Loss: 0.006651
+Epoch 13/500, Train Loss: 0.006220, Val Loss: 0.007854
+[93mNo improvement in validation loss for 1/7 epochs.[0m
+Epoch 14/500, Train Loss: 0.006065, Val Loss: 0.007502
+[93mNo improvement in validation loss for 2/7 epochs.[0m
+Epoch 15/500, Train Loss: 0.005930, Val Loss: 0.007220
+[93mNo improvement in validation loss for 3/7 epochs.[0m
+Epoch 16/500, Train Loss: 0.005811, Val Loss: 0.007115
+[93mNo improvement in validation loss for 4/7 epochs.[0m
+Epoch 17/500, Train Loss: 0.005693, Val Loss: 0.007127
+[93mNo improvement in validation loss for 5/7 epochs.[0m
+Epoch 18/500, Train Loss: 0.005603, Val Loss: 0.006746
+[93mNo improvement in validation loss for 6/7 epochs.[0m
+Epoch 19/500, Train Loss: 0.005520, Val Loss: 0.007059
+[93mNo improvement in validation loss for 7/7 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size        MSE       MAE      RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 72         0.0001          32 167.843094 10.007151 12.955427 0.285971  0.578566  41.109520 28.172508 19.956621  45.303246
+Volumrate_St_Fergus_hourly     500                 72         0.0001          32  17.529795  2.260498  4.186860 1.203348  0.172968 170.745880 78.736809  4.603915   3.479342
+   Volumrate_Belgia_hourly     500                 72         0.0001          32   3.263341  1.358518  1.806472 0.041790 -5.562562   3.167590  3.137360  0.705171  43.227196
+Volumrate_Frankrike_hourly     500                 72         0.0001          32  52.007900  4.182882  7.211650 0.151674  0.135072 903.255920 11.970416  7.754338  47.546898
+ Volumrate_Tyskland_hourly     500                 72         0.0001          32 107.329529  6.706108 10.359997 0.079060 -0.263884   5.892697  5.292089  9.215226 131.040314
+💾 Model weights saved to ../models/weights/kanad_500_normalized_weights.pt
+🌶️ No improvement for kanad on Volumrate_Easington_hourly (Current best MAE: 8.1108)
+🌶️ No improvement for kanad on Volumrate_St_Fergus_hourly (Current best MAE: 2.0820)
+🌶️ No improvement for kanad on Volumrate_Belgia_hourly (Current best MAE: 0.6657)
+🌶️ No improvement for kanad on Volumrate_Frankrike_hourly (Current best MAE: 3.0999)
+🌶️ No improvement for kanad on Volumrate_Tyskland_hourly (Current best MAE: 4.4175)
+📄 Updated best parameters json file

@@ -1,0 +1,105 @@
+Target,Rank,Feature,p-value,F-statistic,Best Lag
+Volumrate_Belgia_hourly,1,Nominasjoner Belgia [MSM3],0.0,248.66293662831345,7
+Volumrate_Belgia_hourly,2,wind_speed_10m (km/h)_stfergus_x,1.4384972249572668e-05,18.82212030175168,1
+Volumrate_Belgia_hourly,3,rain (mm)_stfergus_y,3.490945563299896e-54,10.12469076689686,35
+Volumrate_Belgia_hourly,4,is_day ()_easington_x,0.0025921619752629,9.075534793710478,1
+Volumrate_Belgia_hourly,5,BE,5.679179265495183e-37,8.636748877222356,29
+Volumrate_Belgia_hourly,6,DE_rel,4.882189783740543e-31,8.392528330321742,25
+Volumrate_Belgia_hourly,7,DE_rel_pct,5.135183989302799e-31,8.387970516493567,25
+Volumrate_Belgia_hourly,8,temperature_2m (°C)_stfergus_y,0.0038643377096212,8.347476915362162,1
+Volumrate_Belgia_hourly,9,DK_rel_pct,1.075563773656253e-28,7.904132074636928,25
+Volumrate_Belgia_hourly,10,DK_rel,1.096410341497485e-28,7.90238787738706,25
+Volumrate_Belgia_hourly,11,UK,2.4503906335368079e-32,7.802577463639535,29
+Volumrate_Belgia_hourly,12,Nominasjoner Frankrike [MSM3],9.205794881732174e-05,7.095326198712402,3
+Volumrate_Belgia_hourly,13,wind_speed_10m (km/h)_nybro,0.0009136761759553,6.999277383108291,2
+Volumrate_Belgia_hourly,14,Nominasjoner St. Fergus [MSM3],6.993350500149535e-09,6.750490839913665,8
+Volumrate_Belgia_hourly,15,apparent_temperature (°C)_stfergus_y,0.0118518241003449,6.333491112375971,1
+Volumrate_Belgia_hourly,16,Nominasjoner Easington [MSM3],1.9014082953853224e-35,5.959623193277923,48
+Volumrate_Belgia_hourly,17,Nominasjoner Tyskland [MSM3],6.2963154819191096e-30,5.458636274842258,46
+Volumrate_Belgia_hourly,18,FR,3.051190470887215e-19,5.369220154303585,29
+Volumrate_Belgia_hourly,19,rain (mm)_germany_x,5.735230147820055e-20,5.187671621095836,32
+Volumrate_Belgia_hourly,20,direct_radiation (W/m²)_nybro,0.0080241944958139,4.825884958427426,2
+Volumrate_Belgia_hourly,21,DE_is_best,7.783370523514909e-06,4.742128384894815,8
+Volumrate_Belgia_hourly,22,BE_rel,4.6508858484004016e-15,4.5511799837210765,29
+Volumrate_Belgia_hourly,23,BE_rel_pct,4.93812957408306e-15,4.5459902316309035,29
+Volumrate_Belgia_hourly,24,dew_point_2m (°C)_easington_x,0.0345247298454059,4.468837732006772,1
+Volumrate_Belgia_hourly,25,Mean,8.431608263241179e-13,4.443184724168692,25
+Volumrate_Belgia_hourly,26,shortwave_radiation (W/m²)_nybro,0.0046562050661488,4.3309775991120585,3
+Volumrate_Belgia_hourly,27,Nominasjoner Danmark [MSM3],6.865243732149776e-09,4.158340627473896,18
+Volumrate_Belgia_hourly,28,apparent_temperature (°C)_nybro,0.0452133118463898,4.010920098081407,1
+Volumrate_Belgia_hourly,29,temperature_2m (°C)_easington_y,0.003340945934357,3.943677037773474,4
+Volumrate_Belgia_hourly,30,wind_direction_10m (°)_dunkerque_x,5.091895487376051e-06,3.9000268577317585,12
+Volumrate_Belgia_hourly,31,wind_speed_10m (km/h)_germany_x,0.0231504944836229,3.7660990619214862,2
+Volumrate_Belgia_hourly,32,pressure_msl (hPa)_germany_x,0.000976501953754,3.753300959473996,6
+Volumrate_Belgia_hourly,33,rain (mm)_dunkerque_x,9.281431007287515e-14,3.5754397467716355,41
+Volumrate_Belgia_hourly,34,UK_rel_pct,3.826279095959415e-09,3.322720810268237,29
+Volumrate_Belgia_hourly,35,UK_rel,3.8749456652188536e-09,3.321519371962532,29
+Volumrate_Belgia_hourly,36,apparent_temperature (°C)_easington_y,0.0055689313341911,3.299154986619896,5
+Volumrate_Belgia_hourly,37,temperature_2m (°C)_germany,0.0001674708761749,3.276340516163744,11
+Volumrate_Belgia_hourly,38,UK_is_best,0.0066831451702111,3.21193667319506,5
+Volumrate_Belgia_hourly,39,cloud_cover (%)_stfergus_x,0.0022224689062244,3.191595112201246,7
+Volumrate_Belgia_hourly,40,is_day ()_stfergus_y,0.0139068619681498,3.1291143858873327,4
+Volumrate_Belgia_hourly,41,cloud_cover (%)_dunkerque_y,0.0001755757129909,2.8473926937222096,15
+Volumrate_Belgia_hourly,42,cloud_cover (%)_zeebrugge_x,0.0046765053505067,2.767110033669922,8
+Volumrate_Belgia_hourly,43,dew_point_2m (°C)_easington_y,0.0050184869863608,2.7436997346363357,8
+Volumrate_Belgia_hourly,44,pressure_msl (hPa)_easington_y,0.0084835666471323,2.7014835773050407,7
+Volumrate_Belgia_hourly,45,rain (mm)_easington_y,3.234160686950757e-08,2.608579232278779,44
+Volumrate_Belgia_hourly,46,is_day ()_germany_y,3.0942639713064086e-05,2.5523559570041727,25
+Volumrate_Belgia_hourly,47,shortwave_radiation (W/m²)_dunkerque_x,9.471344904836048e-05,2.450392935782817,24
+Volumrate_Belgia_hourly,48,is_holiday,0.0166786058012658,2.445165961674254,7
+Volumrate_Belgia_hourly,49,is_day ()_zeebrugge_x,0.0329298948837168,2.428114148242276,5
+Volumrate_Belgia_hourly,50,wind_direction_10m (°)_zeebrugge_y,0.0001805797123644,2.40279306436944,23
+Volumrate_Belgia_hourly,51,apparent_temperature (°C)_germany,0.0058234682807786,2.3928434788783304,11
+Volumrate_Belgia_hourly,52,relative_humidity_2m (%)_germany,0.0008183726754495,2.385876348682193,18
+Volumrate_Belgia_hourly,53,direct_radiation (W/m²)_dunkerque_x,0.0004761652763638,2.38341478845139,20
+Volumrate_Belgia_hourly,54,temperature_2m (°C)_nybro,0.0470177049921666,2.246103101474756,5
+Volumrate_Belgia_hourly,55,wind_direction_10m (°)_zeebrugge_x,8.78416879046076e-06,2.2088736338598793,43
+Volumrate_Belgia_hourly,56,direct_radiation (W/m²)_stfergus_y,8.574474667493433e-06,2.17724369597845,45
+Volumrate_Belgia_hourly,57,pressure_msl (hPa)_stfergus_x,0.0256549397531141,2.1054437875688468,9
+Volumrate_Belgia_hourly,58,dow_sin,0.0001214458234399,2.1034683093144584,36
+Volumrate_Belgia_hourly,59,wind_speed_10m (km/h)_easington_x,2.083345020344289e-05,2.0786860767246247,47
+Volumrate_Belgia_hourly,60,FR_rel_pct,0.0006302419472196,2.0674016849133934,29
+Volumrate_Belgia_hourly,61,FR_rel,0.000641464021534,2.0652721305571076,29
+Volumrate_Belgia_hourly,62,pressure_msl (hPa)_zeebrugge_x,0.0046688200683017,2.0121609486280563,20
+Volumrate_Belgia_hourly,63,rain (mm)_dunkerque_y,0.0275223673394725,1.9654094537805156,11
+Volumrate_Belgia_hourly,64,wind_direction_10m (°)_germany_y,0.000225459692186,1.9639856575522747,41
+Volumrate_Belgia_hourly,65,rain (mm)_zeebrugge_y,0.0488578223101519,1.947306139182996,8
+Volumrate_Belgia_hourly,66,rain (mm)_zeebrugge_x,0.0076947331821819,1.925365085714908,20
+Volumrate_Belgia_hourly,67,shortwave_radiation (W/m²)_stfergus_y,0.004426113632603,1.9172822755296732,24
+Volumrate_Belgia_hourly,68,direct_radiation (W/m²)_germany,0.0002376077989788,1.9074120635222604,45
+Volumrate_Belgia_hourly,69,dew_point_2m (°C)_dunkerque_x,0.0221585850242647,1.895214738080113,14
+Volumrate_Belgia_hourly,70,pressure_msl (hPa)_nybro,0.0257540438779251,1.8587293770861877,14
+Volumrate_Belgia_hourly,71,shortwave_radiation (W/m²)_germany,0.0004538957542919,1.8511565544739028,45
+Volumrate_Belgia_hourly,72,dow_cos,0.001698008155188,1.8462320349442216,35
+Volumrate_Belgia_hourly,73,is_day ()_germany_x,0.0072959644835289,1.840811120437528,24
+Volumrate_Belgia_hourly,74,apparent_temperature (°C)_stfergus_x,0.007377540174031,1.8390827416660316,24
+Volumrate_Belgia_hourly,75,cloud_cover (%)_nybro,0.0081776883737528,1.8230166413520428,24
+Volumrate_Belgia_hourly,76,relative_humidity_2m (%)_germany_x,0.0005642254335954,1.8010340633313755,48
+Volumrate_Belgia_hourly,77,direct_radiation (W/m²)_zeebrugge_x,0.0156990816841433,1.7966255352082612,20
+Volumrate_Belgia_hourly,78,wind_direction_10m (°)_easington_x,0.0247122613790165,1.7787610825441682,17
+Volumrate_Belgia_hourly,79,temperature_2m (°C)_easington_x,0.0155803291173916,1.776218664302346,21
+Volumrate_Belgia_hourly,80,cloud_cover (%)_germany,0.0010540907659273,1.775503976620644,45
+Volumrate_Belgia_hourly,81,wind_direction_10m (°)_germany,0.0384178437471983,1.759455387314154,14
+Volumrate_Belgia_hourly,82,wind_speed_10m (km/h)_stfergus_y,0.0032885588103607,1.747244500748173,37
+Volumrate_Belgia_hourly,83,wind_direction_10m (°)_germany_x,0.0231026396775678,1.7450701735145164,19
+Volumrate_Belgia_hourly,84,shortwave_radiation (W/m²)_zeebrugge_x,0.0232250265449475,1.7229584053650255,20
+Volumrate_Belgia_hourly,85,temperature_2m (°C)_zeebrugge_y,0.0093674458825553,1.71955638201693,29
+Volumrate_Belgia_hourly,86,direct_radiation (W/m²)_germany_y,0.0016294055610878,1.716963925496771,47
+Volumrate_Belgia_hourly,87,cloud_cover (%)_stfergus_y,0.0047987160742639,1.7048269610885,37
+Volumrate_Belgia_hourly,88,wind_speed_10m (km/h)_easington_y,0.0022767460757685,1.7035168839120465,45
+Volumrate_Belgia_hourly,89,dew_point_2m (°C)_zeebrugge_y,0.0023729870943893,1.6823593872132476,47
+Volumrate_Belgia_hourly,90,is_day ()_nybro,0.020317059855614,1.675682593158352,24
+Volumrate_Belgia_hourly,91,wind_direction_10m (°)_easington_y,0.035222498620924,1.660113484296742,19
+Volumrate_Belgia_hourly,92,pressure_msl (hPa)_easington_x,0.004921362728495,1.612901856352968,47
+Volumrate_Belgia_hourly,93,temperature_2m (°C)_stfergus_x,0.0053737794730398,1.604296574763893,47
+Volumrate_Belgia_hourly,94,shortwave_radiation (W/m²)_zeebrugge_y,0.0422512318961702,1.5894344937502682,21
+Volumrate_Belgia_hourly,95,apparent_temperature (°C)_zeebrugge_y,0.0077815905939139,1.5743105702750055,46
+Volumrate_Belgia_hourly,96,relative_humidity_2m (%)_easington_x,0.0153546068434725,1.50888486402527,45
+Volumrate_Belgia_hourly,97,shortwave_radiation (W/m²)_germany_y,0.0153646538896688,1.4911027253339415,48
+Volumrate_Belgia_hourly,98,dew_point_2m (°C)_germany_x,0.0223957351473556,1.4666082082286345,45
+Volumrate_Belgia_hourly,99,direct_radiation (W/m²)_zeebrugge_y,0.0264024207235167,1.442361084139176,46
+Volumrate_Belgia_hourly,100,relative_humidity_2m (%)_zeebrugge_y,0.030374478325137,1.43122600929182,45
+Volumrate_Belgia_hourly,101,is_day ()_stfergus_x,0.0432544972427486,1.4251449302221573,38
+Volumrate_Belgia_hourly,102,shortwave_radiation (W/m²)_stfergus_x,0.0331118557795649,1.4160450164392575,46
+Volumrate_Belgia_hourly,103,shortwave_radiation (W/m²)_easington_x,0.0346334648795281,1.4014891841194743,48
+Volumrate_Belgia_hourly,104,direct_radiation (W/m²)_germany_x,0.0457800201605675,1.3815069564095168,45

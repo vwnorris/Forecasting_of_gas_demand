@@ -1,0 +1,201 @@
+\section*{Results for Weather Dataset}
+\subsection*{Station: Easington}
+\subsubsection*{Prediction Horizon: 24}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 4.161 & 0.911 & 35.054 & 5.921 & 15.723 \\
+ModernTCN & 15.996 & 0.060 & 370.294 & 19.243 & 45.680 \\
+PETformer & 3.661 & 0.922 & 30.540 & 5.526 & 16.145 \\
+RNN & 4.560 & 0.899 & 39.761 & 6.306 & 17.539 \\
+SegRNN & 3.686 & 0.918 & 32.370 & 5.689 & 16.989 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsubsection*{Prediction Horizon: 48}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 4.710 & 0.887 & 44.956 & 6.705 & 17.792 \\
+ModernTCN & 15.490 & 0.172 & 327.823 & 18.106 & 40.284 \\
+PETformer & 3.825 & 0.908 & 36.451 & 6.037 & 17.764 \\
+RNN & 4.373 & 0.901 & 39.074 & 6.251 & 17.305 \\
+SegRNN & 3.906 & 0.906 & 37.043 & 6.086 & 17.957 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsubsection*{Prediction Horizon: 72}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 6.864 & 0.754 & 97.912 & 9.895 & 22.054 \\
+ModernTCN & 17.743 & -0.090 & 434.249 & 20.839 & 45.623 \\
+PETformer & 5.444 & 0.817 & 72.981 & 8.543 & 20.795 \\
+RNN & 6.305 & 0.786 & 85.400 & 9.241 & 20.853 \\
+SegRNN & 5.412 & 0.818 & 72.661 & 8.524 & 20.606 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsection*{Station: St Fergus}
+\subsubsection*{Prediction Horizon: 24}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 1.305 & 0.811 & 4.957 & 2.226 & 50.413 \\
+ModernTCN & 5.399 & -1.110 & 55.351 & 7.440 & 126.515 \\
+PETformer & 1.230 & 0.827 & 4.538 & 2.130 & 48.490 \\
+RNN & 1.393 & 0.777 & 5.837 & 2.416 & 45.153 \\
+SegRNN & 1.249 & 0.829 & 4.481 & 2.117 & 45.926 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsubsection*{Prediction Horizon: 48}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 1.555 & 0.704 & 7.034 & 2.652 & 58.553 \\
+ModernTCN & 4.829 & -0.878 & 44.635 & 6.681 & 135.424 \\
+PETformer & 1.273 & 0.800 & 4.744 & 2.178 & 50.368 \\
+RNN & 1.459 & 0.754 & 5.838 & 2.416 & 60.328 \\
+SegRNN & 1.281 & 0.801 & 4.727 & 2.174 & 48.376 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsubsection*{Prediction Horizon: 72}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 1.947 & 0.397 & 12.791 & 3.576 & 69.080 \\
+ModernTCN & 4.210 & -0.847 & 39.149 & 6.257 & 129.500 \\
+PETformer & 1.605 & 0.553 & 9.467 & 3.077 & 54.455 \\
+RNN & 1.762 & 0.416 & 12.370 & 3.517 & 52.146 \\
+SegRNN & 1.572 & 0.575 & 9.011 & 3.002 & 47.196 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsection*{Station: Belgium}
+\subsubsection*{Prediction Horizon: 24}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 0.837 & -1.877 & 1.415 & 1.190 & 1.932 \\
+ModernTCN & 2.868 & -24.887 & 12.734 & 3.568 & 6.780 \\
+PETformer & 0.291 & 0.413 & 0.289 & 0.537 & 0.682 \\
+RNN & 0.565 & -0.582 & 0.778 & 0.882 & 1.313 \\
+SegRNN & 0.299 & 0.395 & 0.298 & 0.545 & 0.701 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsubsection*{Prediction Horizon: 48}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 0.870 & -2.203 & 1.587 & 1.260 & 2.006 \\
+ModernTCN & 2.836 & -24.450 & 12.608 & 3.551 & 6.769 \\
+PETformer & 0.291 & 0.387 & 0.304 & 0.551 & 0.684 \\
+RNN & 0.498 & -0.258 & 0.623 & 0.789 & 1.159 \\
+SegRNN & 0.271 & 0.420 & 0.288 & 0.536 & 0.637 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsubsection*{Prediction Horizon: 72}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 0.885 & -2.031 & 1.507 & 1.228 & 2.085 \\
+ModernTCN & 3.069 & -27.200 & 14.023 & 3.745 & 7.235 \\
+PETformer & 0.384 & 0.071 & 0.462 & 0.680 & 0.899 \\
+RNN & 0.596 & -0.658 & 0.825 & 0.908 & 1.390 \\
+SegRNN & 0.370 & 0.113 & 0.441 & 0.664 & 0.868 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsection*{Station: France}
+\subsubsection*{Prediction Horizon: 24}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 1.786 & 0.865 & 8.123 & 2.850 & 7.031 \\
+ModernTCN & 5.099 & 0.050 & 57.095 & 7.556 & 13.662 \\
+PETformer & 1.157 & 0.920 & 4.806 & 2.192 & 5.927 \\
+RNN & 1.871 & 0.818 & 10.915 & 3.304 & 7.492 \\
+SegRNN & 1.154 & 0.916 & 5.067 & 2.251 & 6.168 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsubsection*{Prediction Horizon: 48}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 1.986 & 0.762 & 14.284 & 3.779 & 7.654 \\
+ModernTCN & 5.589 & -0.739 & 104.549 & 10.225 & 13.417 \\
+PETformer & 1.192 & 0.879 & 7.248 & 2.692 & 5.823 \\
+RNN & 1.658 & 0.810 & 11.402 & 3.377 & 6.875 \\
+SegRNN & 1.303 & 0.872 & 7.717 & 2.778 & 6.132 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsubsection*{Prediction Horizon: 72}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 3.129 & 0.417 & 35.050 & 5.920 & 9.981 \\
+ModernTCN & 5.748 & -0.484 & 89.250 & 9.447 & 14.051 \\
+PETformer & 1.948 & 0.634 & 22.010 & 4.691 & 7.226 \\
+RNN & 2.546 & 0.501 & 29.976 & 5.475 & 8.578 \\
+SegRNN & 1.787 & 0.644 & 21.398 & 4.626 & 7.012 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsection*{Station: Germany}
+\subsubsection*{Prediction Horizon: 24}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 3.256 & 0.671 & 27.884 & 5.281 & 2.680 \\
+ModernTCN & 10.405 & -1.066 & 174.982 & 13.228 & 7.846 \\
+PETformer & 1.973 & 0.794 & 17.468 & 4.180 & 1.737 \\
+RNN & 3.197 & 0.591 & 34.652 & 5.887 & 2.671 \\
+SegRNN & 1.879 & 0.832 & 14.192 & 3.767 & 1.615 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsubsection*{Prediction Horizon: 48}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 3.424 & 0.594 & 34.431 & 5.868 & 2.806 \\
+ModernTCN & 9.836 & -1.077 & 176.246 & 13.276 & 7.629 \\
+PETformer & 2.073 & 0.711 & 24.507 & 4.950 & 1.832 \\
+RNN & 3.086 & 0.523 & 40.475 & 6.362 & 2.597 \\
+SegRNN & 2.001 & 0.771 & 19.415 & 4.406 & 1.726 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}
+\subsubsection*{Prediction Horizon: 72}
+\begin{tabular}{lccccc}
+\toprule
+Model & MAE & R$^2$ & MSE & RMSE & SMAPE \\
+\midrule
+CNN & 5.467 & 0.027 & 82.640 & 9.091 & 4.375 \\
+ModernTCN & 11.977 & -1.938 & 249.473 & 15.795 & 8.967 \\
+PETformer & 2.931 & 0.450 & 46.664 & 6.831 & 2.505 \\
+RNN & 3.750 & 0.332 & 56.752 & 7.533 & 3.105 \\
+SegRNN & 2.850 & 0.538 & 39.197 & 6.261 & 2.401 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5cm}

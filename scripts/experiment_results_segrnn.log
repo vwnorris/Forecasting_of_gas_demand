@@ -1,0 +1,144 @@
+Starting experiments...
+🔄 Running experiment with pred_len=24, learning_rate=0.01, batch_size=16, model=segrnn
+First 25 timestamps:
+2020-01-10 06:00:00
+2020-01-10 07:00:00
+2020-01-10 08:00:00
+2020-01-10 09:00:00
+2020-01-10 10:00:00
+2020-01-10 11:00:00
+2020-01-10 12:00:00
+2020-01-10 13:00:00
+2020-01-10 14:00:00
+2020-01-10 15:00:00
+2020-01-10 16:00:00
+2020-01-10 17:00:00
+2020-01-10 18:00:00
+2020-01-10 19:00:00
+2020-01-10 20:00:00
+2020-01-10 21:00:00
+2020-01-10 22:00:00
+2020-01-10 23:00:00
+2020-01-11 00:00:00
+2020-01-11 01:00:00
+2020-01-11 02:00:00
+2020-01-11 03:00:00
+2020-01-11 04:00:00
+2020-01-11 05:00:00
+2020-01-11 06:00:00
+⚠️ CUDA is not available, switching to CPU.
+Epoch 1/500, Train Loss: 0.004210, Val Loss: 0.001894
+Epoch 2/500, Train Loss: 0.001839, Val Loss: 0.001755
+Epoch 3/500, Train Loss: 0.002013, Val Loss: 0.001517
+Epoch 4/500, Train Loss: 0.002071, Val Loss: 0.001642
+[93mNo improvement in validation loss for 1/10 epochs.[0m
+Epoch 5/500, Train Loss: 0.008960, Val Loss: 0.001598
+[93mNo improvement in validation loss for 2/10 epochs.[0m
+Epoch 6/500, Train Loss: 0.001966, Val Loss: 0.001327
+Epoch 7/500, Train Loss: 0.001853, Val Loss: 0.001399
+[93mNo improvement in validation loss for 1/10 epochs.[0m
+Epoch 8/500, Train Loss: 0.002062, Val Loss: 0.001433
+[93mNo improvement in validation loss for 2/10 epochs.[0m
+Epoch 9/500, Train Loss: 0.002067, Val Loss: 0.001441
+[93mNo improvement in validation loss for 3/10 epochs.[0m
+Epoch 10/500, Train Loss: 0.003547, Val Loss: 0.004275
+[93mNo improvement in validation loss for 4/10 epochs.[0m
+Epoch 11/500, Train Loss: 0.005023, Val Loss: 0.003067
+[93mNo improvement in validation loss for 5/10 epochs.[0m
+Epoch 12/500, Train Loss: 0.003839, Val Loss: 0.002182
+[93mNo improvement in validation loss for 6/10 epochs.[0m
+Epoch 13/500, Train Loss: 0.003731, Val Loss: 0.002464
+[93mNo improvement in validation loss for 7/10 epochs.[0m
+Epoch 14/500, Train Loss: 0.003576, Val Loss: 0.002222
+[93mNo improvement in validation loss for 8/10 epochs.[0m
+Epoch 15/500, Train Loss: 0.012880, Val Loss: 0.003599
+[93mNo improvement in validation loss for 9/10 epochs.[0m
+Epoch 16/500, Train Loss: 0.004073, Val Loss: 0.002973
+[93mNo improvement in validation loss for 10/10 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+🛠️ Writing actuals for Easington in actuals24.csv
+🛠️ Writing actuals for St_Fergus in actuals24.csv
+🛠️ Writing actuals for Belgia in actuals24.csv
+🛠️ Writing actuals for Frankrike in actuals24.csv
+🛠️ Writing actuals for Tyskland in actuals24.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_24h_Easington_weather_segrnn_lr0.01_bs16.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_24h_St_Fergus_weather_segrnn_lr0.01_bs16.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_24h_Belgia_weather_segrnn_lr0.01_bs16.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_24h_Frankrike_weather_segrnn_lr0.01_bs16.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_24h_Tyskland_weather_segrnn_lr0.01_bs16.csv
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE        R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 24           0.01          16 34.270657 3.905538 5.854115 0.129539  0.912965  17.100194 17.606890 19.843294  45.191738
+Volumrate_St_Fergus_hourly     500                 24           0.01          16  4.904017 1.383657 2.214502 0.590526  0.813028  98.072994 59.251910  5.121394   3.750051
+   Volumrate_Belgia_hourly     500                 24           0.01          16  0.760486 0.688163 0.872058 0.020178 -0.546023   1.608993  1.588378  0.701355  43.217545
+Volumrate_Frankrike_hourly     500                 24           0.01          16  8.354490 1.501220 2.890414 0.060758  0.860967 269.632125  6.633059  7.751767  47.572330
+ Volumrate_Tyskland_hourly     500                 24           0.01          16 17.523098 2.282496 4.186060 0.031951  0.793148   2.014375  1.932007  9.203987 131.013763
+💾 Model weights saved to ../models/weights/segrnn_500_normalized_weights.pt
+🌶️ No improvement for segrnn on Volumrate_Easington_hourly (Current best MAE: 3.6860)
+🌶️ No improvement for segrnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.2490)
+🌶️ No improvement for segrnn on Volumrate_Belgia_hourly (Current best MAE: 0.2989)
+🌶️ No improvement for segrnn on Volumrate_Frankrike_hourly (Current best MAE: 1.1541)
+🌶️ No improvement for segrnn on Volumrate_Tyskland_hourly (Current best MAE: 1.8791)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 56.93 minutes
+🔄 Running experiment with pred_len=24, learning_rate=0.001, batch_size=16, model=segrnn
+⚠️ CUDA is not available, switching to CPU.
+Epoch 1/500, Train Loss: 0.013685, Val Loss: 0.002213
+Epoch 2/500, Train Loss: 0.002346, Val Loss: 0.001314
+Epoch 3/500, Train Loss: 0.001795, Val Loss: 0.001345
+[93mNo improvement in validation loss for 1/10 epochs.[0m
+Epoch 4/500, Train Loss: 0.001662, Val Loss: 0.001297
+Epoch 5/500, Train Loss: 0.001599, Val Loss: 0.001365
+[93mNo improvement in validation loss for 1/10 epochs.[0m
+Epoch 6/500, Train Loss: 0.001561, Val Loss: 0.001234
+Epoch 7/500, Train Loss: 0.001531, Val Loss: 0.001197
+Epoch 8/500, Train Loss: 0.001502, Val Loss: 0.001152
+Epoch 9/500, Train Loss: 0.001483, Val Loss: 0.001267
+[93mNo improvement in validation loss for 1/10 epochs.[0m
+Epoch 10/500, Train Loss: 0.001458, Val Loss: 0.001249
+[93mNo improvement in validation loss for 2/10 epochs.[0m
+Epoch 11/500, Train Loss: 0.001445, Val Loss: 0.001267
+[93mNo improvement in validation loss for 3/10 epochs.[0m
+Epoch 12/500, Train Loss: 0.001420, Val Loss: 0.001328
+[93mNo improvement in validation loss for 4/10 epochs.[0m
+Epoch 13/500, Train Loss: 0.001407, Val Loss: 0.001298
+[93mNo improvement in validation loss for 5/10 epochs.[0m
+Epoch 14/500, Train Loss: 0.001393, Val Loss: 0.001302
+[93mNo improvement in validation loss for 6/10 epochs.[0m
+Epoch 15/500, Train Loss: 0.001376, Val Loss: 0.001264
+[93mNo improvement in validation loss for 7/10 epochs.[0m
+Epoch 16/500, Train Loss: 0.001359, Val Loss: 0.001266
+[93mNo improvement in validation loss for 8/10 epochs.[0m
+Epoch 17/500, Train Loss: 0.001349, Val Loss: 0.001250
+[93mNo improvement in validation loss for 9/10 epochs.[0m
+Epoch 18/500, Train Loss: 0.001336, Val Loss: 0.001262
+[93mNo improvement in validation loss for 10/10 epochs.[0m
+[91mEarly stopping triggered! Training stopped.[0m
+✅ Best model weights restored!
+✅ Training complete. Starting evaluation...
+📤 Saved full predictions and actuals to ../predictions/predictions_24h_Easington_weather_segrnn_lr0.001_bs16.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_24h_St_Fergus_weather_segrnn_lr0.001_bs16.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_24h_Belgia_weather_segrnn_lr0.001_bs16.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_24h_Frankrike_weather_segrnn_lr0.001_bs16.csv
+📤 Saved full predictions and actuals to ../predictions/predictions_24h_Tyskland_weather_segrnn_lr0.001_bs16.csv
+
+📊 Experiment Results Per Target Variable
+           Target Variable  Epochs  Prediction Length  Learning Rate  Batch Size       MSE      MAE     RMSE    nRMSE       R2       MAPE     SMAPE   Std.Dev       Mean
+Volumrate_Easington_hourly     500                 24          0.001          16 34.911900 3.841568 5.908629 0.130746 0.911336  15.658474 17.841652 19.843294  45.191738
+Volumrate_St_Fergus_hourly     500                 24          0.001          16  4.880387 1.473999 2.209160 0.589101 0.813929  94.995260 71.076733  5.121394   3.750051
+   Volumrate_Belgia_hourly     500                 24          0.001          16  0.376151 0.399462 0.613312 0.014191 0.235307   0.934703  0.934966  0.701355  43.217545
+Volumrate_Frankrike_hourly     500                 24          0.001          16  6.707205 1.340172 2.589827 0.054440 0.888380 269.052815  6.212184  7.751767  47.572330
+ Volumrate_Tyskland_hourly     500                 24          0.001          16 14.516059 2.019619 3.809995 0.029081 0.828645   1.783802  1.724201  9.203987 131.013763
+💾 Model weights saved to ../models/weights/segrnn_500_normalized_weights.pt
+🌶️ No improvement for segrnn on Volumrate_Easington_hourly (Current best MAE: 3.6860)
+🌶️ No improvement for segrnn on Volumrate_St_Fergus_hourly (Current best MAE: 1.2490)
+🌶️ No improvement for segrnn on Volumrate_Belgia_hourly (Current best MAE: 0.2989)
+🌶️ No improvement for segrnn on Volumrate_Frankrike_hourly (Current best MAE: 1.1541)
+🌶️ No improvement for segrnn on Volumrate_Tyskland_hourly (Current best MAE: 1.8791)
+📄 Updated best parameters json file
+
+⏱️ Total runtime: 65.61 minutes

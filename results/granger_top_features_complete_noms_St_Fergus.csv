@@ -1,0 +1,115 @@
+Target,Rank,Feature,p-value
+Volumrate_St_Fergus_hourly,1,Nominasjoner St. Fergus [MSM3],0.0
+Volumrate_St_Fergus_hourly,2,Nominasjoner Tyskland [MSM3],9.607444709386214e-50
+Volumrate_St_Fergus_hourly,3,Nominasjoner Frankrike [MSM3],2.0585545600347957e-32
+Volumrate_St_Fergus_hourly,4,is_day ()_germany,5.3738308093894016e-18
+Volumrate_St_Fergus_hourly,5,is_day ()_stfergus_y,1.520779433427582e-17
+Volumrate_St_Fergus_hourly,6,is_day ()_dunkerque_y,1.559762395673142e-17
+Volumrate_St_Fergus_hourly,7,is_day ()_germany_x,2.0276600665458234e-17
+Volumrate_St_Fergus_hourly,8,is_day ()_stfergus_x,2.3627938027272774e-17
+Volumrate_St_Fergus_hourly,9,is_day ()_easington_y,3.422844323226633e-17
+Volumrate_St_Fergus_hourly,10,is_day ()_germany_y,6.910365496469123e-17
+Volumrate_St_Fergus_hourly,11,is_day ()_dunkerque_x,2.540259524704881e-16
+Volumrate_St_Fergus_hourly,12,is_day ()_zeebrugge_x,1.1495067969992765e-15
+Volumrate_St_Fergus_hourly,13,is_day ()_zeebrugge_y,5.3378566988178755e-15
+Volumrate_St_Fergus_hourly,14,is_day ()_easington_x,5.696618611496341e-15
+Volumrate_St_Fergus_hourly,15,is_day ()_nybro,1.3645498422979235e-13
+Volumrate_St_Fergus_hourly,16,temperature_2m (°C)_easington_x,1.7405474577926698e-11
+Volumrate_St_Fergus_hourly,17,temperature_2m (°C)_stfergus_x,6.032494013554056e-11
+Volumrate_St_Fergus_hourly,18,apparent_temperature (°C)_easington_x,7.216287648133708e-11
+Volumrate_St_Fergus_hourly,19,temperature_2m (°C)_zeebrugge_x,7.406187528566689e-11
+Volumrate_St_Fergus_hourly,20,temperature_2m (°C)_germany_x,1.0007128315788325e-10
+Volumrate_St_Fergus_hourly,21,apparent_temperature (°C)_zeebrugge_x,1.336128868700158e-10
+Volumrate_St_Fergus_hourly,22,temperature_2m (°C)_easington_y,1.4891331992200877e-10
+Volumrate_St_Fergus_hourly,23,month_cos,1.7017732329824396e-10
+Volumrate_St_Fergus_hourly,24,apparent_temperature (°C)_easington_y,1.8574918595284974e-10
+Volumrate_St_Fergus_hourly,25,temperature_2m (°C)_dunkerque_x,2.784977569997875e-10
+Volumrate_St_Fergus_hourly,26,apparent_temperature (°C)_dunkerque_x,2.987673283574401e-10
+Volumrate_St_Fergus_hourly,27,apparent_temperature (°C)_stfergus_x,3.677545257271675e-10
+Volumrate_St_Fergus_hourly,28,temperature_2m (°C)_germany_y,4.152949867563395e-10
+Volumrate_St_Fergus_hourly,29,apparent_temperature (°C)_germany_x,8.055457377006523e-10
+Volumrate_St_Fergus_hourly,30,dew_point_2m (°C)_stfergus_x,1.230303737579419e-09
+Volumrate_St_Fergus_hourly,31,temperature_2m (°C)_stfergus_y,1.2765608080381572e-09
+Volumrate_St_Fergus_hourly,32,UK_is_best,1.2924449022842756e-09
+Volumrate_St_Fergus_hourly,33,temperature_2m (°C)_zeebrugge_y,1.300709976597892e-09
+Volumrate_St_Fergus_hourly,34,dew_point_2m (°C)_easington_y,1.3591357726028662e-09
+Volumrate_St_Fergus_hourly,35,apparent_temperature (°C)_germany_y,1.5661917527799897e-09
+Volumrate_St_Fergus_hourly,36,apparent_temperature (°C)_zeebrugge_y,1.698240189773867e-09
+Volumrate_St_Fergus_hourly,37,dew_point_2m (°C)_easington_x,1.7817666077035193e-09
+Volumrate_St_Fergus_hourly,38,temperature_2m (°C)_nybro,2.1542612634290377e-09
+Volumrate_St_Fergus_hourly,39,Nominasjoner Easington [MSM3],4.042120464212498e-09
+Volumrate_St_Fergus_hourly,40,apparent_temperature (°C)_nybro,5.577058592427693e-09
+Volumrate_St_Fergus_hourly,41,dew_point_2m (°C)_stfergus_y,9.715022110072105e-09
+Volumrate_St_Fergus_hourly,42,dew_point_2m (°C)_zeebrugge_x,1.1535789667638124e-08
+Volumrate_St_Fergus_hourly,43,apparent_temperature (°C)_germany,1.455282642542967e-08
+Volumrate_St_Fergus_hourly,44,temperature_2m (°C)_germany,1.651955141463492e-08
+Volumrate_St_Fergus_hourly,45,apparent_temperature (°C)_stfergus_y,1.6799058158435967e-08
+Volumrate_St_Fergus_hourly,46,dew_point_2m (°C)_dunkerque_x,1.8932257141289344e-08
+Volumrate_St_Fergus_hourly,47,apparent_temperature (°C)_dunkerque_y,5.3874071516502675e-08
+Volumrate_St_Fergus_hourly,48,temperature_2m (°C)_dunkerque_y,8.078841483100367e-08
+Volumrate_St_Fergus_hourly,49,dew_point_2m (°C)_germany_x,1.0419330631218176e-07
+Volumrate_St_Fergus_hourly,50,dew_point_2m (°C)_germany_y,1.059094429534448e-07
+Volumrate_St_Fergus_hourly,51,dew_point_2m (°C)_zeebrugge_y,3.218439273561007e-07
+Volumrate_St_Fergus_hourly,52,dew_point_2m (°C)_nybro,3.221707879792928e-07
+Volumrate_St_Fergus_hourly,53,dew_point_2m (°C)_dunkerque_y,5.82435151694362e-07
+Volumrate_St_Fergus_hourly,54,dew_point_2m (°C)_germany,6.19584600985996e-07
+Volumrate_St_Fergus_hourly,55,UK_rel_pct,2.2511911077406713e-05
+Volumrate_St_Fergus_hourly,56,UK_rel,2.2520561927614135e-05
+Volumrate_St_Fergus_hourly,57,month_sin,2.4028218314832566e-05
+Volumrate_St_Fergus_hourly,58,hour_sin,0.00012301665298361454
+Volumrate_St_Fergus_hourly,59,DK_rel_pct,0.0003411449102884132
+Volumrate_St_Fergus_hourly,60,DK_rel,0.00034123681141356104
+Volumrate_St_Fergus_hourly,61,DE_rel,0.0005544341530923199
+Volumrate_St_Fergus_hourly,62,DE_rel_pct,0.0005551539825663551
+Volumrate_St_Fergus_hourly,63,relative_humidity_2m (%)_dunkerque_y,0.0011403875390492261
+Volumrate_St_Fergus_hourly,64,DK_is_best,0.0013011632514985504
+Volumrate_St_Fergus_hourly,65,cloud_cover (%)_nybro,0.0017511959364011726
+Volumrate_St_Fergus_hourly,66,pressure_msl (hPa)_germany_x,0.0018658438086118197
+Volumrate_St_Fergus_hourly,67,rain (mm)_germany_x,0.0025377098171515283
+Volumrate_St_Fergus_hourly,68,shortwave_radiation (W/m²)_easington_x,0.0025408324531854556
+Volumrate_St_Fergus_hourly,69,relative_humidity_2m (%)_zeebrugge_y,0.0026215227513649766
+Volumrate_St_Fergus_hourly,70,relative_humidity_2m (%)_easington_x,0.002688767325046995
+Volumrate_St_Fergus_hourly,71,relative_humidity_2m (%)_dunkerque_x,0.0030624906800652885
+Volumrate_St_Fergus_hourly,72,relative_humidity_2m (%)_germany,0.00388269793477294
+Volumrate_St_Fergus_hourly,73,cloud_cover (%)_dunkerque_y,0.0038849188253469186
+Volumrate_St_Fergus_hourly,74,year,0.003932439155206266
+Volumrate_St_Fergus_hourly,75,rain (mm)_germany_y,0.004320653296998209
+Volumrate_St_Fergus_hourly,76,cloud_cover (%)_zeebrugge_x,0.004445660114390819
+Volumrate_St_Fergus_hourly,77,shortwave_radiation (W/m²)_germany,0.00580187757504169
+Volumrate_St_Fergus_hourly,78,direct_radiation (W/m²)_germany,0.00695611294267279
+Volumrate_St_Fergus_hourly,79,pressure_msl (hPa)_germany_y,0.007305226278102955
+Volumrate_St_Fergus_hourly,80,wind_speed_10m (km/h)_germany_x,0.007915449352213002
+Volumrate_St_Fergus_hourly,81,cloud_cover (%)_dunkerque_x,0.009285046279453778
+Volumrate_St_Fergus_hourly,82,shortwave_radiation (W/m²)_easington_y,0.009416537927215762
+Volumrate_St_Fergus_hourly,83,wind_speed_10m (km/h)_easington_x,0.010163180460464787
+Volumrate_St_Fergus_hourly,84,pressure_msl (hPa)_easington_x,0.011448412166593475
+Volumrate_St_Fergus_hourly,85,direct_radiation (W/m²)_easington_x,0.013879288277931622
+Volumrate_St_Fergus_hourly,86,shortwave_radiation (W/m²)_stfergus_x,0.014728413249960598
+Volumrate_St_Fergus_hourly,87,pressure_msl (hPa)_zeebrugge_x,0.0166804291715417
+Volumrate_St_Fergus_hourly,88,shortwave_radiation (W/m²)_dunkerque_y,0.017476190592232776
+Volumrate_St_Fergus_hourly,89,hour_cos,0.020050471304278686
+Volumrate_St_Fergus_hourly,90,relative_humidity_2m (%)_germany_x,0.020851101575568153
+Volumrate_St_Fergus_hourly,91,shortwave_radiation (W/m²)_nybro,0.020939288036359673
+Volumrate_St_Fergus_hourly,92,relative_humidity_2m (%)_germany_y,0.021053909899004315
+Volumrate_St_Fergus_hourly,93,wind_speed_10m (km/h)_dunkerque_x,0.022283298039794945
+Volumrate_St_Fergus_hourly,94,wind_direction_10m (°)_dunkerque_x,0.023483060768888876
+Volumrate_St_Fergus_hourly,95,rain (mm)_germany,0.02454705846753538
+Volumrate_St_Fergus_hourly,96,pressure_msl (hPa)_stfergus_x,0.026768861463084815
+Volumrate_St_Fergus_hourly,97,direct_radiation (W/m²)_nybro,0.02845127726205856
+Volumrate_St_Fergus_hourly,98,direct_radiation (W/m²)_germany_x,0.031116804647188655
+Volumrate_St_Fergus_hourly,99,shortwave_radiation (W/m²)_germany_x,0.03451983753077644
+Volumrate_St_Fergus_hourly,100,relative_humidity_2m (%)_easington_y,0.034664441447423124
+Volumrate_St_Fergus_hourly,101,cloud_cover (%)_germany,0.03707045682021246
+Volumrate_St_Fergus_hourly,102,Nominasjoner Danmark [MSM3],0.037443151538716676
+Volumrate_St_Fergus_hourly,103,shortwave_radiation (W/m²)_stfergus_y,0.03775710553734287
+Volumrate_St_Fergus_hourly,104,relative_humidity_2m (%)_zeebrugge_x,0.039005442066171576
+Volumrate_St_Fergus_hourly,105,wind_speed_10m (km/h)_stfergus_y,0.039107457523389656
+Volumrate_St_Fergus_hourly,106,shortwave_radiation (W/m²)_dunkerque_x,0.042696747735833436
+Volumrate_St_Fergus_hourly,107,cloud_cover (%)_zeebrugge_y,0.044564555922855305
+Volumrate_St_Fergus_hourly,108,direct_radiation (W/m²)_dunkerque_x,0.04511051939793752
+Volumrate_St_Fergus_hourly,109,pressure_msl (hPa)_germany,0.04544485510402727
+Volumrate_St_Fergus_hourly,110,pressure_msl (hPa)_zeebrugge_y,0.04666251421599884
+Volumrate_St_Fergus_hourly,111,pressure_msl (hPa)_nybro,0.046822739519445246
+Volumrate_St_Fergus_hourly,112,shortwave_radiation (W/m²)_germany_y,0.047888017750595556
+Volumrate_St_Fergus_hourly,113,direct_radiation (W/m²)_germany_y,0.048518536101373896
+Volumrate_St_Fergus_hourly,114,shortwave_radiation (W/m²)_zeebrugge_y,0.04943603076447075

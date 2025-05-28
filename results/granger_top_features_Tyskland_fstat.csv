@@ -1,0 +1,126 @@
+Target,Rank,Feature,p-value,F-statistic,Best Lag
+Volumrate_Tyskland_hourly,1,Nominasjoner Tyskland [MSM3],0.0,564.5370326290094,3
+Volumrate_Tyskland_hourly,2,rain (mm)_germany_x,8.768101334337087e-10,37.59970503676099,1
+Volumrate_Tyskland_hourly,3,rain (mm)_stfergus_y,5.5116264137701035e-17,20.610517510170393,4
+Volumrate_Tyskland_hourly,4,Nominasjoner St. Fergus [MSM3],2.576415135488558e-65,19.166171649515658,19
+Volumrate_Tyskland_hourly,5,Nominasjoner Frankrike [MSM3],9.704473424684356e-76,10.558945114633255,47
+Volumrate_Tyskland_hourly,6,Nominasjoner Danmark [MSM3],1.36520744764697e-19,7.404528001568773,18
+Volumrate_Tyskland_hourly,7,pressure_msl (hPa)_stfergus_y,0.0107485131658722,6.507049024018119,1
+Volumrate_Tyskland_hourly,8,BE,0.0017341555315532,6.358260514707985,2
+Volumrate_Tyskland_hourly,9,pressure_msl (hPa)_stfergus_x,0.0135377683347841,6.097991479276932,1
+Volumrate_Tyskland_hourly,10,dew_point_2m (°C)_dunkerque_y,0.0147273190518524,5.949323251929364,1
+Volumrate_Tyskland_hourly,11,is_holiday,8.268636506394478e-32,5.934068047654986,43
+Volumrate_Tyskland_hourly,12,Nominasjoner Belgia [MSM3],5.531690014691767e-19,5.831373866412474,25
+Volumrate_Tyskland_hourly,13,dow_cos,9.115709415263394e-19,5.783857833463686,25
+Volumrate_Tyskland_hourly,14,is_day ()_easington_x,0.0034500340116011,5.670187007359717,2
+Volumrate_Tyskland_hourly,15,BE_rel,0.004919740340521,5.3152164046526815,2
+Volumrate_Tyskland_hourly,16,BE_rel_pct,0.0049272922909422,5.313682137557136,2
+Volumrate_Tyskland_hourly,17,shortwave_radiation (W/m²)_stfergus_x,2.923468705246966e-11,4.757563951919734,19
+Volumrate_Tyskland_hourly,18,dow_sin,4.74210091687107e-17,4.7552369573647715,31
+Volumrate_Tyskland_hourly,19,direct_radiation (W/m²)_stfergus_x,5.4031375750528194e-11,4.678078903381325,19
+Volumrate_Tyskland_hourly,20,is_day ()_nybro,0.0096271209379977,4.64371826480028,2
+Volumrate_Tyskland_hourly,21,apparent_temperature (°C)_stfergus_y,0.0097845898745258,4.627489974032576,2
+Volumrate_Tyskland_hourly,22,rain (mm)_easington_x,0.0386937283311586,4.274549597067554,1
+Volumrate_Tyskland_hourly,23,dew_point_2m (°C)_nybro,0.0404631048869044,4.198636452599695,1
+Volumrate_Tyskland_hourly,24,is_day ()_zeebrugge_x,3.104635429810792e-05,4.067912037988402,9
+Volumrate_Tyskland_hourly,25,wind_direction_10m (°)_easington_y,0.008527462596366,3.8969171254218096,3
+Volumrate_Tyskland_hourly,26,shortwave_radiation (W/m²)_easington_x,5.279974712490822e-08,3.869323156775149,18
+Volumrate_Tyskland_hourly,27,relative_humidity_2m (%)_germany_y,6.107228854411696e-08,3.848487504146521,18
+Volumrate_Tyskland_hourly,28,rain (mm)_zeebrugge_y,1.9567506328680403e-09,3.8018571693905305,23
+Volumrate_Tyskland_hourly,29,relative_humidity_2m (%)_germany_x,0.0021713545445734,3.743830823321306,5
+Volumrate_Tyskland_hourly,30,temperature_2m (°C)_germany_x,6.508591188569739e-09,3.6644831681850434,23
+Volumrate_Tyskland_hourly,31,UK_is_best,5.387955278684031e-13,3.639604146347488,37
+Volumrate_Tyskland_hourly,32,apparent_temperature (°C)_germany,0.0003592942514354,3.5873405955893265,8
+Volumrate_Tyskland_hourly,33,apparent_temperature (°C)_germany_x,2.7154250997424398e-08,3.499126540682714,23
+Volumrate_Tyskland_hourly,34,relative_humidity_2m (%)_easington_x,1.5060133000865272e-05,3.4046028396820924,14
+Volumrate_Tyskland_hourly,35,dew_point_2m (°C)_germany_y,1.295299085470243e-06,3.403322626213979,18
+Volumrate_Tyskland_hourly,36,temperature_2m (°C)_germany_y,1.1645923831810907e-07,3.399548829437185,22
+Volumrate_Tyskland_hourly,37,rain (mm)_germany_y,9.59527300200684e-06,3.375108975731231,15
+Volumrate_Tyskland_hourly,38,FR,0.0362384334537856,3.3179143851630997,2
+Volumrate_Tyskland_hourly,39,rain (mm)_dunkerque_x,1.771831089538519e-07,3.2780350515938936,23
+Volumrate_Tyskland_hourly,40,temperature_2m (°C)_easington_x,3.820235331772315e-05,3.2281820815071667,14
+Volumrate_Tyskland_hourly,41,temperature_2m (°C)_zeebrugge_x,0.0020435291000195,3.22168169573414,7
+Volumrate_Tyskland_hourly,42,relative_humidity_2m (%)_zeebrugge_x,1.546482721251356e-05,3.1933346514776635,16
+Volumrate_Tyskland_hourly,43,dew_point_2m (°C)_germany_x,0.0079862210584495,3.126355451638613,5
+Volumrate_Tyskland_hourly,44,DE_rel_pct,0.0482334184149745,3.0319364499831605,2
+Volumrate_Tyskland_hourly,45,DE_rel,0.0484060410979367,3.0283633874262295,2
+Volumrate_Tyskland_hourly,46,DK_is_best,0.002138752371113,3.0230527010833734,8
+Volumrate_Tyskland_hourly,47,wind_direction_10m (°)_dunkerque_y,0.0331747886845199,2.908726869616079,3
+Volumrate_Tyskland_hourly,48,cloud_cover (%)_easington_y,0.000206677799318,2.8168046319900197,15
+Volumrate_Tyskland_hourly,49,wind_direction_10m (°)_germany,0.0005431024725168,2.789145175760696,13
+Volumrate_Tyskland_hourly,50,cloud_cover (%)_zeebrugge_x,0.001894393136433,2.7876184605041257,10
+Volumrate_Tyskland_hourly,51,relative_humidity_2m (%)_dunkerque_y,0.0020969029151259,2.7599653094768173,10
+Volumrate_Tyskland_hourly,52,direct_radiation (W/m²)_dunkerque_y,9.664043297522329e-06,2.738252481721215,24
+Volumrate_Tyskland_hourly,53,apparent_temperature (°C)_germany_y,6.187318881098252e-05,2.691363166255079,20
+Volumrate_Tyskland_hourly,54,shortwave_radiation (W/m²)_dunkerque_y,1.4986230196958172e-05,2.6840660613575436,24
+Volumrate_Tyskland_hourly,55,direct_radiation (W/m²)_easington_x,0.0001415813942081,2.67773670593294,18
+Volumrate_Tyskland_hourly,56,wind_speed_10m (km/h)_germany_x,2.095080142829893e-05,2.6423462493749663,24
+Volumrate_Tyskland_hourly,57,dew_point_2m (°C)_easington_y,2.957784285990824e-05,2.599082044045022,24
+Volumrate_Tyskland_hourly,58,rain (mm)_germany,0.0005506103057651,2.564933241956036,16
+Volumrate_Tyskland_hourly,59,apparent_temperature (°C)_easington_x,0.0002168265950956,2.553875358387957,19
+Volumrate_Tyskland_hourly,60,wind_direction_10m (°)_stfergus_y,5.614535364584483e-05,2.517738302479703,24
+Volumrate_Tyskland_hourly,61,cloud_cover (%)_zeebrugge_y,0.0001488250480802,2.4696338932397266,22
+Volumrate_Tyskland_hourly,62,wind_speed_10m (km/h)_stfergus_x,0.0397422555765428,2.33242739951093,5
+Volumrate_Tyskland_hourly,63,direct_radiation (W/m²)_zeebrugge_x,0.0006049606142099,2.305992208595975,21
+Volumrate_Tyskland_hourly,64,relative_humidity_2m (%)_easington_y,0.0003900733943574,2.2965839091061557,23
+Volumrate_Tyskland_hourly,65,temperature_2m (°C)_germany,0.0003224802240209,2.2886318013836493,24
+Volumrate_Tyskland_hourly,66,wind_direction_10m (°)_zeebrugge_y,0.0004523931513995,2.2758356278863996,23
+Volumrate_Tyskland_hourly,67,rain (mm)_dunkerque_y,0.0204228081767207,2.2639932704679047,8
+Volumrate_Tyskland_hourly,68,shortwave_radiation (W/m²)_germany_y,0.0013786589440084,2.2535855841994237,19
+Volumrate_Tyskland_hourly,69,wind_speed_10m (km/h)_dunkerque_x,0.0005548593242852,2.2470794616446677,23
+Volumrate_Tyskland_hourly,70,wind_speed_10m (km/h)_nybro,0.0036075162341744,2.2072616587884153,16
+Volumrate_Tyskland_hourly,71,shortwave_radiation (W/m²)_zeebrugge_x,0.0034590678392468,2.1322882479389316,18
+Volumrate_Tyskland_hourly,72,shortwave_radiation (W/m²)_easington_y,0.0015997754817646,2.1240044526191126,22
+Volumrate_Tyskland_hourly,73,Nominasjoner Easington [MSM3],3.943016732728448e-05,2.1183968426521007,41
+Volumrate_Tyskland_hourly,74,relative_humidity_2m (%)_stfergus_y,0.0087264869216269,2.11302386190748,14
+Volumrate_Tyskland_hourly,75,wind_speed_10m (km/h)_dunkerque_y,0.0076634417268523,2.055547149529292,16
+Volumrate_Tyskland_hourly,76,DE_is_best,0.0004085875003245,2.054457006792984,32
+Volumrate_Tyskland_hourly,77,wind_direction_10m (°)_stfergus_x,0.0077976477098494,2.051979073078352,16
+Volumrate_Tyskland_hourly,78,cloud_cover (%)_nybro,0.0188938450104599,2.0199543974866714,12
+Volumrate_Tyskland_hourly,79,shortwave_radiation (W/m²)_germany,0.0041401441148513,2.0032508847330788,21
+Volumrate_Tyskland_hourly,80,cloud_cover (%)_stfergus_x,0.0422678668030203,2.001235718802324,8
+Volumrate_Tyskland_hourly,81,dew_point_2m (°C)_stfergus_x,0.0030739426978568,1.996484302983366,23
+Volumrate_Tyskland_hourly,82,rain (mm)_easington_y,0.0362970162856194,1.989671752274403,9
+Volumrate_Tyskland_hourly,83,relative_humidity_2m (%)_germany,0.0259689523483964,1.9821437650912732,11
+Volumrate_Tyskland_hourly,84,shortwave_radiation (W/m²)_stfergus_y,0.0095256620563792,1.975388705568622,17
+Volumrate_Tyskland_hourly,85,apparent_temperature (°C)_zeebrugge_x,0.0472946718327891,1.9594622495197216,8
+Volumrate_Tyskland_hourly,86,dew_point_2m (°C)_stfergus_y,9.065490623356416e-05,1.951061054032305,48
+Volumrate_Tyskland_hourly,87,temperature_2m (°C)_dunkerque_y,0.0035554354800381,1.9500999334758544,24
+Volumrate_Tyskland_hourly,88,apparent_temperature (°C)_dunkerque_x,0.0053153870597679,1.9359521859544824,22
+Volumrate_Tyskland_hourly,89,pressure_msl (hPa)_germany_x,0.0041203565972625,1.928050876893182,24
+Volumrate_Tyskland_hourly,90,apparent_temperature (°C)_dunkerque_y,0.0045085884056419,1.9144977821212104,24
+Volumrate_Tyskland_hourly,91,dew_point_2m (°C)_zeebrugge_x,0.0066382993782421,1.8768319263518325,23
+Volumrate_Tyskland_hourly,92,cloud_cover (%)_germany,0.0096676780183545,1.8602402120814376,21
+Volumrate_Tyskland_hourly,93,relative_humidity_2m (%)_nybro,0.0039961870213661,1.8522371566097249,28
+Volumrate_Tyskland_hourly,94,apparent_temperature (°C)_zeebrugge_y,0.0003313880450008,1.8458383402650411,48
+Volumrate_Tyskland_hourly,95,direct_radiation (W/m²)_zeebrugge_y,0.0006518479420513,1.841152800442334,43
+Volumrate_Tyskland_hourly,96,shortwave_radiation (W/m²)_nybro,0.0167936125906842,1.80727886374805,19
+Volumrate_Tyskland_hourly,97,direct_radiation (W/m²)_stfergus_y,0.0150732130681916,1.8041472095366071,20
+Volumrate_Tyskland_hourly,98,direct_radiation (W/m²)_easington_y,0.0119952071466521,1.8010116292207412,22
+Volumrate_Tyskland_hourly,99,temperature_2m (°C)_dunkerque_x,0.0086698063512389,1.7607126885452633,27
+Volumrate_Tyskland_hourly,100,rain (mm)_nybro,0.0222765018244938,1.7522555243449678,19
+Volumrate_Tyskland_hourly,101,temperature_2m (°C)_zeebrugge_y,0.0134993250597835,1.7431467050444562,24
+Volumrate_Tyskland_hourly,102,direct_radiation (W/m²)_germany,0.001515226828383,1.7419529664588569,45
+Volumrate_Tyskland_hourly,103,temperature_2m (°C)_stfergus_y,0.0137329856631368,1.740359471718605,24
+Volumrate_Tyskland_hourly,104,pressure_msl (hPa)_zeebrugge_x,0.0269500651280657,1.7362758197970207,18
+Volumrate_Tyskland_hourly,105,dew_point_2m (°C)_germany,0.0078058862907395,1.7305588342706415,30
+Volumrate_Tyskland_hourly,106,shortwave_radiation (W/m²)_zeebrugge_y,0.0021363840691944,1.7095819569497532,45
+Volumrate_Tyskland_hourly,107,pressure_msl (hPa)_dunkerque_x,0.0309020786501065,1.7077025205157494,18
+Volumrate_Tyskland_hourly,108,pressure_msl (hPa)_germany_y,0.0170766286870562,1.7046345391710405,24
+Volumrate_Tyskland_hourly,109,relative_humidity_2m (%)_stfergus_x,0.0356530382366038,1.6990965955599613,17
+Volumrate_Tyskland_hourly,110,direct_radiation (W/m²)_germany_y,0.0242129578990991,1.6957798954358891,21
+Volumrate_Tyskland_hourly,111,relative_humidity_2m (%)_dunkerque_x,0.016351311383963,1.666240735952228,27
+Volumrate_Tyskland_hourly,112,wind_direction_10m (°)_nybro,0.025901642799579,1.6657857444497008,22
+Volumrate_Tyskland_hourly,113,UK,0.0186213339720424,1.6600334003100397,26
+Volumrate_Tyskland_hourly,114,wind_speed_10m (km/h)_stfergus_y,0.0274629545880409,1.6392255572137282,23
+Volumrate_Tyskland_hourly,115,UK_rel_pct,0.0090636885227915,1.6215784336396235,38
+Volumrate_Tyskland_hourly,116,UK_rel,0.0091035351502754,1.6210656530484966,38
+Volumrate_Tyskland_hourly,117,wind_direction_10m (°)_zeebrugge_x,0.0312563048299187,1.6161238018162398,23
+Volumrate_Tyskland_hourly,118,relative_humidity_2m (%)_zeebrugge_y,0.0060665579552514,1.592342094944098,47
+Volumrate_Tyskland_hourly,119,wind_direction_10m (°)_dunkerque_x,0.0101985844601689,1.5530467542439947,45
+Volumrate_Tyskland_hourly,120,wind_direction_10m (°)_germany_y,0.0120462365132167,1.541967815448795,44
+Volumrate_Tyskland_hourly,121,shortwave_radiation (W/m²)_germany_x,0.0194234827549132,1.507957727731769,41
+Volumrate_Tyskland_hourly,122,wind_speed_10m (km/h)_zeebrugge_y,0.0134705649630991,1.5049164342699135,48
+Volumrate_Tyskland_hourly,123,dew_point_2m (°C)_zeebrugge_y,0.02438636104682,1.4514317471333993,46
+Volumrate_Tyskland_hourly,124,wind_direction_10m (°)_easington_x,0.0344033845737999,1.402258423909744,48
+Volumrate_Tyskland_hourly,125,is_day ()_germany_x,0.042025752917643,1.3831347118403177,47
